@@ -10,25 +10,27 @@ print hdr("Gallery");
      	   <?php print menu("Photos");?>
     </div>
             </div>
-        <!-- /#sidebar-wrapper --> 
-
+        <!-- /#sidebar-wrapper -->
   <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container-fluid">
                <?php print top_bit("Photo Gallery");?>
                 <div class="row">
                       <div class="col-sm-9 block">
-                      
+
                            <ul>
-<li><a href="gallery_general.php">General Photos</a>
-</li>
-<li><a href="gallery_it.php">IT Training</a>
-</li>
-<li><a href="gallery_studycamps.php">Hobbiton / Study Camps</a>
-</li>
-<li><a href="gallery_englishlanguage.php">English Language Training</a>
-</li>
-</ul>
+                              <li><a href="gallery_general.php">General Photos</a>
+                              </li>
+                              <li><a href="gallery_it.php">IT Training</a>
+                              </li>
+                              <li><a href="gallery_studycamps.php">Hobbiton / Study Camps</a>
+                              </li>
+                              <li><a href="gallery_englishlanguage.php">English Language Teaching</a>
+                              </li>
+                              <li><a href="gallery_englishTraining.php">English Language Training</a>
+                              </li>
+                              <li><a href="gallery_fundraising.php">Fundraising</a></li>
+                          </ul>
                           <?php print foot();?>
                        	</div>
 					  <div class="col-sm-3">
@@ -37,12 +39,12 @@ print hdr("Gallery");
 	   </script>
   <script>
        display("gallery.php","Photo Gallery","photo25.jpg","photo25_230.jpg","Hobbiton","gallery_general_pic.php");
-	   </script>                     <img src="img/About-Us-Picture-1-230x170.jpg" alt=""   class="img-responsive img-rounded block"/>
-						<img src="img/hobbiton_230.jpg" alt="Hobbiton" class="img-responsive img-rounded"/>
-						<img src="img/tvsfb_230.jpg" alt="Tyume Valley Class" class="img-responsive img-rounded block"/>
-    						 
+	   </script>
+            <img src="img/About-Us-Picture-1-230x170.jpg" alt=""    class="img-responsive img-rounded block"/>
+						<img src="img/hobbiton_230.jpg" alt="Hobbiton"  alt=""  class="img-responsive img-rounded"/>
+						<img src="img/tvsfb_230.jpg" alt="Tyume Valley Class"   class="img-responsive img-rounded block"/>
 						</div>
-					</div>                  
+					</div>
             </div>
         </div>
         <!-- /#page-content-wrapper -->

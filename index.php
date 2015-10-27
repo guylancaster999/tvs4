@@ -64,13 +64,7 @@ print hdr("Homepage");
             </div>
         </div>
      </div>
-   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-     <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
+ 
     </script>
 <script src="js/code.js"></script>
 </body>

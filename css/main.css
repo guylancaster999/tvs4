@@ -2,7 +2,7 @@ body
 {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:11pt;
-}    
+}
 .xlatestnews
 {
 	text-align:center;
@@ -36,13 +36,16 @@ h2
 	text-weight:500;
 }
 h3
-{margin-top:6px;
+{
+	margin-top:6px;
 }
 li
-{padding-bottom:6px;
-padding-top:4px;}
+{
+	padding-bottom:6px;
+  padding-top:4px;
+}
 td,th
-{ 
+{
 	vertical-align:top;
 }
 .top
@@ -53,6 +56,15 @@ td,th
 	padding-top:10px;
 	padding-bottom:10px;
 }
+.rhspic
+{
+	width:230px;
+}
+.tnpic
+{
+	height:140px;
+}
+
 .block, .img_pad
 {
 	background-color:#FFC;
@@ -60,14 +72,13 @@ td,th
 	border:1px solid;
 	font-size:11pt;
 	margin-top:6px;
-	margin-bottom:6px;	
+	margin-bottom:6px;
 	margin-left:0;
 	margin-right:0;
 	padding-left:4px;
 	padding-right:2px;
 	padding-top:4px;
 	padding-bottom:4px;
-
 }
 .picright
 {
@@ -78,7 +89,7 @@ td,th
 .h1
 {
 	vertical-align:top;
-	text-align:center;  
+	text-align:center;
 	padding:0;
 	margin:0
 }
@@ -217,7 +228,7 @@ td,th
         position: relative;
     }
 
-    #wrapper.toggled #page-content-wrapper 
+    #wrapper.toggled #page-content-wrapper
 	{
 		padding:0;
         position: relative;
@@ -285,7 +296,7 @@ td,th
 	text-decoration:none;
 }
 .redbutton a:hover
-{ 
+{
     display: block;
     margin-left: auto;
     margin-right: auto;

@@ -10,13 +10,13 @@ print hdr("School Links - Topics");
      	   <?php print menu("Partnerships");?>
     </div>
             </div>
-        <!-- /#sidebar-wrapper --> 
+        <!-- /#sidebar-wrapper -->
   <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container-fluid">
 			<?php print top_bit('Schools Links - Topics for Partnership Activities');?>
                  <div class="row">
-                      <div class="col-sm-12 block">  
+                      <div class="col-sm-12 block">
 					  <h3>Suggestions for joint projects</h3>
 					  <ul>
 					  <li>Each school produces a poster on what they know about the partners’ country, region, village or country at the outset of the link. Then after researching their partner’s country etc. they produce a second poster. This allows for discussion on stereotypes and realities of initial perceptions.
@@ -46,9 +46,9 @@ print hdr("School Links - Topics");
 <li> Projects can be developed that link themes from the curriculum of each school- for example; Water and the water cycle. In Maths for example – problem solving.
 </li>
 </ul>
-There are many more suggestions- on the website previously mentioned and 
-the <A href="http://www.britishcouncil.org/connectingclassrooms">British Council pages</a>
- and Get Global! A skills based approach to active global citizenship- can be downloaded from 
+There are many more suggestions- on the website previously mentioned and
+the <A href="https://schoolsonline.britishcouncil.org/connectingclassrooms-learning/" title="British Council">British Council pages</a>
+ and Get Global! A skills based approach to active global citizenship- can be downloaded from
  <a href="http://www.oxfam.org.uk/education">Oxfam</a>
 <br/>
 Global Issues- Global Citizenship, as defined by Oxfam and promoted by the British Council
@@ -97,11 +97,11 @@ These are the key themes of learning and are split under the following three hea
 <li> Belief that people can make a difference
 </li>
 </ul>
-Any joint topic planned by school partners can relate to of these themes. 
-For example, learning about the end of Apartheid would cover a number of these headings.				  
+Any joint topic planned by school partners can relate to of these themes.
+For example, learning about the end of Apartheid would cover a number of these headings.
 <?php print foot();?>
                        	</div>
-					</div>                  
+					</div>
             </div>
         </div>
         <!-- /#page-content-wrapper -->
