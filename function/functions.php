@@ -73,7 +73,6 @@ if($button=="Activities")
  	<div class="redbutton"><a href="activities_englishlanguage.php" title="TVS - English Language teaching">English</a></div>
  	</div>';
 }
-
 $ret.='<div class="newbutton" id="news"><a href="news.php" title="TVS Newsletters" >Newsletters</a></div>
        <div class="newbutton" id="partnerships"><a href="partnerships.php" title="TVS - School Links and Partnerships">School Links</a></div>';
 
@@ -89,18 +88,10 @@ if ($button=="Partnerships")
 	  <div class="redbutton" ><a href="partnerships_settle.php" title="TVS - schools links -  Settle-Kwezana">Settle-Kwezana</a></div>
 </div>';
 }
-
  $ret.='<div class="newbutton" id="volunteering"><a href="volunteering.php" title="Tyume Valley Schools - Volunteering">Volunteering</a></div>
  <div class="newbutton" id="committee"><a href="committee.php" title="TVS Committee">Committee</a></div>
- <div class="newbutton" id="fundraising"><a href="fundraising.php" title="TVS Fundraising"  >Fundraising</a></div>';
-
- if ($button=="Fundraising")
- {
-	 $ret.='<div id="fundraising_button">
-      <div class="redbutton" id="wills"><a href="wills.php" title="TVS Wills">Wills</a></div>
-      </div>';
- }
- $ret.='<div class="newbutton" id="links"  ><a href="links.php" title="TVS Wills">Links</a></div>
+ <div class="newbutton" id="fundraising"><a href="fundraising.php" title="TVS Fundraising">Fundraising</a></div>';
+  $ret.='<div class="newbutton" id="links"  ><a href="links.php" title="TVS Wills">Links</a></div>
  <div class="newbutton" id="photos"  ><a href="gallery.php" title="TVS Photos">Photo&nbsp;Gallery</a></div>';
 
  if($button=='Photos')

@@ -1,9 +1,7 @@
 <?php require "function/functions.php";?>
 <!doctype html>
 <html lang="en">
-<?php
-print hdr("School Links - Links andResources");
-?>
+<?php print hdr("School Links - Links andResources");?>
 <body>
     <div id="wrapper">
        <div id="sidebar-wrapper">
@@ -16,7 +14,6 @@ print hdr("School Links - Links andResources");
 		<?php print top_bit("School Links -  Resources and Links");?>
                 <div class="row">
                       <div class="col-sm-12 block">   
-
 Seventeen Tyume schools – 3 secondary schools and 14 primary schools – are keen to establish partnerships with a UK school.
 <br/>
 Where a local phone number is shown, drop the initial zero and use the international code for South Africa: 0027
@@ -103,14 +100,7 @@ Where a local phone number is shown, drop the initial zero and use the internati
     </div>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
-<script src="js/code.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> 
+	<script src="js/code.js"></script>
 </body>
 </html>

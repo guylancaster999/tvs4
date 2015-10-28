@@ -40,9 +40,9 @@
 					  display("aboutus.php","Origins &amp; Vision","Zola and Joyce.png","Zola and Joyce_230.png","Zola Zembe and Joyce Leeson","gallery_general_pic.php");
 						</script>
                         <img src="img/Picture-32-230x170.jpg" alt="bus"  class="img-responsive img-rounded block"/>
-  <img src="img/Picture-22.jpg" alt="School" class="img-responsive img-rounded block"/>
-<img src="img/Picture-21.jpg" ALT="Hopefield school"  class="img-responsive img-rounded  block" />
-<img src="img/Picture-45-230x170.jpg" ALT="Lorry"  class="img-responsive img-rounded  block" />
+						  <img src="img/Picture-22.jpg" alt="School" class="img-responsive img-rounded block"/>
+						<img src="img/Picture-21.jpg" ALT="Hopefield school"  class="img-responsive img-rounded  block" />
+						<img src="img/Picture-45-230x170.jpg" ALT="Lorry"  class="img-responsive img-rounded  block" />
 						</div>
 					</div>
             </div>
@@ -50,12 +50,6 @@
      </div>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
    	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-     <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
 <script src="js/code.js"></script>
 </body>
 </html>

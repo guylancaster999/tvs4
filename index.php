@@ -1,9 +1,7 @@
 <?php require "function/functions.php";?>
 <!doctype html>
 <html lang="en">
-<?php
-print hdr("Homepage");
-?>
+<?php print hdr("Homepage"); ?>
 <body>
     <div id="wrapper">
        <div id="sidebar-wrapper">
@@ -15,8 +13,9 @@ print hdr("Homepage");
                <?php  print top_bit('Homepage');?>
                 <div class="row">
                       <div class="col-sm-9 block">
-                       <a href="#" title="Children with certificates">
-					   <img src="img/origins.jpg" class="img-responsive img-rounded" alt="Children with certificates"></a>
+                       <a href="#" title="Children at Studycamp in Tyume Valley, Eastern Cape, South Africa">
+					   <img src="img/homepagebanner.jpg" class="img-responsive img-rounded" alt="Children at Studycamp in Tyume Valley, Eastern Cape, South Africa">
+					   </a>
                        <h3>Welcome to TVS</h3> 
 							Tyume Valley Schools (TVS) is a UK-based charity. 
 							Our vision is to improve the lives of children living in the Tyume Valley area of Eastern Cape Province, South Africa. 
@@ -38,7 +37,7 @@ print hdr("Homepage");
 							<br/>
 							</li>
 							<li>We run an <a href="activities_englishlanguage.php" title="English language programme in Eastern Cape Schools">English language programme</a> in 8 primary schools, involving 50 children each year.<br/>
-<br/>
+							<br/>
 							</li>
 							<li>We run regular <a href="activities_studycamps.php" title="Srtudy Camps in Eastern Cape Schools"> Study camps</a> at nearby <a href="http://www.hobbiton.co.za/">Hobbiton Outdoor Activity Centre</a>, Hogsback. 
                             Some 100 children from the Tyume Valley attend these camps every year.</li>
@@ -47,7 +46,12 @@ print hdr("Homepage");
                        	</div>
 					  <div class="col-sm-3 block">
                           <div class='xlatestnews'>Latest News</div>
-						<br/>
+
+						  <br/>
+							<span class="glyphicon glyphicon-play"></span> &nbsp;
+							Volunteers wanted for Study Camp summer 2016! Click <a href="volunteer2016.php" title="Volunteer as a Teacher in South Africa in 2016">here</a> for details.
+						  <br/>
+						  <br/>
 							<span class="glyphicon glyphicon-play"></span> &nbsp;Are you a teacher or school governor?  Is your school interested in developing international links?  TVS can help you set up a partnership with ​a Tyume Valley school.
 						Click <a href="partnerships.php" title="School Links">here</a> for details.
 						<br/><br/>
@@ -64,9 +68,8 @@ print hdr("Homepage");
             </div>
         </div>
      </div>
- 
-    </script>
-<script src="js/code.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> 
+  <script src="js/code.js"></script>
 </body>
-
 </html>

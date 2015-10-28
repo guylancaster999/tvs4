@@ -9,7 +9,6 @@
     </div>
             </div>
         <!-- /#sidebar-wrapper -->
-
   <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container-fluid">
@@ -65,12 +64,6 @@
     <!-- Bootstrap Core JavaScript -->
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
 <script src="js/code.js"></script>
 </body>
 </html>

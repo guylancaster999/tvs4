@@ -1,9 +1,7 @@
  <?php require "function/functions.php";?>
 <!doctype html>
 <html lang="en">
-<?php
-print hdr("Activities - IT");
-?>
+<?php print hdr("Activities - IT"); ?>
 <body>
     <div id="wrapper">
        <div id="sidebar-wrapper">
@@ -28,8 +26,8 @@ We are also supporting Vuvu Tomi in obtaining a full teaching qualification hers
 <h4>Testing pupils' IT</h4>
 &nbsp;&nbsp;IT students are tested each September. The tests review students' proficiency in Word and basic keyboard skills. In 2014, in 5 out of the 7 primary schools and both secondary schools, over 50% of the children passed their tests. In two of the primary schools, well over 80% of children passed, as did three-quarters of the children in each of the secondary schools. In the two primary schools with less good results, most of the children were in the youngest grades and had only recently begun to receive IT teaching. 
 <h4>Challenges in Tyume </h4>
-&nbsp;&nbsp;The IT tests also highlight the major problems facing students in Tyume. The most significant challenge for many is their poor grasp of reading and writing in English, which is used for both on-line activities and classroom IT teaching. TVS is already tackling this with our English language programme in the Valley schools. A few children struggled with the formal IT testing itself; we hope that regular IT tests will get them used to the formal tests which will become increasingly important later in their school careers. Other challenges include the lack of regular electricity in some schools, which impedes classes. And of course there are challenges in teaching large groups of children, as this means limited access to laptops during IT classes. 
-<p>Click <a href="gallery_it.php">here</a> for photos.</p>
+				&nbsp;&nbsp;The IT tests also highlight the major problems facing students in Tyume. The most significant challenge for many is their poor grasp of reading and writing in English, which is used for both on-line activities and classroom IT teaching. TVS is already tackling this with our English language programme in the Valley schools. A few children struggled with the formal IT testing itself; we hope that regular IT tests will get them used to the formal tests which will become increasingly important later in their school careers. Other challenges include the lack of regular electricity in some schools, which impedes classes. And of course there are challenges in teaching large groups of children, as this means limited access to laptops during IT classes. 
+				<p>Click <a href="gallery_it.php">here</a> for photos.</p>
       <?php print foot();?>
                        	</div>
 					  <div class="col-sm-3">
@@ -47,13 +45,6 @@ We are also supporting Vuvu Tomi in obtaining a full teaching qualification hers
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
-<script src="js/code.js"></script>
+ <script src="js/code.js"></script>
 </body>
 </html>

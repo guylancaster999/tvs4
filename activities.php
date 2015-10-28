@@ -1,9 +1,7 @@
 <?php require "function/functions.php";?>
 <!doctype html>
 <html lang="en">
-<?php
-print hdr("Activities");
-?>
+<?php print hdr("Activities"); ?>
 <body>
     <div id="wrapper">
        <div id="sidebar-wrapper">
@@ -35,10 +33,10 @@ We welcome volunteers and offers of help with any of these activities.
                             </div>
                        	</div>
 					  <div class="col-sm-3">
- <img src="img/Picture-41-230x170.jpg" alt="Children"  class="img-responsive img-rounded block"/>
-  <img src="img/supschools3.jpg" alt="Children in Class" class="img-responsive img-rounded block"/>
-<img src="img/activities003.jpg" ALT="Class"  class="img-responsive img-rounded block" />
-<img src="img/Picture-21-230x170.jpg" ALT="Students with Stephanie Gallier"  class="img-responsive img-rounded block"/>
+						 <img src="img/Picture-41-230x170.jpg" alt="Children"  class="img-responsive img-rounded block"/>
+						  <img src="img/supschools3.jpg" alt="Children in Class" class="img-responsive img-rounded block"/>
+						<img src="img/activities003.jpg" ALT="Class"  class="img-responsive img-rounded block" />
+						<img src="img/Picture-21-230x170.jpg" ALT="Students with Stephanie Gallier"  class="img-responsive img-rounded block"/>
 						</div>
 					</div>                  
             </div>
@@ -48,13 +46,6 @@ We welcome volunteers and offers of help with any of these activities.
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
-<script src="js/code.js"></script>
+ <script src="js/code.js"></script>
 </body>
 </html>

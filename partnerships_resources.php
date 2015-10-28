@@ -1,9 +1,7 @@
 <?php require "function/functions.php";?>
 <!doctype html>
 <html lang="en">
-<?php
-print hdr("School Links - Resources");
-?>
+<?php print hdr("School Links - Resources");?>
 <body>
     <div id="wrapper">
        <div id="sidebar-wrapper">
@@ -44,14 +42,7 @@ See the Consortium of Development Centres at <a href="http://www.globalclassroom
     </div>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> 
 <script src="js/code.js"></script>
 </body>
 </html>

@@ -1,7 +1,6 @@
  $(document).ready(function()
 {
 	var  hrf = window.location.href; 
-	
 	var partnership_flag = false;
 	var activity_flag =false;
 	var photo_flag = false;
@@ -67,3 +66,10 @@
 	  {
 	    $("#wills").show();
 	   });
+	   
+	   
+	   
+	   $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });

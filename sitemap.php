@@ -1,9 +1,7 @@
  <?php require "function/functions.php";?>
 <!Doctype html>
 <html lang="en">
-<?php
-print hdr("Sitemap");
-?>
+<?php print hdr("Sitemap"); ?>
 <body>
     <div id="wrapper">
        <div id="sidebar-wrapper">
@@ -43,7 +41,11 @@ print hdr("Sitemap");
 	  <li><a href="partnerships_settle.php" title="TVS - School Links - Partnerships - Settle-Kwezana">Settle-Kwezana</a></li>
 	  </ul>
 </li>
-<li><a href="volunteering.php" title="TVS - Volunteering">Volunteering</a></li>
+<li><a href="volunteering.php" title="TVS - Volunteering">Volunteering</a>
+<ul>
+<li><a href="volunteer2016.php">Volunteer 2016</a></li>
+</ul>
+</li>
  <li><a href="committee.php" title="TVS - Committee">Committee</a></li>
  <li><a href="fundraising.php" title="TVS - Fundraising">Fundraising</a>
  <ul>
@@ -75,14 +77,7 @@ print hdr("Sitemap");
     </div>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> 
 <script src="js/code.js"></script>
 </body>
 </html>

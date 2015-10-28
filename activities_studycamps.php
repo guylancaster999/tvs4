@@ -28,14 +28,14 @@ The  camp  was run by a team of four teachers from Bexley, led by Jerry Parsons,
 <h4>TVS Study Camp December 2014 – hard work and fun!</h4>
 <div style="float:right"  > <img src="img/sc014_140.jpg" alt="IT Study Camp"   class="img-responsive img-rounded  img_pad"> </div>
 December's study camp was a departure from the usual pattern – and an unqualified success as far as the participants were concerned. It involved an older age group than usual – school leavers from 5 secondary schools in Tyume Valley. The first week was held at our usual study camp venue, Hobbiton Outdoor Centre in Hogsback.
-This was followed by a second, non-residential week in premises loaned from Fort Hare University in Alice. The fortnight's programme was built around the themes of 'Healthy Living' and 'Preparation for the World of Work'. It included an introduction to MS Office; internet searching, emails and graphics; building CVs; and formatting letters and documents.
-<br/>
-<br/>
-Students' motivation was high; they viewed the experience as a valuable opportunity and performed accordingly. By the end of the two weeks they formed a cohesive social group who enjoyed each other's company and supported each other well.
-<br/>
-<br/><div style="float:right"  ><img src="img/sc015_140.jpg" alt="IT Study Camp"  class="img-responsive img-rounded  img_pad"></div>
-Steph Gallier and Liz Button, who led the camp, attributed the success to a number of factors. Careful planning beforehand, both in the UK and in Tyume, included briefing participating schools and students so they knew what to expect (and what was expected of them). 
-The involvement of TVS' IT teacher Vuvu Tomi and assistants Bongiwe and Nontombi contributed to the study camp's high staffing levels; they worked hard and took a genuine interest in the students' success. Extending the study camp for a second week allowed teaching and skills to be reinforced and was again appreciated by the students. Photos on Facebook and videos of presentations provided further reinforcement.
+							This was followed by a second, non-residential week in premises loaned from Fort Hare University in Alice. The fortnight's programme was built around the themes of 'Healthy Living' and 'Preparation for the World of Work'. It included an introduction to MS Office; internet searching, emails and graphics; building CVs; and formatting letters and documents.
+							<br/>
+							<br/>
+							Students' motivation was high; they viewed the experience as a valuable opportunity and performed accordingly. By the end of the two weeks they formed a cohesive social group who enjoyed each other's company and supported each other well.
+							<br/>
+							<br/><div style="float:right"  ><img src="img/sc015_140.jpg" alt="IT Study Camp"  class="img-responsive img-rounded  img_pad"></div>
+							Steph Gallier and Liz Button, who led the camp, attributed the success to a number of factors. Careful planning beforehand, both in the UK and in Tyume, included briefing participating schools and students so they knew what to expect (and what was expected of them). 
+							The involvement of TVS' IT teacher Vuvu Tomi and assistants Bongiwe and Nontombi contributed to the study camp's high staffing levels; they worked hard and took a genuine interest in the students' success. Extending the study camp for a second week allowed teaching and skills to be reinforced and was again appreciated by the students. Photos on Facebook and videos of presentations provided further reinforcement.
                               <?php print foot();?>
                        	</div>
 					  <div class="col-sm-3">
@@ -55,13 +55,6 @@ The involvement of TVS' IT teacher Vuvu Tomi and assistants Bongiwe and Nontombi
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
-<script src="js/code.js"></script>
+ <script src="js/code.js"></script>
 </body>
 </html>

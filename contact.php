@@ -1,9 +1,7 @@
 <?php require "function/functions.php";?>
 <!doctype html>
 <html lang="en">
-<?php
-print hdr("Contact us");
-?>
+<?php print hdr("Contact us"); ?>
 <body>
     <div id="wrapper">
        <div id="sidebar-wrapper">
@@ -28,7 +26,7 @@ print hdr("Contact us");
           <td>&nbsp;&nbsp;&nbsp;</td>
           <td valign="top" class="pad4"><strong>Treasurer&nbsp;:&nbsp;</strong></td>
  <td valign="top" class="pad4">Margaret Kiloh <br/>
-2 Old Blackfriares
+2 Old Blackfriars,
 Marley Lane<br/>
 Battle TN33 0DQ.</td>
 	</tr>
@@ -106,13 +104,6 @@ Battle TN33 0DQ.</td>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
-<script src="js/code.js"></script>
+ <script src="js/code.js"></script>
 </body>
 </html>

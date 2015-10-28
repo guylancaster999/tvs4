@@ -1,9 +1,7 @@
 <?php require "function/functions.php";?>
 <!doctype html>
 <html lang="en">
-<?php
-print hdr("Gallery");
-?>
+<?php print hdr("Gallery"); ?>
 <body>
     <div id="wrapper">
        <div id="sidebar-wrapper">
@@ -17,7 +15,6 @@ print hdr("Gallery");
                <?php print top_bit("Photo Gallery");?>
                 <div class="row">
                       <div class="col-sm-9 block">
-
                            <ul>
                               <li><a href="gallery_general.php">General Photos</a>
                               </li>
@@ -53,12 +50,6 @@ print hdr("Gallery");
     <!-- Bootstrap Core JavaScript -->
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
-<script src="js/code.js"></script>
+ <script src="js/code.js"></script>
 </body>
 </html>

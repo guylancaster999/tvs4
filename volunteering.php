@@ -1,9 +1,7 @@
 <?php require "function/functions.php";?>
 <!doctype html>
 <html lang="en">
-<?php
-print hdr("Volunteering");
-?>
+<?php print hdr("Volunteering"); ?>
 <body>
     <div id="wrapper">
        <div id="sidebar-wrapper">
@@ -22,6 +20,9 @@ print hdr("Volunteering");
  Each year we recruit and organise a team of volunteers who pay their own expenses and airfares to South Africa to run our children's camp and workshops for teachers in the Tyume Valley.
 Most of our volunteers are teachers but some projects need the help of volunteers with specific skills who may not be qualified teachers. 
 If you have a transferable skill to offer such as sports coaching, music, ICT or art there may be opportunities for you to pass them on and have a great time while you do so.
+<br/>
+<br/>
+<b>Volunteers wanted for Study Camp summer 2016! Click <A href="volunteer2016.php">here</a> for details.</b>
 <br/>
 <br/>
 <h3>What is involved in volunteering to go to South Africa?</h3>
@@ -64,13 +65,6 @@ Other ways that you could help include taking responsibility for publicity such 
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
 <script src="js/code.js"></script>
 </body>
 </html>

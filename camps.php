@@ -1,6 +1,5 @@
 <?php 
 require "function/functions.php";
- 
 print pageclass::hdr('Our Camps');
 print pageclass::displayphoto("topphoto","Child on high wire","BannerCamps.jpg");?>
 <div class="mainbit">

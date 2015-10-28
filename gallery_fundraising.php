@@ -53,13 +53,17 @@
                                    "fundraising2015_4.jpg","fundraising2015_4_140.jpg","Fundraising 2015","gallery_general_pic.php");</script>
                                      </div>
                                </div>
-                               <!---------------------row2------------------------------------------------>
+                               <!---------------------row3------------------------------------------------>
                                <div class="row">
                                 <div class="col-sm-3 col-md-3">
                                   <script>display140("gallery_fundraising.php","Fundraising Photos",
                                 "fundraising6.jpg","fundraising6_140.jpg","Fundraising 2015","gallery_general_pic.php");</script>
                                   </div>
-                                    </div>
+								  
+								 <div class="col-sm-6 col-md-6">
+                                  <script>display140("gallery_fundraising.php","Fundraising Photos",                          "BannerFundraising.png", "BannerFundraising_140.png","Fundraising 2014","gallery_general_pic.php");</script>
+                                  </div>  
+								     </div>
                                     <div class="row">
                                   <div class="col-sm-12 col-md-12 xlatestnews">
                                     Click on Photos to view full size
@@ -79,13 +83,6 @@
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
-<script src="js/code.js"></script>
+ <script src="js/code.js"></script>
 </body>
 </html>
