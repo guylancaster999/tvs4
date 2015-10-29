@@ -6,10 +6,10 @@
     <div id="wrapper">
        <div id="sidebar-wrapper">
      	   <?php print menu("Photos");?>
-    </div>
-            </div>
+		</div>
+       </div>
         <!-- /#sidebar-wrapper -->
-  <!-- Page Content -->
+       <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container-fluid">
               <?php print top_bit("Gallery - Fundraising");?>
@@ -59,7 +59,6 @@
                                   <script>display140("gallery_fundraising.php","Fundraising Photos",
                                 "fundraising6.jpg","fundraising6_140.jpg","Fundraising 2015","gallery_general_pic.php");</script>
                                   </div>
-								  
 								 <div class="col-sm-6 col-md-6">
                                   <script>display140("gallery_fundraising.php","Fundraising Photos",                          "BannerFundraising.png", "BannerFundraising_140.png","Fundraising 2014","gallery_general_pic.php");</script>
                                   </div>  
@@ -74,10 +73,8 @@
                                   <script>display140("gallery_fundraising.php","Fundraising",
                                 "portsmouth2012.jpg","portsmouth2012_140.jpg","Great South Run : Portsmouth 2012","gallery_general_pic.php");</script>
                                   </div>
-								  
-									</div>
-									
-									<?php						
+								</div>
+								<?php						
 								print clickPhotos();
 								print foot();
 								?>
