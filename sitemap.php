@@ -9,7 +9,6 @@
     </div>
             </div>
         <!-- /#sidebar-wrapper -->
-
   <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container-fluid">
@@ -43,7 +42,7 @@
 </li>
 <li><a href="volunteering.php" title="TVS - Volunteering">Volunteering</a>
 <ul>
-<li><a href="volunteer2016.php">Volunteer 2016</a></li>
+<li><a href="volunteer2016.php" title="Volunteer in South Africa in 2016">Volunteer 2016</a></li>
 </ul>
 </li>
  <li><a href="committee.php" title="TVS - Committee">Committee</a></li>

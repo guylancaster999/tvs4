@@ -74,7 +74,7 @@ if($button=="Activities")
  	</div>';
 }
 $ret.='<div class="newbutton" id="news"><a href="news.php" title="TVS Newsletters" >Newsletters</a></div>
-       <div class="newbutton" id="partnerships"><a href="partnerships.php" title="TVS - School Links and Partnerships">School Links</a></div>';
+  <div class="newbutton" id="partnerships"><a href="partnerships.php" title="TVS - School Links and Partnerships">School Links</a></div>';
 
 if ($button=="Partnerships")
 {
@@ -88,8 +88,17 @@ if ($button=="Partnerships")
 	  <div class="redbutton" ><a href="partnerships_settle.php" title="TVS - schools links -  Settle-Kwezana">Settle-Kwezana</a></div>
 </div>';
 }
- $ret.='<div class="newbutton" id="volunteering"><a href="volunteering.php" title="Tyume Valley Schools - Volunteering">Volunteering</a></div>
- <div class="newbutton" id="committee"><a href="committee.php" title="TVS Committee">Committee</a></div>
+ $ret.='<div class="newbutton" id="volunteering"><a href="volunteering.php" title="Tyume Valley Schools - Volunteering in South Africa">Volunteering</a></div>';
+
+if ($button=="Volunteering")
+{
+	$ret.='<div id="volunteering_button">
+      <div class="redbutton" ><a href="volunteer2016.php" title="TVS - volunteer in 2016">Volunteer 2016</a></div>
+	  </div>';
+}
+ 
+ 
+ $ret.='<div class="newbutton" id="committee"><a href="committee.php" title="TVS Committee">Committee</a></div>
  <div class="newbutton" id="fundraising"><a href="fundraising.php" title="TVS Fundraising">Fundraising</a></div>';
   $ret.='<div class="newbutton" id="links"  ><a href="links.php" title="TVS Wills">Links</a></div>
  <div class="newbutton" id="photos"  ><a href="gallery.php" title="TVS Photos">Photo&nbsp;Gallery</a></div>';
@@ -128,4 +137,15 @@ if ($button=="Partnerships")
 <div class="g-plusone" data-annotation="inline" data-width="200" data-href="http://www.tvschools.org.uk"></div>';
  return $ret;
  }
+ fuction clickPhotos()
+ {
+	 print '<div class="row">
+              <div class="col-sm-12 col-md-12 xlatestnews">
+                   Click on Photos to view full size
+               </DIV>
+         </DIV>';
+ return;
+ }
+ 
+ 
  ?>

@@ -63,18 +63,16 @@
 								 <div class="col-sm-6 col-md-6">
                                   <script>display140("gallery_fundraising.php","Fundraising Photos",                          "BannerFundraising.png", "BannerFundraising_140.png","Fundraising 2014","gallery_general_pic.php");</script>
                                   </div>  
+	                              <div class="col-sm-3 col-md-3">
+                                  <script>display140("gallery_fundraising.php","Fundraising Photos",
+                                "marathon2015.png","marathon2015_140.png","Karen at Marathon 2015","gallery_general_pic.php");</script>
+                                  </div>
 								     </div>
-                                    <div class="row">
-                                  <div class="col-sm-12 col-md-12 xlatestnews">
-                                    Click on Photos to view full size
-                                  </DIV>
-                                  </DIV>
-                             <div class="top">
-                                 <br/>
-                               <a class="btn" href="#top"> Top <span class="glyphicon  glyphicon-circle-arrow-up"></span></a>
-                           <br/>
-                            </div>
-                       	</div>
+                            		<?php						
+								print clickPhotos();
+								print foot();
+								?>
+							</div>
 					</div>
             </div>
         </div>

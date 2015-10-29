@@ -49,18 +49,16 @@
 
 						  <br/>
 							<span class="glyphicon glyphicon-play"></span> &nbsp;
-							Volunteers wanted for Study Camp summer 2016! Click <a href="volunteer2016.php" title="Volunteer as a Teacher in South Africa in 2016">here</a> for details.
+							Volunteers wanted for Study Camp summer 2016! Click <a href="volunteer2016.php" title="Volunteer as a Teacher in South Africa in 2016">here</a>.
 						  <br/>
 						  <br/>
 							<span class="glyphicon glyphicon-play"></span> &nbsp;Are you a teacher or school governor?  Is your school interested in developing international links?  TVS can help you set up a partnership with ​a Tyume Valley school.
-						Click <a href="partnerships.php" title="School Links">here</a> for details.
+						Click <a href="partnerships.php" title="School Links">here</a>.
 						<br/><br/>
-						<span class="glyphicon glyphicon-play"></span>&nbsp;Annual Report 2014-5 now available - 
-						click <a title="TVS Annual Report 2014-5" href="doc/TVSDAANNUALREPORT2014-5final1.docx">here</a>.
+						<span class="glyphicon glyphicon-play"></span>&nbsp;Annual Report 2014-5 now available. Click <a title="TVS Annual Report 2014-5" href="doc/TVSDAANNUALREPORT2014-5final1.docx">here</a>.
 						<br/>
 						<br/>
-						<span class="glyphicon glyphicon-play"></span> &nbsp;Latest study camp a success! 
-						Read about it  <a href="activities_studycamps.php#2015" title="Study camp 2015">here</a>.
+						<span class="glyphicon glyphicon-play"></span> &nbsp;Latest study camp a success! Click  <a href="activities_studycamps.php#2015" title="Study camp 2015">here</a>.
 						<br/>
 						<br/>
 					</div>

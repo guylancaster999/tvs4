@@ -9,14 +9,13 @@
     </div>
             </div>
         <!-- /#sidebar-wrapper -->
-
   <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container-fluid">
 			<?php print top_bit("Committee");?>
                  <div class="row">
                       <div class="col-sm-12 block">
-                          <img src="img/tvscommittee2015_245.png"  alt=" Tyuume Valley School committee"  class="img-responsive img-rounded" align='center'>
+                          <img src="img/tvscommittee2015_245.png"  alt=" Tyuume Valley School committee"  class="img-responsive img-rounded img_center">
 							   <br>TVS is a registered charity. Details of our governance and copies of our Annual Report and accounts can be found on <a href="http://apps.charitycommission.gov.uk/Showcharity/RegisterOfCharities/CharityWithoutPartB.aspx?RegisteredCharityNumber=1103909&amp;SubsidiaryNumber=0" title="Chatiry Commission">the Charity Commission website</a>. 
 							There are six trustees, all of whom are experienced professionals who have spent a lifetime working in the education sector or children's services. All of our trustees are actively involved with the project and visit South Africa, at their own expense, on a regular basis. The TVS committee consists of five trustees plus others elected or co-opted on an annual basis:
 							<br/><br/>

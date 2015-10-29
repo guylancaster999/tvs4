@@ -9,7 +9,6 @@
     </div>
             </div>
         <!-- /#sidebar-wrapper -->
-
   <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container-fluid">
@@ -114,19 +113,16 @@
                               <div class="col-sm-3 col-md-3">
                              	    <script>display140("gallery_englishlanguage.php","English Language Teaching","Englishteaching2015_2.jpg","Englishteaching2015_2_140.jpg","English Teaching","gallery_general_pic.php");</script>
                                   </div>
-                                   </div>
-
-                                   <div class="row">
-                                 <div class="col-sm-12 col-md-12 xlatestnews">
-                                   Click on Photos to view full size
-                                 </DIV>
-                                 </DIV>
-
-
-
-                              <div class="top">   <br/>
-                               <a class="btn" href="#top"> Top <span class="glyphicon  glyphicon-circle-arrow-up"></span></a>
-                           <br/>
+                              </div>
+                         <!---------------------row7--------------------------------->
+                         <br/>
+                            <div class="row">
+                            <div class="col-sm-3 col-md-3">
+                             <script>display140("gallery_englishlanguage.php","English Language Teaching","englishteaching2011.jpg","englishteaching2011_140.jpg","English teaching 2011","gallery_general_pic.php");</script>
+                             </div>
+							</div>
+                             <?php print clickPhotos();
+								print foot();?> 
                             </div>
                        	</div>
 					</div>

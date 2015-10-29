@@ -49,12 +49,11 @@
                                 Click on Photos to view full size
                               </DIV>
                               </DIV>
-                              <div class="top">   <br/>
-                               <a class="btn" href="#top"> Top <span class="glyphicon  glyphicon-circle-arrow-up"></span></a>
-                           <br/>
-                            </div>
-                       	</div>
-
+                            <?php						
+							 print clickPhotos();
+							 print foot();
+							?>
+							 </div>
 					</div>
             </div>
         </div>
