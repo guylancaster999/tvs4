@@ -46,15 +46,6 @@ return $ret;
                 </div>';
 	 return $ret;
  }
-
- function foot()
- {$ret=' <div class="top">
-      <br/>
-       <a class="btn" href="#top"> Top <span class="glyphicon  glyphicon-circle-arrow-up"></span></a>
-      <br/>
-       </div>';
- return $ret;
- }
  function menu($button="Homepage")
  {$ret='<div class="sidebar-nav">
            &nbsp;&nbsp;<img src="img/tvs.jpg" width="120" alt="Tyume Valley Schools">&nbsp;
@@ -96,8 +87,6 @@ if ($button=="Volunteering")
       <div class="redbutton" ><a href="volunteer2016.php" title="TVS - volunteer in 2016">Volunteer 2016</a></div>
 	  </div>';
 }
- 
- 
  $ret.='<div class="newbutton" id="committee"><a href="committee.php" title="TVS Committee">Committee</a></div>
  <div class="newbutton" id="fundraising"><a href="fundraising.php" title="TVS Fundraising">Fundraising</a></div>';
   $ret.='<div class="newbutton" id="links"  ><a href="links.php" title="TVS Wills">Links</a></div>
@@ -106,12 +95,12 @@ if ($button=="Volunteering")
  if($button=='Photos')
  {
 	  $ret.='<div id="photo_button">
-  <div class="redbutton"  ><a href="gallery_general.php" title="TVS -General Photo">General</a></div>
-  <div class="redbutton"  ><a href="gallery_it.php" title="TVS - IT Training photos">IT</a></div>
-  <div class="redbutton"  ><a href="gallery_studycamps.php" title="TVS - Study Camps Photos">Study&nbsp;Camp</a></div>
-  <div class="redbutton"  ><a href="gallery_englishlanguage.php" title="TVS - English Language teaching photos">English Teaching</a></div>
-  <div class="redbutton"  ><a href="gallery_englishTraining.php" title="TVS - English Language Training">English Training</a></div>
-  <div class="redbutton"  ><a href="gallery_fundraising.php" title="TVS - Fundraising">Fundraising</a></div>
+  <div class="redbutton"><a href="gallery_general.php" title="TVS -General Photo">General</a></div>
+  <div class="redbutton"><a href="gallery_it.php" title="TVS - IT Training photos">IT</a></div>
+  <div class="redbutton"><a href="gallery_studycamps.php" title="TVS - Study Camps Photos">Study&nbsp;Camps</a></div>
+  <div class="redbutton"><a href="gallery_englishlanguage.php" title="TVS - English Language teaching photos">English teaching</a></div>
+  <div class="redbutton"><a href="gallery_englishTraining.php" title="TVS - English Language Training">English training</a></div>
+  <div class="redbutton"><a href="gallery_fundraising.php" title="TVS - Fundraising">Fundraising</a></div>
  </div>';
  }
 
@@ -137,15 +126,29 @@ if ($button=="Volunteering")
 <div class="g-plusone" data-annotation="inline" data-width="200" data-href="http://www.tvschools.org.uk"></div>';
  return $ret;
  }
- fuction clickPhotos()
+ function clickPhotos()
  {
-	 print '<div class="row">
-              <div class="col-sm-12 col-md-12 xlatestnews">
-                   Click on Photos to view full size
+	 return '<div class="row">
+              <div class="col-sm-12 col-md-12 clickphoto">
+                   Click on Photos to view full size.
                </DIV>
          </DIV>';
- return;
  }
- 
- 
+ function clickRet()
+ {
+	 return '<div class="row">
+              <div class="col-sm-12 col-md-12 clickphoto">
+                   Click on Photo to return.
+               </DIV>
+         </DIV>';
+ }
+ function foot()
+ {
+	 $ret=' <div class="top">
+      <br/>
+       <a class="btn" href="#top"> Top <span class="glyphicon  glyphicon-circle-arrow-up"></span></a>
+      <br/>
+       </div>';
+ return $ret;
+ }
  ?>

@@ -44,12 +44,7 @@
                                         "EnglishTraining2015_3_140.jpg","Teacher Training 2015","gallery_general_pic.php");</script>
                                 </div>
                                 </div>
-                                <div class="row">
-                              <div class="col-sm-12 col-md-12 xlatestnews">
-                                Click on Photos to view full size
-                              </DIV>
-                              </DIV>
-                            <?php						
+                             <?php						
 							 print clickPhotos();
 							 print foot();
 							?>

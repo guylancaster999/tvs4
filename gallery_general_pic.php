@@ -13,8 +13,7 @@
   <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container-fluid">
-		
-                <div class="row">
+		         <div class="row">
                       <div class="col-sm-11">
                          <div class="h1"><a href="index.php">Tyume Valley Schools</a></div>
                          <div class="reg">Registered Charity Number 1103909</div>
@@ -30,26 +29,20 @@
                   			<h2> <script>
 	       document.write(querySt("grp"));</script> &ndash; <script>document.write(querySt("descr"));
         </script></h2>
-                      </div>
+		       </div>
                 </div>
                 <div class="row">
                       <div class="col-sm-12 block">
-                       
-   
-   <script>
-     var ret=''
-      ret+='<a href="'+querySt("fromurl")+'" title="'+querySt("descr")+' &ndash; Click to return">';	  	 
-	  ret+='<img src="'+querySt("pic")+'" alt="'+querySt("descr")+' - click to return" class="img-responsive img-rounded img_center">';
-	  ret+='</a>';
-      document.write(ret);
-</script>
-                           <div class="top">   <br/>
-                               <a class="btn" href="#top"> Top <span class="glyphicon  glyphicon-circle-arrow-up"></span></a>
-                           <br/>
-                            </div>
-                       	</div>
-					   
-					</div>                  
+									  <script>
+								 var ret=''
+								  ret+='<a href="'+querySt("fromurl")+'" title="'+querySt("descr")+' &ndash; Click to return">';	  	 
+								  ret+='<img src="'+querySt("pic")+'" alt="'+querySt("descr")+' - click to return" class="img-responsive img-rounded img_center">';
+								  ret+='</a>';
+								  document.write(ret);
+							</script>
+								<?php print clickRet().foot();?>
+							</div>
+					   </div>                  
             </div>
         </div>
         <!-- /#page-content-wrapper -->

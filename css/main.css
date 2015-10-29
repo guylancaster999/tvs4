@@ -9,6 +9,13 @@ body
 	font-weight:bolder;
 	font-size:14pt;
 }
+.clickphoto
+{
+	padding-top:14px;
+	text-align:center;
+	font-weight:bold;
+	font-size:12pt;
+}
 .img_center
  {
     display: block;

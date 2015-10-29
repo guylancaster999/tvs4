@@ -25,14 +25,14 @@
                               <script>display140("gallery_fundraising.php","fundraising Photos",
                             "tvsfundraising2015.jpg","tvsfundraising2015x_140.jpg","London Marathon for Tyume Valley Schools celebration","gallery_general_pic.php");</script>
                               </div>
-                              <div class="col-sm-3 col-md-3">
-                                <script>display140("gallery_fundraising.php","Fundraising Photos",
-                              "fundraising3.jpg","fundraising3_140.jpg","Fundraising","gallery_general_pic.php");</script>
-                                </div>
                                 <div class="col-sm-3 col-md-3">
                                   <script>display140("gallery_fundraising.php","Fundraising Photos",
                                 "fundraising4.jpg","fundraising4_140.jpg","Fundraising","gallery_general_pic.php");</script>
                                   </div>
+                              <div class="col-sm-3 col-md-3">
+                                <script>display140("gallery_fundraising.php","Fundraising Photos",
+                              "fundraising3.jpg","fundraising3_140.jpg","Fundraising","gallery_general_pic.php");</script>
+                                </div>
                              </div>
                                 <!---------------------row2------------------------------------------------>
                                 <div class="row">
@@ -46,11 +46,11 @@
                                      </div>
                                      <div class="col-sm-3 col-md-3">
                                      <script>display140("gallery_fundraising.php","Fundraising Photos",
-                                   "fundraising2015_2.jpg","fundraising2015_2_140.jpg","Fundraising 2015","gallery_general_pic.php");</script>
+                                   "fundraising2015_4.jpg","fundraising2015_4_140.jpg","Fundraising 2015","gallery_general_pic.php");</script>
                                      </div>
                                      <div class="col-sm-3 col-md-3">
                                      <script>display140("gallery_fundraising.php","Fundraising Photos",
-                                   "fundraising2015_4.jpg","fundraising2015_4_140.jpg","Fundraising 2015","gallery_general_pic.php");</script>
+                                   "fundraising2015_2.jpg","fundraising2015_2_140.jpg","Fundraising 2015","gallery_general_pic.php");</script>
                                      </div>
                                </div>
                                <!---------------------row3------------------------------------------------>
@@ -68,7 +68,16 @@
                                 "marathon2015.png","marathon2015_140.png","Karen at Marathon 2015","gallery_general_pic.php");</script>
                                   </div>
 								     </div>
-                            		<?php						
+										<!---------------------row3------------------------------------>
+                               <div class="row">
+                                <div class="col-sm-3 col-md-3">
+                                  <script>display140("gallery_fundraising.php","Fundraising",
+                                "portsmouth2012.jpg","portsmouth2012_140.jpg","Great South Run : Portsmouth 2012","gallery_general_pic.php");</script>
+                                  </div>
+								  
+									</div>
+									
+									<?php						
 								print clickPhotos();
 								print foot();
 								?>
