@@ -14,7 +14,6 @@ function display(srcf,srcd,pbig,psmall,d,tgtUrl)
     ret+='</a>';
     document.write(ret);
  }
-
 function display140(srcf,srcd,pbig,psmall,d,tgtUrl)
 {
 	var ret ='';
@@ -22,7 +21,10 @@ function display140(srcf,srcd,pbig,psmall,d,tgtUrl)
  	ret+='?grp='+srcd;
     ret+='&fromurl='+srcf;
     ret+='&pic=img/'+pbig;
-    ret+='&descr='+d+'" ';
+    ret+='&descr='+d;
+	ret+='&prv='+prv;
+	ret+='&nxt='+nxt;
+	ret+='"';
     ret+=' title="'+d+' - Click for full-sized Picture">';
 	ret+='<img src="img/'+ psmall+'" ';
     ret+=' alt="'+d+'" ';

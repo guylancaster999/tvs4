@@ -103,7 +103,6 @@ if ($button=="Volunteering")
   <div class="redbutton"><a href="gallery_fundraising.php" title="TVS - Fundraising">Fundraising</a></div>
  </div>';
  }
-
  $ret.='<div class="newbutton" id="contact"><a href="contact.php" title="TVS : contact us">Contact&nbsp;us</a></div>
    <div class="newbutton" id="sitemap" ><a href="sitemap.php" title="TVS Sitemap">Sitemap</a></div> ';
   $ret.='<br/>&nbsp;&nbsp;<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
@@ -131,16 +130,17 @@ if ($button=="Volunteering")
 	 return '<div class="row">
               <div class="col-sm-12 col-md-12 clickphoto">
                    Click on Photos to view full size.
-               </DIV>
-         </DIV>';
+               </div>
+         </div>';
  }
  function clickRet()
  {
-	 return '<div class="row">
-              <div class="col-sm-12 col-md-12 clickphoto">
-                   Click on Photo to return.
-               </DIV>
-         </DIV>';
+	 $ret='<div class="row">';
+ 	 $ret='<div class="col-sm-12 col-md-12 clickphoto">
+               Click on Photo to return.
+           </div>';
+     $ret='</div>';
+	 return $ret;
  }
  function foot()
  {
@@ -151,4 +151,18 @@ if ($button=="Volunteering")
        </div>';
  return $ret;
  }
+ function display($srcf,$srcd,$pbig,$psmall,$d,$tgtUrl)
+{ 
+	$ret ='<a href="'.$tgtUrl;
+ 	$ret.='?grp='.$srcd;
+    $ret.='&fromurl='.$srcf;
+    $ret.='&pic=img/'.$pbig;
+    $ret.='&descr='.$d.'" ';
+    $ret.=' title="'.$d.' - Click for full-sized Picture">';
+	$ret.='<img src="img/'.$psmall.'" ';
+    $ret.=' alt="'.$d.'" ';
+    $ret.=' class="img-responsive img-rounded block " />';
+    $ret.='</a>';
+    print($ret);
+ } 
  ?>

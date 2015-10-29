@@ -14,33 +14,33 @@
             <div class="container-fluid">
               <?php print top_bit("Gallery - English Language Training");?>
                     <div class="row">
-                      <div class="col-sm-12 block">
+                      <div class="col-sm-12 ">
                          <!---------------------row1------------------------------------------------>
                          <div class="row">
                             <div class="col-sm-3 col-md-3">
-                        	    <script>display140("gallery_englishTraining.php","English Language Training","EnglishCourseTeachertraining.jpg","EnglishCourseTeachertraining_140.jpg","English Course Teacher training","gallery_general_pic.php");</script>
+                        	    <script>display("gallery_englishTraining.php","English Language Training","EnglishCourseTeachertraining.jpg","EnglishCourseTeachertraining_140.jpg","English Course Teacher training","gallery_general_pic.php");</script>
                              </div>
                              <div class="col-sm-3 col-md-3">
                                <script>
-                         	     display140("gallery_englishTraining.php","English Language Training","Teachertrainingwithlearnerparticipants.jpg","Teachertrainingwithlearnerparticipants_140.jpg","Teacher training with learner participants","gallery_general_pic.php");
+                         	     display("gallery_englishTraining.php","English Language Training","Teachertrainingwithlearnerparticipants.jpg","Teachertrainingwithlearnerparticipants_140.jpg","Teacher training with learner participants","gallery_general_pic.php");
                                </script>
                             </div>
                            <div class="col-sm-3 col-md-3">
-                                 <script>display140("gallery_englishTraining.php","English LanguageTraining","EnglishTraining2015.jpg",
+                                 <script>display("gallery_englishTraining.php","English LanguageTraining","EnglishTraining2015.jpg",
                                  "EnglishTraining2015_140.jpg","Teacher Training 2015","gallery_general_pic.php");</script>
                            </div>
                            <div class="col-sm-3 col-md-3">
-                                  <script>display140("gallery_englishTraining.php","English Language Training","EnglishTraining2015_2.jpg",
+                                  <script>display("gallery_englishTraining.php","English Language Training","EnglishTraining2015_2.jpg",
                                   "EnglishTraining2015_2_140.jpg","Teacher Training 2015","gallery_general_pic.php");</script>
                                   </div>
                                 </div>
 
                                 <div class="row">
                                 <div class="col-sm-3 col-md-3">
-                                 <script>display140("gallery_englishTraining.php","English Language Training","EnglishCourseTeachertraining2.jpg","EnglishCourseTeachertraining2_140.jpg","English Course Teacher training","gallery_general_pic.php");</script>
+                                 <script>display("gallery_englishTraining.php","English Language Training","EnglishCourseTeachertraining2.jpg","EnglishCourseTeachertraining2_140.jpg","English Course Teacher training","gallery_general_pic.php");</script>
                                  </div>
                                  <div class="col-sm-3 col-md-3">
-                                        <script>display140("gallery_englishTraining.php","English Language Training","EnglishTraining2015_3.jpg",
+                                        <script>display("gallery_englishTraining.php","English Language Training","EnglishTraining2015_3.jpg",
                                         "EnglishTraining2015_3_140.jpg","Teacher Training 2015","gallery_general_pic.php");</script>
                                 </div>
                                 </div>

@@ -31,14 +31,11 @@
                           <?php print foot();?>
                        	</div>
 					  <div class="col-sm-3">
-    <script>
-       display("gallery.php","Photo Gallery","photo22.jpg","photo22_230.jpg","School","gallery_general_pic.php");
-	   </script>
-  <script>
-       display("gallery.php","Photo Gallery","photo25.jpg","photo25_230.jpg","Hobbiton","gallery_general_pic.php");
-	   </script>
-            <img src="img/About-Us-Picture-1-230x170.jpg" alt=""    class="img-responsive img-rounded block"/>
-						<img src="img/hobbiton_230.jpg" alt="Hobbiton"  alt=""  class="img-responsive img-rounded"/>
+					<img src="img/forthare2011_230.jpg" alt="Fort Hare 2011" class="img-responsive img-rounded block" />
+					<?php display("gallery.php","Photo Gallery","photo22.jpg","photo22_230.jpg","School","gallery_general_pic.php");
+				   display("gallery.php","Photo Gallery","photo25.jpg","photo25_230.jpg","Hobbiton","gallery_general_pic.php");
+				   ?>
+ 						<img src="img/hobbiton_230.jpg" alt="Hobbiton"  alt=""  class="img-responsive img-rounded"/>
 						<img src="img/tvsfb_230.jpg" alt="Tyume Valley Class"   class="img-responsive img-rounded block"/>
 						</div>
 					</div>

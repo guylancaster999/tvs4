@@ -27,7 +27,7 @@
 							You can:
 							<ul>
 							<li>Make a <strong>donation </strong>to TVS through <a href="https://mydonate.bt.com/charities/tyumevalleyschools">BT MyDonate</a>. </li>
-							<LI>Post a <strong>cheque</strong> made out to Tyume Valley Schools Development Association to the Treasurer, 2 Old Blackfriars, Marley Lane, Battle TN33 0DQ and (if true) include the following with your donation:
+							<LI>Post a <strong>cheque</strong> made out to Tyume Valley Schools Development Association to the Treasurer, 2 Old Blackfriars, Marley Lane, Battle, TN33 0DQ, United Kingdom	and (if true) please include the following with your donation:
 							   <ul>
 								 <li>&quot;Please claim Gift Aid on my donation, I confirm that:
 							  <ul>
@@ -49,8 +49,7 @@
 							  Your solicitor or other professional adviser will help you with the wording.
 							  Click <a href="wills.php">here</a> for examples of wording you might use. </li>
 							</ul>
-							 
-							Our most generous supporters are small family  or business trusts, which assist with our English, IT and infrastructure costs, including:
+							 Our most generous supporters are small family or business trusts, which assist with our English, IT and infrastructure costs, including:
 							<ul>
 							<li><a href="http://www.fergusontrust.co.uk/">The Ferguson Trust</a> </li>
 							<li><a href="http://lurgantrust.org/">the Lord and Lady Lurgan Trust</a></li>
@@ -63,12 +62,11 @@
                                       <?php print foot();?>
                        	</div>
 					  <div class="col-sm-3 block">
-              		   <script>
-					  display("fundraising.php","Fundraising","fundraising5.jpg","fundraising5_230.jpg","Karen Barker and Nic Suggit on great south run 2014","gallery_general_pic.php");
+              		   <?php display("fundraising.php","Fundraising","fundraising5.jpg","fundraising5_230.jpg","Karen Barker and Nic Suggit on great south run 2014","gallery_general_pic.php");
 	   display("fundraising.php","Fundraising","tvsfundraising2015.jpg","tvsfundraising2015_230.jpg","London Marathon for Tyume Valley Schools celebration","gallery_general_pic.php");
 	    display("fundraising.php","Fundraising","fundraising3.jpg","fundraising3_230.jpg","Fund raising", "gallery_general_pic.php");
        display("fundraising.php","Fundraising","fundraising4.jpg","fundraising4_230.jpg","Professors Caroline Glendinning  and Gillian Parker",   "gallery_general_pic.php");
-	   </script>
+	   ?>
 		<img src="img/Picture-43-230x170.jpg" alt="fundraiser" class="img-responsive img-rounded  block"/>
        	<img src="img/fundraising006_230.jpg" ALT="Archie Sibeko and Joyce Leeson receive a cheque from Newcastle city council" class="img-responsive img-rounded  block" />
 		</div>

@@ -29,55 +29,64 @@
                       </div>
                 </div>
                 <div class="row">
-                      <div class="col-sm-12 ">
+                      <div class="col-sm-12">
 					<!---------row1------------------------------------------------>
 						   <div class="row">
 						   <div class="col-sm-3 col-md-3">
-						   <script> display140("gallery_it.php","IT Teaching Photos","tvsit.jpg","tvsit_140.jpg","Students at PCs 2015","gallery_general_pic.php");</script>
+						   <script> display("gallery_it.php","IT Teaching Photos","tvsit.jpg","tvsit_140.jpg","Students at PCs 2015","gallery_general_pic.php");</script>
 							</div>
 						   <div class="col-sm-3 col-md-3">
-						   <script> display140("gallery_it.php","IT Teaching Photos","it2.jpg","it2_140.jpg","Adult IT Classes","gallery_general_pic.php");</script>
+						   <script> display("gallery_it.php","IT Teaching Photos","it2.jpg","it2_140.jpg","Adult IT Classes","gallery_general_pic.php");</script>
 							</div>
 						   <div class="col-sm-3 col-md-3">
-							 <script> display140("gallery_it.php","IT Teaching Photos","it3.jpg","it3_140.jpg","IT Certificates","gallery_general_pic.php");</script>
+							 <script> display("gallery_it.php","IT Teaching Photos","it3.jpg","it3_140.jpg","IT Certificates","gallery_general_pic.php");</script>
 						   </div>
 						   <div class="col-sm-3 col-md-3">
-							   <script> display140("gallery_it.php","IT Teaching Photos","it4.jpg","it4_140.jpg","IT Certificates","gallery_general_pic.php");</script>
+							   <script> display("gallery_it.php","IT Teaching Photos","it4.jpg","it4_140.jpg","IT Certificates","gallery_general_pic.php");</script>
 							 </div>
 						   </div>
 						   <br/>
-							 <!---------------------row1------------------------------------------------>
+							 <!---------------------row2------------------------------------------->
 						   <div class="row">
 						   <div class="col-sm-3 col-md-3">
-						   <script> display140("gallery_it.php","IT Teaching Photos","it5.jpg","it5_140.jpg","New laptops","gallery_general_pic.php");</script>
+						   <script> display("gallery_it.php","IT Teaching Photos","it5.jpg","it5_140.jpg","New laptops","gallery_general_pic.php");</script>
 							</div>
 						   <div class="col-sm-3 col-md-3">
-						   <script> display140("gallery_it.php","IT Teaching Photos","it6.jpg","it6_140.jpg","IT Class","gallery_general_pic.php");</script>
+						   <script> display("gallery_it.php","IT Teaching Photos","it6.jpg","it6_140.jpg","IT Class","gallery_general_pic.php");</script>
 							</div>
 						   <div class="col-sm-3 col-md-3">
-							 <script> display140("gallery_it.php","IT Teaching Photos","it7.jpg","it7_140.jpg","Yamala IT lab","gallery_general_pic.php");</script>
+							 <script> display("gallery_it.php","IT Teaching Photos","it7.jpg","it7_140.jpg","Yamala IT lab","gallery_general_pic.php");</script>
 						   </div>
 						   <div class="col-sm-3 col-md-3">
-							   <script> display140("gallery_it.php","IT Teaching Photos","it8.jpg","it8_140.jpg","Yamala IT lab","gallery_general_pic.php");</script>
+							   <script> display("gallery_it.php","IT Teaching Photos","it8.jpg","it8_140.jpg","Yamala IT lab","gallery_general_pic.php");</script>
 							 </div>
 						   </div>
 							  <br/>
-							 <!---------------------row1------------------------------------------------>
+							 <!---------------------row3-------------------------------------------->
 						   <div class="row">
 						   <div class="col-sm-3 col-md-3">
-						   <script> display140("gallery_it.php","IT Teaching Photos","it9.jpg","it9_140.jpg","Students at PCs ","gallery_general_pic.php");</script>
+						   <script> display("gallery_it.php","IT Teaching Photos","it9.jpg","it9_140.jpg","Students at PCs ","gallery_general_pic.php");</script>
 							</div>
 						   <div class="col-sm-3 col-md-3">
-						   <script> display140("gallery_it.php","IT Teaching Photos","it10.jpg","it10_140.jpg","students at PCs","gallery_general_pic.php");</script>
+						   <script> display("gallery_it.php","IT Teaching Photos","it10.jpg","it10_140.jpg","students at PCs","gallery_general_pic.php");</script>
 							</div>
 						   <div class="col-sm-3 col-md-3">
-							 <script> display140("gallery_it.php","IT Teaching Photos","it11.jpg","it11_140.jpg","students at PCs","gallery_general_pic.php");</script>
+							 <script> display("gallery_it.php","IT Teaching Photos","it11.jpg","it11_140.jpg","students at PCs","gallery_general_pic.php");</script>
 						   </div>
 						   <div class="col-sm-3 col-md-3">
-							   <script> display140("gallery_it.php","IT Teaching Photos","it1.jpg","it1_140.jpg","Adults at PCs","gallery_general_pic.php");</script>
+							   <script> display("gallery_it.php","IT Teaching Photos","it1.jpg","it1_140.jpg","Adults at PCs","gallery_general_pic.php");</script>
 							 </div>
 						   </div>
-						<?php						
+						    <!---------------------row4----------------------------------->
+						   <div class="row">
+						   <div class="col-sm-3 col-md-3">
+						   <script> display("gallery_it.php","IT Teaching","upgradingcomputerlab2011.png","upgradingcomputerlab2011_140.png","Upgrading computer lab 2011","gallery_general_pic.php");</script>
+							</div>
+						   <div class="col-sm-3 col-md-3">
+						   <script> display("gallery_it.php","IT Teaching","mabandla2011.jpg","mabandla2011_140.jpg","Stephany with pupils at Mabandla Primary School 2011","gallery_general_pic.php");</script>
+							</div>
+						   </div>
+						   	<?php						
 							 print clickPhotos();
 							 print foot();
 							?>

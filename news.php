@@ -14,7 +14,7 @@
             <div class="container-fluid">
                 <?php print top_bit("Newsletters");?>
                 <div class="row">
-                      <div class="col-sm-12 block">
+                      <div class="col-sm-9 block">
                         <h3>Annual Reports</h3>
 							<ul>
 							   <li><a href="doc/TVSDAANNUALREPORT2014-5final1.docx" title="TVS Annual Report 20014/5">TVS Annual Report 2014-5</a>
@@ -42,7 +42,16 @@
 							</ul>
 							<?php print foot();?>
                        	</div>
-					 </div>                  
+
+                      <div class="col-sm-3">
+						<img src="img/About-Us-Picture-3-230x170.jpg" alt="Class " class="img-responsive img-rounded block"/>
+						<img src="img/studycamp2012_230.jpg" title="Study Camp 2012" class="img-responsive img-rounded block"/>           
+						<img src="img/portsmouth2012_230.jpg" title="Portsmouth marathon 2012" class="img-responsive img-rounded block"/>
+						<img src="img/englishteaching2015_230.jpg" ALT="Students wall-painting","" class="img-responsive img-rounded block" />
+ 						<img src="img/EnglishTraining2015_3_230.jpg" alt="Class" class="img-responsive img-rounded block" />
+						</div>
+
+						</div>                  
             </div>
         </div>
         <!-- /#page-content-wrapper -->

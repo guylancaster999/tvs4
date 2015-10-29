@@ -1,4 +1,11 @@
-<?php require "function/functions.php";?>
+<?php require "function/functions.php";
+$grp	=$_REQUEST["grp"];
+$descr	=$_REQUEST["descr"];
+$fromurl=$_REQUEST["fromurl"];
+$pic	=$_REQUEST["pic"];
+$prv	=$_REQUEST["prv"];
+$nxt	=$_REQUEST["nxt"];
+?>
 <!doctype html>
 <html lang="en">
 <?php print hdr("Gallery - General"); ?>
@@ -7,10 +14,9 @@
        <div id="sidebar-wrapper">
      	   <?php print menu("Photos");?>
     </div>
-            </div>
+      </div>
         <!-- /#sidebar-wrapper -->
-
-  <!-- Page Content -->
+        <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container-fluid">
 		         <div class="row">
@@ -26,23 +32,18 @@
                   </div><!--row-->
                 <div class="row">
                       <div class="col-sm-12">
-                  			<h2> <script>
-	       document.write(querySt("grp"));</script> &ndash; <script>document.write(querySt("descr"));
-        </script></h2>
-		       </div>
+                  			<h2><?php print $grp." - ".$descr; ?></h2>
+		              </div>
                 </div>
                 <div class="row">
                       <div class="col-sm-12 block">
-									  <script>
-								 var ret=''
-								  ret+='<a href="'+querySt("fromurl")+'" title="'+querySt("descr")+' &ndash; Click to return">';	  	 
-								  ret+='<img src="'+querySt("pic")+'" alt="'+querySt("descr")+' - click to return" class="img-responsive img-rounded img_center">';
-								  ret+='</a>';
-								  document.write(ret);
-							</script>
-								<?php print clickRet().foot();?>
-							</div>
-					   </div>                  
+						  <?php print '<a href="'.$fromurl.'" title="'.$descr.' &ndash; Click to return">';
+						  print '<img src="'.$pic.'" alt="'.$descr.'- click to return" class="img-responsive img-rounded img_center">';
+						  print '</a></div>';
+						  print clickRet();
+						  print foot();?>
+						</div>
+				   </div>                  
             </div>
         </div>
         <!-- /#page-content-wrapper -->
