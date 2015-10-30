@@ -9,7 +9,7 @@
     </div>
         </div>
         <!-- /#sidebar-wrapper -->
-  <!-- Page Content -->
+		<!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container-fluid">
                <?php print top_bit("Activities - English Language");?>
@@ -33,11 +33,7 @@
 							<li>I did enjoy the classes. I pray we get sponsors for next year. I gained something and share with teachers at my school.' </li>
 							<li>'The project was good. Our Grade 5s are going more than the Grade 6s! It was worthwhile...' </li></ul> 
 								Click <a href="gallery_englishlanguage.php">here</a> for photos.
-
-                            <div class="top">   <br/>
-                               <a class="btn" href="#top"> Top <span class="glyphicon  glyphicon-circle-arrow-up"></span></a>
-                           <br/>
-                            </div>
+							<?php print foot();?>
                        	</div>
 					  <div class="col-sm-3 ">
 					<img src="img/englishlanguage001.jpg" alt="Children"  class="img-responsive img-rounded block"/>

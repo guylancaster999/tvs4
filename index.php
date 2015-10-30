@@ -49,7 +49,8 @@
 
 						  <br/>
 							<span class="glyphicon glyphicon-play"></span> &nbsp;
-							Volunteers wanted for Study Camp summer 2016! Click <a href="volunteer2016.php" title="Volunteer as a Teacher in South Africa in 2016">here</a>.
+							Volunteer Teachers wanted for the Study Camp in Summer 2016! 
+							Click <a href="volunteer2016.php" title="Volunteer as a Teacher in South Africa in 2016">here</a>.
 						  <br/>
 						  <br/>
 							<span class="glyphicon glyphicon-play"></span> &nbsp;Are you a teacher or school governor?  Is your school interested in developing international links?  TVS can help you set up a partnership with ​a Tyume Valley school.
@@ -69,6 +70,5 @@
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> 
   <script src="js/code.js"></script>
-
 </body>
 </html>

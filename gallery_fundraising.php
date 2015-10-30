@@ -15,59 +15,52 @@
               <?php print top_bit("Gallery - Fundraising");?>
                   <div class="row">
                       <div class="col-sm-12">
-                         <!---------------------row1------------------------------------------------>
+                         <!---------------------row1------------------------------>
                          <div class="row">
                           <div class="col-sm-3 col-md-3">
-                            <script>display("gallery_fundraising.php","fundraising Photos",
+                            <script>display("gallery_fundraising.php","Fundraising",
                         	"fundraising5.jpg","fundraising5_140.jpg","Karen Barker and Nic Suggit on great south run 2014","gallery_general_pic.php");</script>
                             </div>
                             <div class="col-sm-3 col-md-3">
-                              <script>display("gallery_fundraising.php","fundraising Photos",
+                              <script>display("gallery_fundraising.php","Fundraising",
                             "tvsfundraising2015.jpg","tvsfundraising2015x_140.jpg","London Marathon for Tyume Valley Schools celebration","gallery_general_pic.php");</script>
                               </div>
                                 <div class="col-sm-3 col-md-3">
-                                  <script>display("gallery_fundraising.php","Fundraising Photos",
-                                "fundraising4.jpg","fundraising4_140.jpg","Professors Caroline Glendinning and Gillian Parker","gallery_general_pic.php");</script>
+                                  <script>display("gallery_fundraising.php","Fundraising","fundraising4.jpg", "fundraising4_140.jpg","Professors Caroline Glendinning and Gillian Parker","gallery_general_pic.php");</script>
                                   </div>
                               <div class="col-sm-3 col-md-3">
-                                <script>display("gallery_fundraising.php","Fundraising Photos",
+                                <script>display("gallery_fundraising.php","Fundraising",
                               "fundraising3.jpg","fundraising3_140.jpg","Geraldine Palmer receives a cheque on behalf of TVS at St.Augustines","gallery_general_pic.php");</script>
                                 </div>
                              </div>
-                                <!---------------------row2------------------------------------------------>
+                               <!--------------row2-------------------------------->
                                 <div class="row">
                                  <div class="col-sm-3 col-md-3">
-                                   <script>display("gallery_fundraising.php","Fundraising Photos",
-                                 "fundraising2015_1.jpg","fundraising2015_1_140.jpg","Fundraising 2015","gallery_general_pic.php");</script>
+                                   <script>display("gallery_fundraising.php","Fundraising", "fundraising2015_1.jpg","fundraising2015_1_140.jpg","Fundraising 2015","gallery_general_pic.php");</script>
                                    </div>
                                    <div class="col-sm-3 col-md-3">
-                                     <script>display("gallery_fundraising.php","Fundraising Photos",
-                                   "fundraising2015_3.jpg","tvsfundraising2015_140.jpg","Fundraising 2015","gallery_general_pic.php");</script>
+                                     <script>display("gallery_fundraising.php","Fundraising", "fundraising2015_3.jpg","tvsfundraising2015_140.jpg","Croquet in 2015","gallery_general_pic.php");</script>
                                      </div>
                                      <div class="col-sm-3 col-md-3">
-                                     <script>display("gallery_fundraising.php","Fundraising Photos",
-                                   "fundraising2015_4.jpg","fundraising2015_4_140.jpg","Fundraising 2015","gallery_general_pic.php");</script>
+                                     <script>display("gallery_fundraising.php","Fundraising", "fundraising2015_4.jpg","fundraising2015_4_140.jpg","Cake 2015","gallery_general_pic.php");</script>
                                      </div>
                                      <div class="col-sm-3 col-md-3">
-                                     <script>display("gallery_fundraising.php","Fundraising Photos",
-                                   "fundraising2015_2.jpg","fundraising2015_2_140.jpg","Fundraising 2015","gallery_general_pic.php");</script>
+                                     <script>display("gallery_fundraising.php","Fundraising", "fundraising2015_2.jpg","fundraising2015_2_140.jpg","Fundraising 2015","gallery_general_pic.php");</script>
                                      </div>
                                </div>
-                               <!---------------------row3------------------------------------------------>
+                               <!-------------------row3---------------------------->
                                <div class="row">
                                 <div class="col-sm-3 col-md-3">
-                                  <script>display("gallery_fundraising.php","Fundraising Photos",
-                                "fundraising6.jpg","fundraising6_140.jpg","Fundraising 2015","gallery_general_pic.php");</script>
+                                  <script>display("gallery_fundraising.php","Fundraising",  "fundraising6.jpg","fundraising6_140.jpg","Fundraising 2015","gallery_general_pic.php");</script>
                                   </div>
 								 <div class="col-sm-6 col-md-6">
-                                  <script>display("gallery_fundraising.php","Fundraising Photos",                          "BannerFundraising.png", "BannerFundraising_140.png","Fundraising 2014","gallery_general_pic.php");</script>
+                                  <script>display("gallery_fundraising.php","Fundraising","BannerFundraising.png", "BannerFundraising_140.png","Fundraising 2014","gallery_general_pic.php");</script>
                                   </div>  
 	                              <div class="col-sm-3 col-md-3">
-                                  <script>display("gallery_fundraising.php","Fundraising Photos",
-                                "marathon2015.png","marathon2015_140.png","Karen at Marathon 2015","gallery_general_pic.php");</script>
+                                  <script>display("gallery_fundraising.php","Fundraising",          "marathon2015.png","marathon2015_140.png","Karen at Marathon 2015","gallery_general_pic.php");</script>
                                   </div>
 								     </div>
-										<!---------------------row4------------------------------------>
+									<!--------row4------------------------------------>
                                <div class="row">
                                 <div class="col-sm-3 col-md-3">
                                   <script>display("gallery_fundraising.php","Fundraising",

@@ -35,10 +35,8 @@
             Click <a href="https://en.wikipedia.org/wiki/Archibald_'Archie'_Mncedisi_Sibeko">here</a> for more information.
               <?php print foot();?>
              </div>
-					  <div class="col-sm-3">
-					  <script>
-					  display("aboutus.php","Origins &amp; Vision","Zola and Joyce.png","Zola and Joyce_230.png","Zola Zembe and Joyce Leeson","gallery_general_pic.php");
-						</script>
+			  <div class="col-sm-3">
+					  <?php display("aboutus.php","Origins &amp; Vision","Zola and Joyce.png","Zola and Joyce_230.png","Zola Zembe and Joyce Leeson","gallery_general_pic.php"); ?>
                         <img src="img/Picture-32-230x170.jpg" alt="bus"  class="img-responsive img-rounded block"/>
 						  <img src="img/Picture-22.jpg" alt="School" class="img-responsive img-rounded block"/>
 						<img src="img/Picture-21.jpg" ALT="Hopefield school"  class="img-responsive img-rounded  block" />

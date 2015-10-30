@@ -3,8 +3,6 @@ $grp	=$_REQUEST["grp"];
 $descr	=$_REQUEST["descr"];
 $fromurl=$_REQUEST["fromurl"];
 $pic	=$_REQUEST["pic"];
-$prv	=$_REQUEST["prv"];
-$nxt	=$_REQUEST["nxt"];
 ?>
 <!doctype html>
 <html lang="en">

@@ -9,7 +9,7 @@
     </div>
             </div>
         <!-- /#sidebar-wrapper -->
-  <!-- Page Content -->
+		<!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container-fluid">
                 <?php print top_bit("Newsletters");?>
@@ -21,9 +21,7 @@
 							<br/><br/></li>
 							<li><a title="TVS Annual Report 2013-14" href="doc/ANNUALREPORT2013-14.pdf">TVS Annual Report 2013-14</a> </li>
 							</ul>
-                         
-						   <h3>Newsletters</h3>
-						  			   
+        				   <h3>Newsletters</h3>
 						   <ul>
 								<li><a href="doc/TVSNewsletterApril2015-2.pdf" title="TVS Newsletter 2015">Newsletter April 2015</a>	<br/>
 								<br/>
@@ -42,16 +40,14 @@
 							</ul>
 							<?php print foot();?>
                        	</div>
-
-                      <div class="col-sm-3">
+					<div class="col-sm-3">
 						<img src="img/About-Us-Picture-3-230x170.jpg" alt="Class " class="img-responsive img-rounded block"/>
 						<img src="img/studycamp2012_230.jpg" title="Study Camp 2012" class="img-responsive img-rounded block"/>           
 						<img src="img/portsmouth2012_230.jpg" title="Portsmouth marathon 2012" class="img-responsive img-rounded block"/>
 						<img src="img/englishteaching2015_230.jpg" ALT="Students wall-painting","" class="img-responsive img-rounded block" />
  						<img src="img/EnglishTraining2015_3_230.jpg" alt="Class" class="img-responsive img-rounded block" />
-						</div>
-
-						</div>                  
+					</div>
+				</div>                  
             </div>
         </div>
         <!-- /#page-content-wrapper -->

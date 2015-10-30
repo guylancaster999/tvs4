@@ -10,7 +10,7 @@
             </div>
         <!-- /#sidebar-wrapper -->
        <div id="page-content-wrapper">
-<?php print top_bit("Fundraising");?>
+		<?php print top_bit("Fundraising");?>
                 <div class="row">
                       <div class="col-sm-9 block">
                          <a href="#" title="UK Fundraising - fun run">
@@ -59,18 +59,18 @@
 							<li><a href="http://www.pinmar.com/en/index.php/pinmar-golf/our-charities">Pinmar</a></li>
 							 </ul>
 							Click <A href="gallery_fundraising.php">here</a> for Fundraising photos.
-                                      <?php print foot();?>
+                           <?php print foot();?>
                        	</div>
 					  <div class="col-sm-3 block">
               		   <?php display("fundraising.php","Fundraising","fundraising5.jpg","fundraising5_230.jpg","Karen Barker and Nic Suggit on great south run 2014","gallery_general_pic.php");
-	   display("fundraising.php","Fundraising","tvsfundraising2015.jpg","tvsfundraising2015_230.jpg","London Marathon for Tyume Valley Schools celebration","gallery_general_pic.php");
-	    display("fundraising.php","Fundraising","fundraising3.jpg","fundraising3_230.jpg","Fund raising", "gallery_general_pic.php");
-       display("fundraising.php","Fundraising","fundraising4.jpg","fundraising4_230.jpg","Professors Caroline Glendinning  and Gillian Parker",   "gallery_general_pic.php");
-	   ?>
-		<img src="img/Picture-43-230x170.jpg" alt="fundraiser" class="img-responsive img-rounded  block"/>
-       	<img src="img/fundraising006_230.jpg" ALT="Archie Sibeko and Joyce Leeson receive a cheque from Newcastle city council" class="img-responsive img-rounded  block" />
-		</div>
+					   display("fundraising.php","Fundraising","tvsfundraising2015.jpg","tvsfundraising2015_230.jpg","London Marathon for Tyume Valley Schools celebration","gallery_general_pic.php");
+						display("fundraising.php","Fundraising","fundraising3.jpg","fundraising3_230.jpg","Fund raising", "gallery_general_pic.php");
+					   display("fundraising.php","Fundraising","fundraising4.jpg","fundraising4_230.jpg","Professors Caroline Glendinning  and Gillian Parker",   "gallery_general_pic.php");
+					   ?>
+						<img src="img/Picture-43-230x170.jpg" alt="fundraiser" class="img-responsive img-rounded  block"/>
+						<img src="img/fundraising006_230.jpg" ALT="Archie Sibeko and Joyce Leeson receive a cheque from Newcastle city council" class="img-responsive img-rounded  block" />
 					</div>
+				</div>
             </div>
         </div>
     </div>

@@ -9,7 +9,7 @@
     </div>
             </div>
         <!-- /#sidebar-wrapper --> 
-  <!-- Page Content -->
+		<!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container-fluid">
 			<?php print top_bit("Volunteering");?>

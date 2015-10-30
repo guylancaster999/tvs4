@@ -177,8 +177,8 @@
 							<td colspan='2'><a id="guylancaster"></a>&nbsp;</td>
 							</tr><tr>
 							<td valign='top'><strong>Guy Lancaster</strong> is a Systems Engineer based in Manchester. 
-							He has worked and volunteered for many NGOs, including <a href="http://www.waronwant.org/">War on Want</a> and the <a href="http://www.daat.org.uk">David Anderson Africa Trust</a>.</td>
-							<th><img src="img/guylancaster.png" align="right" alt="Guy Lancaster" class="img-responsive img-rounded img_pad"></th>  
+							He has worked and volunteered for many NGOs, including <a href="http://www.waronwant.org/">War on Want</a>.</td>
+							<th><img src="img/guylancaster.png" align="right" alt="Guy Lancaster" class="img-responsive img-rounded img_pad"></th> 
 							</tr>
 							</table>  
                           <?php print foot();?>

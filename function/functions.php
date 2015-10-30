@@ -1,6 +1,7 @@
  <?php
  function hdr($t)
- {$ret='<head>
+ {
+	 $ret='<head>
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -136,10 +137,8 @@ if ($button=="Volunteering")
  function clickRet()
  {
 	 $ret='<div class="row">';
- 	 $ret='<div class="col-sm-12 col-md-12 clickphoto">
-               Click on Photo to return.
-           </div>';
-     $ret='</div>';
+ 	 $ret.='<div class="col-sm-12 col-md-12 clickphoto">Click on Photo to return  </div>';
+     $ret.='</div>';
 	 return $ret;
  }
  function foot()
