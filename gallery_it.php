@@ -1,104 +1,72 @@
 <?php require "function/functions.php";?>
 <!doctype html>
 <html lang="en">
-<?php print hdr("Gallery - IT");?>
+<?php 
+print hdr("Gallery - IT");
+$gpics='{"gallery":[
+	{"picLarge":"tvsit.jpg","picSmall":"tvsit_140.jpg","picTtl":"Students at PCs 2015"},
+	{"picLarge":"it2.jpg","picSmall":"it2_140.jpg","picTtl":"Adult IT Classes"},
+	{"picLarge":"it3.jpg","picSmall":"it3_140.jpg","picTtl":"IT Certificates"},
+	{"picLarge":"it4.jpg","picSmall":"it4_140.jpg","picTtl":"IT Certificates"},
+	{"picLarge":"it5.jpg","picSmall":"it5_140.jpg","picTtl":"New laptops"},
+    {"picLarge":"it6.jpg","picSmall":"it6_140.jpg","picTtl":"IT Class"},
+	{"picLarge":"it7.jpg","picSmall":"it7_140.jpg","picTtl":"Yamala IT lab"},
+	{"picLarge":"it8.jpg","picSmall":"it8_140.jpg","picTtl":"Yamala IT lab"},
+	{"picLarge":"it9.jpg","picSmall":"it9_140.jpg","picTtl":"Students at PCs"},
+	{"picLarge":"it10.jpg","picSmall":"it10_140.jpg","picTtl":"students at PCs"},
+	{"picLarge":"it11.jpg","picSmall":"it11_140.jpg","picTtl":"students at PCs"},
+	{"picLarge":"it1.jpg","picSmall":"it1_140.jpg","picTtl":"Adults at PCs"},
+	{"picLarge":"upgradingcomputerlab2011.png","picSmall":"upgradingcomputerlab2011_140.png","picTtl":"Upgrading computer lab 2011"},
+	{"picLarge":"mabandla2011.jpg","picSmall":"mabandla2011_140.jpg","picTtl":"Stephany with pupils at Mabandla Primary School 2011"}	
+	]}';	
+session_start();
+$_SESSION["gpics"]	=$gpics;	
+$pgTtl				="IT Teaching";
+$pgUrl				="gallery_it.php";
+?>
 <body>
     <div id="wrapper">
        <div id="sidebar-wrapper">
      	   <?php print menu("Photos");?>
+       </div>
     </div>
-            </div>
         <!-- /#sidebar-wrapper -->
-  <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-                <div class="row">
-                      <div class="col-sm-11">
-                         <div class="h1"><a href="index.php">Tyume Valley Schools</a></div>
-                         <div class="reg">Registered Charity Number 1103909</div>
-                      </div><!--col-->
-                      <div class="col-sm-1" title="Toggle menu">
-                          <a href="#menu-toggle" class="btn btn-default" id="menu-toggle" title="Toggle menu">
-                              <span class="glyphicon glyphicon-align-justify"></span>
-                          </a>
-                      </div><!--col-->
-                  </div><!--row-->
-                <div class="row">
-                      <div class="col-sm-12">
-                  			<h2>Photo Gallery - IT</h2>
-                      </div>
+      <div id="page-content-wrapper">
+         <div class="container-fluid">
+			<?php print top_bit("Photo Gallery - ".$pgTtl);?>
+			<div class="row">
+				<div class="col-sm-12">                       
+				<?php
+				$colctr		= 0;
+				$x 			= json_decode($gpics,true);
+				$sz			= count($x["gallery"]); 
+				print '<div class="row">';
+				for ($i=0;$i<$sz;$i++)
+				{
+					$colctr++;
+					if ($colctr>4)
+					{
+						print '</div>';
+						print '<div class="row">';
+						$colctr = 1;
+					}
+				  print '<div class="col-sm-3 col-md-3">';
+                  displayPic($pgUrl,$pgTtl,$i); 	
+				  print '</div>';
+				}				
+     			print '</div>';
+				print clickPhotos();
+				print foot();
+				?>
                 </div>
-                <div class="row">
-                      <div class="col-sm-12">
-					<!---------row1------------------------------------------------>
-						   <div class="row">
-						   <div class="col-sm-3 col-md-3">
-						   <script> display("gallery_it.php","IT Teaching","tvsit.jpg","tvsit_140.jpg","Students at PCs 2015", "gallery_general_pic.php");</script>
-							</div>
-						   <div class="col-sm-3 col-md-3">
-						   <script> display("gallery_it.php","IT Teaching","it2.jpg","it2_140.jpg","Adult IT Classes","gallery_general_pic.php");</script>
-							</div>
-						   <div class="col-sm-3 col-md-3">
-							 <script> display("gallery_it.php","IT Teaching","it3.jpg","it3_140.jpg","IT Certificates","gallery_general_pic.php");</script>
-						   </div>
-						   <div class="col-sm-3 col-md-3">
-							   <script> display("gallery_it.php","IT Teaching","it4.jpg","it4_140.jpg","IT Certificates","gallery_general_pic.php");</script>
-							 </div>
-						   </div>
-						   <br/>
-							 <!---------------------row2------------------------------>
-						   <div class="row">
-						   <div class="col-sm-3 col-md-3">
-						   <script> display("gallery_it.php","IT Teaching","it5.jpg","it5_140.jpg","New laptops","gallery_general_pic.php");</script>
-							</div>
-						   <div class="col-sm-3 col-md-3">
-						   <script> display("gallery_it.php","IT Teaching","it6.jpg","it6_140.jpg","IT Class","gallery_general_pic.php");</script>
-							</div>
-						   <div class="col-sm-3 col-md-3">
-							 <script> display("gallery_it.php","IT Teaching","it7.jpg","it7_140.jpg","Yamala IT lab","gallery_general_pic.php");</script>
-						   </div>
-						   <div class="col-sm-3 col-md-3">
-							   <script> display("gallery_it.php","IT Teaching","it8.jpg","it8_140.jpg","Yamala IT lab","gallery_general_pic.php");</script>
-							 </div>
-						   </div>
-							  <br/>
-							 <!---------------------row3---------------------------->
-						   <div class="row">
-						   <div class="col-sm-3 col-md-3">
-						   <script> display("gallery_it.php","IT Teaching","it9.jpg","it9_140.jpg","Students at PCs ","gallery_general_pic.php");</script>
-							</div>
-						   <div class="col-sm-3 col-md-3">
-						   <script> display("gallery_it.php","IT Teaching","it10.jpg","it10_140.jpg","students at PCs","gallery_general_pic.php");</script>
-							</div>
-						   <div class="col-sm-3 col-md-3">
-							 <script> display("gallery_it.php","IT Teaching","it11.jpg","it11_140.jpg","students at PCs","gallery_general_pic.php");</script>
-						   </div>
-						   <div class="col-sm-3 col-md-3">
-							   <script> display("gallery_it.php","IT Teaching","it1.jpg","it1_140.jpg","Adults at PCs","gallery_general_pic.php");</script>
-							 </div>
-						   </div>
-						   <!----------------row4----------------------------------->
-						   <div class="row">
-						   <div class="col-sm-3 col-md-3">
-						   <script> display("gallery_it.php","IT Teaching","upgradingcomputerlab2011.png","upgradingcomputerlab2011_140.png","Upgrading computer lab 2011","gallery_general_pic.php");</script>
-							</div>
-						   <div class="col-sm-3 col-md-3">
-						   <script> display("gallery_it.php","IT Teaching","mabandla2011.jpg","mabandla2011_140.jpg","Stephany with pupils at Mabandla Primary School 2011","gallery_general_pic.php");</script>
-							</div>
-						   </div>
-						   	<?php						
-							 print clickPhotos();
-							 print foot();
-							?>
-					   	</div>
-					</div>
+		  	</div>
             </div>
         </div>
         <!-- /#page-content-wrapper -->
     </div>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js";></script>
     <!-- Bootstrap Core JavaScript -->
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script src="js/code.js"></script>
+ <script src="js/code.js"></script>
 </body>
 </html>

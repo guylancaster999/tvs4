@@ -96,12 +96,12 @@ if ($button=="Volunteering")
  if($button=='Photos')
  {
 	  $ret.='<div id="photo_button">
-  <div class="redbutton"><a href="gallery_general.php" title="TVS -General Photo">General</a></div>
-  <div class="redbutton"><a href="gallery_it.php" title="TVS - IT Training photos">IT</a></div>
-  <div class="redbutton"><a href="gallery_studycamps.php" title="TVS - Study Camps Photos">Study&nbsp;Camps</a></div>
   <div class="redbutton"><a href="gallery_englishlanguage.php" title="TVS - English Language teaching photos">English teaching</a></div>
   <div class="redbutton"><a href="gallery_englishTraining.php" title="TVS - English Language Training">English training</a></div>
   <div class="redbutton"><a href="gallery_fundraising.php" title="TVS - Fundraising">Fundraising</a></div>
+  <div class="redbutton"><a href="gallery_general.php" title="TVS -General Photo">General</a></div>
+  <div class="redbutton"><a href="gallery_it.php" title="TVS - IT Training photos">IT</a></div>
+  <div class="redbutton"><a href="gallery_studycamps.php" title="TVS - Study Camps Photos">Study&nbsp;Camps</a></div>
  </div>';
  }
  $ret.='<div class="newbutton" id="contact"><a href="contact.php" title="TVS : contact us">Contact&nbsp;us</a></div>
@@ -134,10 +134,21 @@ if ($button=="Volunteering")
                </div>
          </div>';
  }
+ function arrows($left="",$right="")
+ {
+	 $ret ='<div class="row">';
+  	 $ret.='<div class="col-sm-1 col-md-1">'.$left.'</div>'; 
+ 	 $ret.='<div class="col-sm-10 col-md-10">&nbsp;</div>';
+  	 $ret.='<div class="col-sm-1 col-md-1" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'.$right."</div>"; 
+     $ret.='</div>';
+	 return $ret;
+ }
  function clickRet()
  {
-	 $ret='<div class="row">';
- 	 $ret.='<div class="col-sm-12 col-md-12 clickphoto">Click on Photo to return  </div>';
+	 $ret ='<div class="row">';
+  	 $ret.='<div class="col-sm-1 col-md-1">&nbsp;</div>'; 
+ 	 $ret.='<div class="col-sm-10 col-md-10 clickphoto">Click on Photo to return</div>';
+  	 $ret.='<div class="col-sm-1 col-md-1" >&nbsp;</div>'; 
      $ret.='</div>';
 	 return $ret;
  }
@@ -145,7 +156,10 @@ if ($button=="Volunteering")
  {
 	 $ret=' <div class="top">
       <br/>
-       <a class="btn" href="#top"> Top <span class="glyphicon  glyphicon-circle-arrow-up"></span></a>
+       <a class="btn" href="#top"> Top 
+	   <span class="glyphicon  glyphicon-circle-arrow-up">
+	   </span>
+	   </a>
       <br/>
        </div>';
  return $ret;
@@ -164,4 +178,22 @@ if ($button=="Volunteering")
     $ret.='</a>';
     print($ret);
  } 
- ?>
+ function displayPic($retUrl,$pgTtl,$id)
+{
+	$x 			= json_decode($_SESSION["gpics"],true);
+ 	$y 			= $x["gallery"][$id]; 
+ 	$picSmall	= $y["picSmall"];
+	$picTtl		= $y["picTtl"];
+	$ret 		='<a href="gallery_pic.php';
+ 	$ret		.='?pgttl='.$pgTtl;
+    $ret		.='&fromurl='.$retUrl;
+    $ret		.='&id='.$id.'" ' ;
+    $ret		.=' title="'.$picTtl.' - Click for full-sized Picture">';
+	$ret		.='<img src="img/'.$picSmall.'" ';
+    $ret		.=' alt="'.$picTtl.'" ';
+    $ret		.=' class="img-responsive img-rounded block " />';
+    $ret		.='</a>';
+	print($ret);
+}
+
+?>

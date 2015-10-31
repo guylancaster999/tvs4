@@ -1,0 +1,257 @@
+
+ <!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Tyume Valley Schools - Educational support in Eastern Cape, South Africa - Gallery - General "/>
+    <meta name="author" content="Guy Lancaster">
+    <meta name="keywords" content="South, Africa, Tyume, Tyhume,Schools, Valley, Eastern, Cape, TVS, RSA,Gallery - General"/>
+    <title>Tyume Valley Schools - Gallery - General</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href="css/main.css" rel="stylesheet">
+    <script src="js/main.js"></script>
+ <script src="https://apis.google.com/js/platform.js" async defer></script>
+	<div id="fb-root"></div>
+	<script>(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4";fjs.parentNode.insertBefore(js,fjs);}(document,"script","facebook-jssdk"));</script>
+</head><body>
+    <div id="wrapper">
+       <div id="sidebar-wrapper">
+     	   <div class="sidebar-nav">
+           &nbsp;&nbsp;<img src="img/tvs.jpg" width="120" alt="Tyume Valley Schools">&nbsp;
+           <br/>
+     	   <div class="newbutton" id="homepage"><a href="index.php" title="TVS Home page">Home Page</a></div>
+	       <div class="newbutton" id="aboutus"><a href="aboutus.php" title="Tyume Valley Schools :Origins&nbsp;&amp;&nbsp;Vision">Origins&nbsp;&amp;&nbsp;Vision</a></div>
+ 	       <div class="newbutton" id="map"><a href="map.php" title="Tyume Valley Maps">Where&nbsp;we&nbsp;work</a></div>
+       <div class="newbutton" id="activities"><a href="activities.php" title="TVS Activities">Activities</a></div> <div class="newbutton" id="news"><a href="news.php" title="TVS Newsletters">Newsletters</a></div>
+  <div class="newbutton" id="partnerships"><a href="partnerships.php" title="TVS - School Links and Partnerships">School Links</a></div><div class="newbutton" id="volunteering"><a href="volunteering.php" title="Tyume Valley Schools - Volunteering in South Africa">Volunteering</a></div><div class="newbutton" id="committee"><a href="committee.php" title="TVS Committee">Committee</a></div>
+ <div class="newbutton" id="fundraising"><a href="fundraising.php" title="TVS Fundraising">Fundraising</a></div><div class="newbutton" id="links"><a href="links.php" title="TVS Wills">Links</a></div>
+ <div class="newbutton" id="photos"><a href="gallery.php" title="TVS Photos">Photo&nbsp;Gallery</a></div><div id="photo_button">
+  <div class="redbutton"><a href="gallery_general.php" title="TVS -General Photo">General</a></div>
+  <div class="redbutton"><a href="gallery_it.php" title="TVS - IT Training photos">IT</a></div>
+  <div class="redbutton"><a href="gallery_studycamps.php" title="TVS - Study Camps Photos">Study&nbsp;Camps</a></div>
+  <div class="redbutton"><a href="gallery_englishlanguage.php" title="TVS - English Language teaching photos">English teaching</a></div>
+  <div class="redbutton"><a href="gallery_englishTraining.php" title="TVS - English Language Training">English training</a></div>
+  <div class="redbutton"><a href="gallery_fundraising.php" title="TVS - Fundraising">Fundraising</a></div>
+ </div><div class="newbutton" id="contact"><a href="contact.php" title="TVS : contact us">Contact&nbsp;us</a></div>
+   <div class="newbutton" id="sitemap"><a href="sitemap.php" title="TVS Sitemap">Sitemap</a></div> <br/>&nbsp;&nbsp;<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+&nbsp;&nbsp;<script>!function(d,s,id)
+{var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?"http":"https";if(!d.getElementById(id))
+{js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}
+(document,"script","twitter-wjs");</script><br/>&nbsp;&nbsp;<div class="fb-share-button" data-href="http://www.tvschools.org.uk" data-layout="button_count"></div>
+ <br/>
+<div class="g-plusone" data-annotation="inline" data-width="200" data-href="http://www.tvschools.org.uk"></div>       </div>
+    </div>
+        <!-- /#sidebar-wrapper -->
+      <div id="page-content-wrapper">
+         <div class="container-fluid">
+			<a name="top"></a><div class="row">
+                      <div class="col-sm-11">
+                         <div class="h1"><a href="index.php">Tyume Valley Schools</a></div>
+                         <div class="reg">Registered Charity Number 1103909</div>
+                      </div><!--col-->
+                      <div class="col-sm-1" title="Toggle menu">
+                          <a href="#menu-toggle" class="btn btn-default" id="menu-toggle" title="Toggle menu">
+                              <span class="glyphicon glyphicon-align-justify"></span>
+                          </a>
+                      </div><!--col-->
+                  </div><!--row-->
+                <div class="row">
+                      <div class="col-sm-12">
+                  			<h2>Photo Gallery - General</h2>
+                      </div>
+                </div>			<div class="row">
+				<div class="col-sm-12">                       
+
+				<div class="row">
+				
+				<div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo3.jpg&descr=Dyamala School" title="Dyamala School - Click for full-sized Picture"><img src="img/photo3_140.jpg" alt="Dyamala School" class="img-responsive img-rounded block "/></a></div>
+				
+				<div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo1.jpg&descr=Amabhele SSS" title="Amabhele SSS - Click for full-sized Picture"><img src="img/photo1_140.jpg" alt="Amabhele SSS" class="img-responsive img-rounded block "/></a></div>
+				
+				<div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo2.jpg&descr=Braai at Mabandla" title="Braai at Mabandla - Click for full-sized Picture"><img src="img/photo2_140.jpg" alt="Braai at Mabandla" class="img-responsive img-rounded block "/></a></div>
+				
+				<div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo4.jpg&descr=Music Lessons" title="Music Lessons - Click for full-sized Picture"><img src="img/photo4_140.jpg" alt="Music Lessons" class="img-responsive img-rounded block "/></a></div>
+				
+		</div>
+		
+		<div class="row">
+				
+				<div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo5.jpg&descr=Music Lessons" title="Music Lessons - Click for full-sized Picture"><img src="img/photo5_140.jpg" alt="Music Lessons" class="img-responsive img-rounded block "/></a></div>
+						
+				<div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo6.jpg&descr=Pumla and Children" title="Pumla and Children - Click for full-sized Picture"><img src="img/photo6_140.jpg" alt="Pumla and Children" class="img-responsive img-rounded block "/></a></div>
+				
+				<div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo7.jpg&descr=School Celebrations" title="School Celebrations - Click for full-sized Picture"><img src="img/photo7_140.jpg" alt="School Celebrations" class="img-responsive img-rounded block "/></a></div>
+				
+				<div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo8.jpg&descr=School Celebrations" title="School Celebrations - Click for full-sized Picture"><img src="img/photo8_140.jpg" alt="School Celebrations" class="img-responsive img-rounded block "/></a></div>
+				
+				<div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo9.jpg&descr=School Celebrations" title="School Celebrations - Click for full-sized Picture"><img src="img/photo9_140.jpg" alt="School Celebrations" class="img-responsive img-rounded block "/></a></div>
+				
+				</div>
+				
+				<div class="row">
+				
+				<div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo10.jpg&descr=The valley" title="The valley - Click for full-sized Picture"><img src="img/photo10_140.jpg" alt="The valley" class="img-responsive img-rounded block "/></a></div>
+				
+				<div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo11.jpg&descr=School Celebrations" title="School Celebrations - Click for full-sized Picture"><img src="img/photo11_140.jpg" alt="School Celebrations" class="img-responsive img-rounded block "/></a></div>
+				
+				<div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo12.jpg&descr=Mbovane Primary School" title="Mbovane Primary School - Click for full-sized Picture"><img src="img/photo12_140.jpg" alt="Mbovane Primary School" class="img-responsive img-rounded block "/></a></div>
+				
+				<div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo13.jpg&descr=Village Life" title="Village Life - Click for full-sized Picture"><img src="img/photo13_140.jpg" alt="Village Life" class="img-responsive img-rounded block "/></a></div>
+				
+				<div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo14.jpg&descr=Village Life" title="Village Life - Click for full-sized Picture"><img src="img/photo14_140.jpg" alt="Village Life" class="img-responsive img-rounded block "/></a></div></div>
+				
+				<div class="row"><div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo15.jpg&descr=Village Life" title="Village Life - Click for full-sized Picture"><img src="img/photo15_140.jpg" alt="Village Life" class="img-responsive img-rounded block "/></a></div><div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo16.jpg&descr=Vuvu and New Car" title="Vuvu and New Car - Click for full-sized Picture"><img src="img/photo16_140.jpg" alt="Vuvu and New Car" class="img-responsive img-rounded block "/></a></div><div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo17.jpg&descr=Yamala School" title="Yamala School - Click for full-sized Picture"><img src="img/photo17_140.jpg" alt="Yamala School" class="img-responsive img-rounded block "/></a></div><div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo18.jpg&descr=Yamala School" title="Yamala School - Click for full-sized Picture"><img src="img/photo18_140.jpg" alt="Yamala School" class="img-responsive img-rounded block "/></a></div><div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo19.jpg&descr=Yamala School" title="Yamala School - Click for full-sized Picture"><img src="img/photo19_140.jpg" alt="Yamala School" class="img-responsive img-rounded block "/></a></div></div><div class="row"><div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/huts.jpg&descr=Village Huts" title="Village Huts - Click for full-sized Picture"><img src="img/huts_140.jpg" alt="Village Huts" class="img-responsive img-rounded block "/></a></div><div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo21.jpg&descr=School" title="School - Click for full-sized Picture"><img src="img/photo21_140.jpg" alt="School" class="img-responsive img-rounded block "/></a></div><div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo22.jpg&descr=School" title="School - Click for full-sized Picture"><img src="img/photo22_140.jpg" alt="School" class="img-responsive img-rounded block "/></a></div><div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo23.jpg&descr=School" title="School - Click for full-sized Picture"><img src="img/photo23_140.jpg" alt="School" class="img-responsive img-rounded block "/></a></div><div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo24.jpg&descr=School" title="School - Click for full-sized Picture"><img src="img/photo24_140.jpg" alt="School" class="img-responsive img-rounded block "/></a></div></div><div class="row"><div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo25.jpg&descr=Village" title="Village - Click for full-sized Picture"><img src="img/photo27_140.jpg" alt="Village" class="img-responsive img-rounded block "/></a></div><div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo26.jpg&descr=School" title="School - Click for full-sized Picture"><img src="img/photo26_140.jpg" alt="School" class="img-responsive img-rounded block "/></a></div><div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo27.jpg&descr=School" title="School - Click for full-sized Picture"><img src="img/photo27_140.jpg" alt="School" class="img-responsive img-rounded block "/></a></div><div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo28.jpg&descr=School" title="School - Click for full-sized Picture"><img src="img/photo28_140.jpg" alt="School" class="img-responsive img-rounded block "/></a></div><div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo29.jpg&descr=Village" title="Village - Click for full-sized Picture"><img src="img/photo29_140.jpg" alt="Village" class="img-responsive img-rounded block "/></a></div></div><div class="row"><div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/tyyumevalley.jpg&descr=Looking towards Hogs back from the Tyume Valley" title="Looking towards Hogs back from the Tyume Valley - Click for full-sized Picture"><img src="img/tyyumevalley_140.jpg" alt="Looking towards Hogs back from the Tyume Valley" class="img-responsive img-rounded block "/></a></div><div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/libraryElukaynanesweniHS.jpg&descr=Library at Elukaynanesweni HS" title="Library at Elukaynanesweni HS - Click for full-sized Picture"><img src="img/libraryElukaynanesweniHS_140.jpg" alt="Library at Elukaynanesweni HS" class="img-responsive img-rounded block "/></a></div><div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/schoolmeal.jpg&descr=school meal" title="school meal - Click for full-sized Picture"><img src="img/schoolmeal_140.jpg" alt="school meal" class="img-responsive img-rounded block "/></a></div><div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/tvsfb.jpg&descr=Class" title="Class - Click for full-sized Picture"><img src="img/tvsfb_140.jpg" alt="Class" class="img-responsive img-rounded block "/></a></div><div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/tvsclass2015_2.jpg&descr=Class" title="Class - Click for full-sized Picture"><img src="img/tvsclass2015_2_140.jpg" alt="Class" class="img-responsive img-rounded block "/></a></div></div><div class="row"><div class="col-sm-3 col-md-3"><a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/forthare2011.jpg&descr=" title=" - Click for full-sized Picture"><img src="img/forthare2011_140.jpg" alt="" class="img-responsive img-rounded block "/></a></div></div><HR>				<!--------------row1------------------------->
+				   <div class="row">
+					   <div class="col-sm-3 col-md-3">
+					     <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo3.jpg&descr=Dyamala School" title="Dyamala School - Click for full-sized Picture"><img src="img/photo3_140.jpg" alt="Dyamala School" class="img-responsive img-rounded block "/></a>	
+					  </div>
+					   <div class="col-sm-3  col-md-3">
+						   <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo1.jpg&descr=Amabhele SSS" title="Amabhele SSS - Click for full-sized Picture"><img src="img/photo1_140.jpg" alt="Amabhele SSS" class="img-responsive img-rounded block "/></a>						</div>
+						<div class="col-sm-3  col-md-3">
+						  <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo2.jpg&descr=Braai at Mabandla" title="Braai at Mabandla - Click for full-sized Picture"><img src="img/photo2_140.jpg" alt="Braai at Mabandla" class="img-responsive img-rounded block "/></a>						 </div>
+						 <div class="col-sm-3  col-md-3">
+							<a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo4.jpg&descr=Music Lessons" title="Music Lessons - Click for full-sized Picture"><img src="img/photo4_140.jpg" alt="Music Lessons" class="img-responsive img-rounded block "/></a>						</div>
+						</div>
+						  <br/>
+						   <!-----row2------------------------------------------------>
+							  <div class="row">
+						   <div class="col-sm-3 col-md-3">
+							<a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo5.jpg&descr=Music Lessons" title="Music Lessons - Click for full-sized Picture"><img src="img/photo5_140.jpg" alt="Music Lessons" class="img-responsive img-rounded block "/></a>							</div>
+						   <div class="col-sm-3 col-md-3">
+							<a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo6.jpg&descr=Pumla and Children" title="Pumla and Children - Click for full-sized Picture"><img src="img/photo6_140.jpg" alt="Pumla and Children" class="img-responsive img-rounded block "/></a>							</div>
+						   <div class="col-sm-3  col-md-3">
+							<a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo7.jpg&descr=School Celebrations" title="School Celebrations - Click for full-sized Picture"><img src="img/photo7_140.jpg" alt="School Celebrations" class="img-responsive img-rounded block "/></a>						   </div>
+						   <div class="col-sm-3 col-md-3">
+   							<a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo8.jpg&descr=School Celebrations" title="School Celebrations - Click for full-sized Picture"><img src="img/photo8_140.jpg" alt="School Celebrations" class="img-responsive img-rounded block "/></a>							 </div>
+						   </div>
+						   <br/>
+						  <!-----------------row3----------------------------------->
+							  <div class="row">
+						   <div class="col-sm-3 col-md-3">
+						     <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo9.jpg&descr=School Celebrations" title="School Celebrations - Click for full-sized Picture"><img src="img/photo9_140.jpg" alt="School Celebrations" class="img-responsive img-rounded block "/></a>	
+						</div>
+						   <div class="col-sm-3 col-md-3">
+					     <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo10.jpg&descr=The valley" title="The valley - Click for full-sized Picture"><img src="img/photo10_140.jpg" alt="The valley" class="img-responsive img-rounded block "/></a>	
+							</div>
+						   <div class="col-sm-3 col-md-3">
+					     <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo11.jpg&descr=School Celebrations" title="School Celebrations - Click for full-sized Picture"><img src="img/photo11_140.jpg" alt="School Celebrations" class="img-responsive img-rounded block "/></a>	
+						   </div>
+						   <div class="col-sm-3 col-md-3">
+					     <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo12.jpg&descr=Mbovane Primary School" title="Mbovane Primary School - Click for full-sized Picture"><img src="img/photo12_140.jpg" alt="Mbovane Primary School" class="img-responsive img-rounded block "/></a>	
+							 </div>
+					<!---------------------row4--------------------------------------->
+						   </div>
+							 <br/>
+								   <div class="row">
+						   <div class="col-sm-3 col-md-3">
+					     <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo13.jpg&descr=Village Life" title="Village Life - Click for full-sized Picture"><img src="img/photo13_140.jpg" alt="Village Life" class="img-responsive img-rounded block "/></a>	
+							</div>
+						   <div class="col-sm-3 col-md-3">
+					     <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo14.jpg&descr=Village Life" title="Village Life - Click for full-sized Picture"><img src="img/photo14_140.jpg" alt="Village Life" class="img-responsive img-rounded block "/></a>	
+							</div>
+						   <div class="col-sm-3 col-md-3">
+						     <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo15.jpg&descr=Village Life" title="Village Life - Click for full-sized Picture"><img src="img/photo15_140.jpg" alt="Village Life" class="img-responsive img-rounded block "/></a>	
+							</div>
+						   <div class="col-sm-3 col-md-3">
+					     <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo16.jpg&descr=Vuvu and New Car" title="Vuvu and New Car - Click for full-sized Picture"><img src="img/photo16_140.jpg" alt="Vuvu and New Car" class="img-responsive img-rounded block "/></a>	
+							 </div>
+						 <!---------------------row5----------------------------->
+						   </div>
+						   <br/>
+							  <div class="row">
+						   <div class="col-sm-3 col-md-3">
+						     <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo17.jpg&descr=Yamala School" title="Yamala School - Click for full-sized Picture"><img src="img/photo17_140.jpg" alt="Yamala School" class="img-responsive img-rounded block "/></a>	
+						</div>
+						   <div class="col-sm-3 col-md-3">
+					     <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo18.jpg&descr=Yamala School" title="Yamala School - Click for full-sized Picture"><img src="img/photo18_140.jpg" alt="Yamala School" class="img-responsive img-rounded block "/></a>	
+							</div>
+						   <div class="col-sm-3 col-md-3">
+					     <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo19.jpg&descr=Yamala School" title="Yamala School - Click for full-sized Picture"><img src="img/photo19_140.jpg" alt="Yamala School" class="img-responsive img-rounded block "/></a>	
+						   </div>
+						   <div class="col-sm-3 col-md-3">
+					     <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/huts.jpg&descr=Village Huts" title="Village Huts - Click for full-sized Picture"><img src="img/huts_140.jpg" alt="Village Huts" class="img-responsive img-rounded block "/></a>	
+
+							 </div>
+						  <!---------------------row 6----------------------------->
+						   </div>
+								<br/>
+							  <div class="row">
+						   <div class="col-sm-3 col-md-3">
+					     <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo21.jpg&descr=School" title="School - Click for full-sized Picture"><img src="img/photo21_140.jpg" alt="School" class="img-responsive img-rounded block "/></a>	
+							</div>
+						   <div class="col-sm-3 col-md-3">
+					     <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo22.jpg&descr=School" title="School - Click for full-sized Picture"><img src="img/photo22_140.jpg" alt="School" class="img-responsive img-rounded block "/></a>	
+							</div>
+						   <div class="col-sm-3 col-md-3">
+					     <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo23.jpg&descr=School" title="School - Click for full-sized Picture"><img src="img/photo23_140.jpg" alt="School" class="img-responsive img-rounded block "/></a>	
+						   </div>
+						   <div class="col-sm-3 col-md-3">
+					     <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo24.jpg&descr=School" title="School - Click for full-sized Picture"><img src="img/photo24_140.jpg" alt="School" class="img-responsive img-rounded block "/></a>	
+							 </div>
+							</div>
+							 <br/>
+							  <!---------------------row 7----------------------------->
+							  <div class="row">
+						   <div class="col-sm-3 col-md-3">
+					     <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo25.jpg&descr=Village" title="Village - Click for full-sized Picture"><img src="img/photo27_140.jpg" alt="Village" class="img-responsive img-rounded block "/></a>	
+							</div>
+						   <div class="col-sm-3 col-md-3">
+					     <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo26.jpg&descr=School" title="School - Click for full-sized Picture"><img src="img/photo26_140.jpg" alt="School" class="img-responsive img-rounded block "/></a>	
+							</div>
+						   <div class="col-sm-3 col-md-3">
+					     <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo27.jpg&descr=School" title="School - Click for full-sized Picture"><img src="img/photo27_140.jpg" alt="School" class="img-responsive img-rounded block "/></a>	
+						   </div>
+						   <div class="col-sm-3 col-md-3">
+					     <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo28.jpg&descr=School" title="School - Click for full-sized Picture"><img src="img/photo28_140.jpg" alt="School" class="img-responsive img-rounded block "/></a>	
+							 </div>
+						   </div>
+						   <br/>
+							 <!---------------------row 8------------------------------>
+							  <div class="row">
+						   <div class="col-sm-3 col-md-3">
+					     <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/photo29.jpg&descr=Village" title="Village - Click for full-sized Picture"><img src="img/photo29_140.jpg" alt="Village" class="img-responsive img-rounded block "/></a>	
+							</div>
+						   <div class="col-sm-3 col-md-3">
+					     <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/tyyumevalley.jpg&descr=Looking towards Hogs back from the Tyume Valley" title="Looking towards Hogs back from the Tyume Valley - Click for full-sized Picture"><img src="img/tyyumevalley_140.jpg" alt="Looking towards Hogs back from the Tyume Valley" class="img-responsive img-rounded block "/></a>	
+							</div>
+						   <div class="col-sm-3 col-md-3">
+					     <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/libraryElukaynanesweniHS.jpg&descr=Library at Elukaynanesweni HS" title="Library at Elukaynanesweni HS - Click for full-sized Picture"><img src="img/libraryElukaynanesweniHS_140.jpg" alt="Library at Elukaynanesweni HS" class="img-responsive img-rounded block "/></a>	
+						   </div>
+						   <div class="col-sm-3 col-md-3">
+					     <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/schoolmeal.jpg&descr=school meal" title="school meal - Click for full-sized Picture"><img src="img/schoolmeal_140.jpg" alt="school meal" class="img-responsive img-rounded block "/></a>	
+							 </div>
+						   </div>
+						   <br/>
+							  <div class="row">
+						   <div class="col-sm-3 col-md-3">
+					     <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/tvsfb.jpg&descr=Class" title="Class - Click for full-sized Picture"><img src="img/tvsfb_140.jpg" alt="Class" class="img-responsive img-rounded block "/></a>	
+							</div>
+						  <div class="col-sm-3 col-md-3">
+					     <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/tvsclass2015_2.jpg&descr=Class" title="Class - Click for full-sized Picture"><img src="img/tvsclass2015_2_140.jpg" alt="Class" class="img-responsive img-rounded block "/></a>	
+						  </div>
+						  <div class="col-sm-3 col-md-3">
+					     <a href="gallery_pic.php?grp=General Photos&fromurl=gallery_general.php&pic=img/forthare2011.jpg&descr=" title=" - Click for full-sized Picture"><img src="img/forthare2011_140.jpg" alt="" class="img-responsive img-rounded block "/></a>	
+						  </div>
+						  </div> 
+							<div class="row">
+              <div class="col-sm-12 col-md-12 clickphoto">
+                   Click on Photos to view full size.
+               </div>
+         </div> <div class="top">
+      <br/>
+       <a class="btn" href="#top"> Top <span class="glyphicon  glyphicon-circle-arrow-up"></span></a>
+      <br/>
+       </div>                       	</div>
+					</div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+    </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ;></script>
+    <!-- Bootstrap Core JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+ <script src="js/code.js"></script>
+</body>
+</html>

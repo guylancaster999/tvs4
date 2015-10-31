@@ -1,206 +1,99 @@
-<?php require "function/functions.php";?>
-<!DOCTYPE html>
+<?php require "function/functions.php";
+$pgTtl				="Study Camps";
+$pgUrl				="gallery_studycamps.php";
+?>
+<!doctype html>
 <html lang="en">
-<?php print hdr("Photo Gallery - Study camps");?>
+<?php 
+print hdr("Gallery - ".$pgTtl);
+$gpics='{"gallery":[
+	{"picLarge":"studycamp2015_1.jpg","picSmall":"studycamp2015_1_140.jpg","picTtl":"Hobbiton  February 2015 &copy;Vicky Riley #1"},     
+	{"picLarge":"studycamp2015_2.jpg","picSmall":"studycamp2015_2_140.jpg","picTtl":"Hobbiton  February 2015 &copy;Vicky Riley #2"}, 
+	{"picLarge":"studycamp2015_3.jpg","picSmall":"studycamp2015_3_140.jpg","picTtl":"Hobbiton   February 2015 &copy;Vicky Riley #3"}, 
+	{"picLarge":"studycamp2015_4.jpg","picSmall":"studycamp2015_4_140.jpg","picTtl":"Hobbiton  February 2015 - &copy;Vicky Riley #4"}, 
+	{"picLarge":"studycamp2015_5.jpg","picSmall":"studycamp2015_5_140.jpg","picTtl":"Hobbiton   February 2015 &copy;Vicky Riley #5"}, 
+	{"picLarge":"studycamps007.jpg","picSmall":"studycamps007_140.jpg","picTtl":"Hobbiton   February 2015 &copy;Vicky Riley #6"}, 
+	{"picLarge":"studycamps008.jpg","picSmall":"studycamps008_140.jpg","picTtl":"Hobbiton   February 2015 &copy;Vicky Riley #7"}, 
+	{"picLarge":"studycamps009.jpg","picSmall":"studycamps009_140.jpg","picTtl":"Hobbiton   February 2015 &copy;Vicky Riley #8"}, 
+	{"picLarge":"studycamps010.jpg","picSmall":"studycamps010_140.jpg","picTtl":"Hobbiton   February 2015 &copy;Vicky Riley #9"}, 
+	{"picLarge":"studycamps011.jpg","picSmall":"studycamps011_140.jpg","picTtl":"Hobbiton   February 2015 &copy;Vicky Riley #10"}, 
+	{"picLarge":"studycamps012.jpg","picSmall":"studycamps012_140.jpg","picTtl":"Hobbiton   February 2015 &copy;Vicky Riley #11"}, 
+	{"picLarge":"studycamps013.jpg","picSmall":"studycamps013_140.jpg","picTtl":"Hobbiton February 2015 &copy;Vicky Riley #12"}, 
+	{"picLarge":"studycamps015.jpg","picSmall":"studycamps015_140.jpg","picTtl":"Hobbiton   February 2015 &copy;Vicky Riley #13"}, 
+	{"picLarge":"studycamps016.jpg","picSmall":"studycamps016_140.jpg","picTtl":"Hobbiton   February 2015 &copy;Vicky Riley #14"}, 
+	{"picLarge":"studycamps017.jpg","picSmall":"studycamps017_140.jpg","picTtl":"Hobbiton   February 2015 &copy;Vicky Riley #15"}, 
+	{"picLarge":"studycamps018.jpg","picSmall":"studycamps018_140.jpg","picTtl":"Hobbiton   February 2015 &copy;Vicky Riley #16"}, 
+	{"picLarge":"Englishlearnersdaytrip.jpg","picSmall":"Englishlearnersdaytrip_140.jpg","picTtl":"English learners day trip"}, 
+	{"picLarge":"Englishlearnersdaytrip2.jpg","picSmall":"Englishlearnersdaytrip2_140.jpg","picTtl":"English learners day trip"}, 
+	{"picLarge":"Englishlearnersdaytrip4.jpg","picSmall":"Englishlearnersdaytrip4_140.jpg","picTtl":"English learners day trip"}, 
+	{"picLarge":"Englishlearnersdaytrip3.jpg","picSmall":"Englishlearnersdaytrip3_140.jpg","picTtl":"English learners day trip"}, 
+	{"picLarge":"Oct13Studycamp.jpg","picSmall":"Oct13Studycamp_140.jpg","picTtl":"October 13th trip"}, 
+	{"picLarge":"Oct13Studycamp4.jpg","picSmall":"Oct13Studycamp4_140.jpg","picTtl":"October 13th trip"}, 
+	{"picLarge":"camps5.jpg","picSmall":"camps5_140.jpg","picTtl":"Study Camp"}, 
+	{"picLarge":"camps.jpg","picSmall":"camps_140.jpg","picTtl":"Study Camp"}, 
+	{"picLarge":"Oct13Studycampfollowup.jpg","picSmall":"Oct13Studycampfollowup_140.jpg","picTtl":"Study Camp follow up"}, 	{"picLarge":"hobbiton1}, .jpg","picSmall":"hobbiton1_140.jpg","picTtl":"Hobbiton"}, 
+	{"picLarge":"assaultcourse.jpg","picSmall":"assaultcourse_140.jpg","picTtl":"Assault Course"}, 
+	{"picLarge":"assaultcourse1.jpg","picSmall":"assaultcourse1_140.jpg","picTtl":"Assault Course"}, 
+	{"picLarge":"assaultcourse2.jpg","picSmall":"assaultcourse3_140.jpg","picTtl":"Assault Course"}, 
+	{"picLarge":"assaultcourse3.jpg","picSmall":"assaultcourse3_140.jpg","picTtl":"Assault Course"}, 
+	{"picLarge":"assaultcourse4.jpg","picSmall":"assaultcourse4_140.jpg","picTtl":"Assault Course"}, 
+	{"picLarge":"assaultcourse5.jpg","picSmall":"assaultcourse5_140.jpg","picTtl":"Assault Course"}, 
+	{"picLarge":"assaultcourse6.jpg","picSmall":"assaultcourse6_140.jpg","picTtl":"Assault Course"}, 
+	{"picLarge":"assaultcourse7.jpg","picSmall":"assaultcourse7_140.jpg","picTtl":"Assault Course"}, 
+	{"picLarge":"studycamps003.jpg","picSmall":"studycamps003_140.jpg","picTtl":"Study Camp"}, 
+	{"picLarge":"studycamps004.jpg","picSmall":"studycamps004_140.jpg","picTtl":"Students at PCs"}, 
+     {"picLarge":"studycamp2015_10.jpg","picSmall":"studycamp2015_10_140.jpg","picTtl":"Studycamp"}, 
+	{"picLarge":"studycamps005.jpg","picSmall":"studycamps005_140.jpg","picTtl":"Students at PCs"}, 
+	{"picLarge":"studycamps006.jpg","picSmall":"studycamps006_140.jpg","picTtl":"Students at PCs"}, 
+	{"picLarge":"studycamp20151.jpg","picSmall":"studycamp20151_140.jpg","picTtl":"Students at studycamp"}, 
+    {"picLarge":"studycamp20152.jpg","picSmall":"studycamp20152_140.jpg","picTtl":"Studycamp"}, 	{"picLarge":"studycamp20153.jpg","picSmall":"studycamp20153_140.jpg","picTtl":"Study Camp"}, 
+	{"picLarge":"studycamp2012.jpg","picSmall":"studycamp2012_140.jpg","picTtl":"Study camp 2012"}, 
+	{"picLarge":"hobbitonbus2011.png","picSmall":"hobbitonbus2011_140.png","picTtl":"Hobbiton bus 2011"}								  
+  	]}';	
+session_start();
+$_SESSION["gpics"]	=$gpics;	
+?>
 <body>
     <div id="wrapper">
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper">
- 		   <?php print menu("Photos");?>
-            </div>
-        </div>
-                <div id="page-content-wrapper">
-            <div class="container-fluid">
-                <?php print top_bit("Photo Gallery - Study Camps");?>
-                <div class="row">
-					<div class="col-sm-12">
-						 <!---------------------row1------------------------------------------------>
-						   <div class="row">
-								   <div class="col-sm-3 col-md-3">
-								   <script>display("gallery_studycamps.php","Study Camps","studycamp2015_1.jpg","studycamp2015_1_140.jpg","Hobbiton  February 2015 &copy;Vicky Riley #1","gallery_general_pic.php")</script>
-									</div>
-								   <div class="col-sm-3 col-md-3">
-									<script>display("gallery_studycamps.php","Study Camps","studycamp2015_2.jpg","studycamp2015_2_140.jpg","Hobbiton  February 2015 &copy;Vicky Riley #2","gallery_general_pic.php")</script>
-									</div>
-								   <div class="col-sm-3 col-md-3">
-									 <script>display("gallery_studycamps.php","Study Camps","studycamp2015_3.jpg","studycamp2015_3_140.jpg","Hobbiton   February 2015 &copy;Vicky Riley #3","gallery_general_pic.php")</script>
-								   </div>
-								   <div class="col-sm-3 col-md-3">
-									 <script>display("gallery_studycamps.php","Study Camps","studycamp2015_4.jpg","studycamp2015_4_140.jpg","Hobbiton  February 2015 - &copy;Vicky Riley #4","gallery_general_pic.php")</script>
-									 </div>
-								   </div>
-								   <br/>
-								 <!---------------------row2------------------------------------------------>
-								   <div class="row">
-								   <div class="col-sm-3 col-md-3">
-								   <script>display("gallery_studycamps.php","Study Camps","studycamp2015_5.jpg","studycamp2015_5_140.jpg","Hobbiton   February 2015 &copy;Vicky Riley #5","gallery_general_pic.php")</script>
-									</div>
-								   <div class="col-sm-3 col-md-3">
-								   <script>display("gallery_studycamps.php","Study Camps","studycamps007.jpg","studycamps007_140.jpg","Hobbiton   February 2015 &copy;Vicky Riley #6","gallery_general_pic.php")</script>
-									</div>
-								   <div class="col-sm-3 col-md-3">
-									 <script>display("gallery_studycamps.php","Study Camps","studycamps008.jpg","studycamps008_140.jpg","Hobbiton   February 2015 &copy;Vicky Riley #7","gallery_general_pic.php")</script>
-								   </div>
-								   <div class="col-sm-3 col-md-3">
-									   <script>display("gallery_studycamps.php","Study Camps","studycamps009.jpg","studycamps009_140.jpg","Hobbiton   February 2015 &copy;Vicky Riley #8","gallery_general_pic.php")</script>
-									 </div>
-								   </div>
-									  <br/>
-									 <!---------------------row3-------------------------------------->
-								   <div class="row">
-								   <div class="col-sm-3 col-md-3">
-								   <script>display("gallery_studycamps.php","Study Camps","studycamps010.jpg","studycamps010_140.jpg","Hobbiton   February 2015 &copy;Vicky Riley #9","gallery_general_pic.php")</script>
-									</div>
-								   <div class="col-sm-3 col-md-3">
-								   <script>display("gallery_studycamps.php","Study Camps","studycamps011.jpg","studycamps011_140.jpg","Hobbiton   February 2015 &copy;Vicky Riley #10","gallery_general_pic.php")</script>
-									</div>
-								   <div class="col-sm-3 col-md-3">
-									 <script>display("gallery_studycamps.php","Study Camps","studycamps012.jpg","studycamps012_140.jpg","Hobbiton   February 2015 &copy;Vicky Riley #11","gallery_general_pic.php")</script>
-								   </div>
-								   <div class="col-sm-3 col-md-3">
-									   <script>display("gallery_studycamps.php","Study Camps","studycamps013.jpg","studycamps013_140.jpg","Hobbiton   February 2015 &copy;Vicky Riley #12","gallery_general_pic.php")</script>
-									 </div>
-								   </div>
-								   <br/>
-									 <!---------------------row4-------------------------------------------->
-								   <div class="row">
-								   <div class="col-sm-3 col-md-3">
-								   <script>display("gallery_studycamps.php","Study Camps","studycamps015.jpg","studycamps015_140.jpg","Hobbiton   February 2015 &copy;Vicky Riley #13","gallery_general_pic.php")</script>
-									</div>
-								   <div class="col-sm-3 col-md-3">
-								   <script>display("gallery_studycamps.php","Study Camps","studycamps016.jpg","studycamps016_140.jpg","Hobbiton   February 2015 &copy;Vicky Riley #14","gallery_general_pic.php")</script>
-									</div>
-								   <div class="col-sm-3 col-md-3">
-									 <script>display("gallery_studycamps.php","Study Camps","studycamps017.jpg","studycamps017_140.jpg","Hobbiton   February 2015 &copy;Vicky Riley #15","gallery_general_pic.php")</script>
-								   </div>
-								   <div class="col-sm-3 col-md-3">
-									   <script>display("gallery_studycamps.php","Study Camps","studycamps018.jpg","studycamps018_140.jpg","Hobbiton   February 2015 &copy;Vicky Riley #16","gallery_general_pic.php")</script>
-									 </div>
-								   </div>
-								   <br/>
-								   <!---------------------row 5---------------------------------------->
-								   <div class="row">
-								   <div class="col-sm-3 col-md-3">
-								   <script>display("gallery_studycamps.php","Study Camps","Englishlearnersdaytrip.jpg","Englishlearnersdaytrip_140.jpg","English learners day trip","gallery_general_pic.php")</script>
-									</div>
-								   <div class="col-sm-3 col-md-3">
-								   <script>display("gallery_studycamps.php","Study Camps","Englishlearnersdaytrip2.jpg","Englishlearnersdaytrip2_140.jpg","English learners day trip","gallery_general_pic.php")</script>
-									</div>
-								   <div class="col-sm-3 col-md-3">
-								   <script>display("gallery_studycamps.php","Study Camps","Englishlearnersdaytrip4.jpg","Englishlearnersdaytrip4_140.jpg","English learners day trip","gallery_general_pic.php")</script>
-									</div>
-								   <div class="col-sm-3 col-md-3">
-								   <script>display("gallery_studycamps.php","Study Camps","Englishlearnersdaytrip3.jpg","Englishlearnersdaytrip3_140.jpg","English learners day trip","gallery_general_pic.php")</script>
-									</div>
-								   </div>
-								   <br/>
-								   <!---------------------row 6---------------------------------------------->
-								   <div class="row">
-								   <div class="col-sm-3 col-md-3">
-								   <script>display("gallery_studycamps.php","Study Camps","Oct13Studycamp.jpg","Oct13Studycamp_140.jpg","October 13th trip","gallery_general_pic.php")</script>
-									</div>
-
-								   <div class="col-sm-3 col-md-3">
-								   <script>display("gallery_studycamps.php","Study Camps","Oct13Studycamp4.jpg","Oct13Studycamp4_140.jpg","October 13th trip","gallery_general_pic.php")</script>
-									</div>
-								   <div class="col-sm-3 col-md-3">
-								   <script>display("gallery_studycamps.php","Study Camps","camps5.jpg","camps5_140.jpg","Study Camp","gallery_general_pic.php")</script>
-									</div>
-								   <div class="col-sm-3 col-md-3">
-								   <script>display("gallery_studycamps.php","Study Camps","camps.jpg","camps_140.jpg","Study Camp","gallery_general_pic.php")</script>
-									</div>
-								   </div>
-								   <br/>
-
-								   <!---------------------row 7--------------------------------------------->
-								   <div class="row">
-								   <div class="col-sm-3 col-md-3">
-								   <script>display("gallery_studycamps.php","Study Camps","Oct13Studycampfollowup.jpg","Oct13Studycampfollowup_140.jpg","Study Camp follow up","gallery_general_pic.php")</script>
-									</div>
-								  <div class="col-sm-3 col-md-3">
-								   <script>display("gallery_studycamps.php","Study Camps","hobbiton1.jpg","hobbiton1_140.jpg","Hobbiton","gallery_general_pic.php")</script>
-									</div>
-								   <div class="col-sm-3 col-md-3">
-								   <script>display("gallery_studycamps.php","Study Camps","assaultcourse.jpg","assaultcourse_140.jpg","Assault Course","gallery_general_pic.php")</script>
-									</div>
-								   <div class="col-sm-3 col-md-3">
-								   <script>display("gallery_studycamps.php","Study Camps","assaultcourse1.jpg","assaultcourse1_140.jpg","Assault Course","gallery_general_pic.php")</script>
-									</div>
-								   </div>
-								   <br/>
-									 <!---------------------row 8------------------------------------------>
-								   <div class="row">
-								   <div class="col-sm-3 col-md-3">
-								 <script>display("gallery_studycamps.php","Study Camps","assaultcourse2.jpg","assaultcourse3_140.jpg","Assault Course","gallery_general_pic.php")</script>
-									</div>
-								  <div class="col-sm-3 col-md-3">
-								   <script>display("gallery_studycamps.php","Study Camps","assaultcourse3.jpg","assaultcourse3_140.jpg","Assault Course","gallery_general_pic.php")</script>
-									</div>
-								   <div class="col-sm-3 col-md-3">
-								  <script>display("gallery_studycamps.php","Study Camps","assaultcourse4.jpg","assaultcourse4_140.jpg","Assault Course","gallery_general_pic.php")</script>
-									</div>
-								   <div class="col-sm-3 col-md-3">
-								<script> display("gallery_studycamps.php","Study Camps","assaultcourse5.jpg","assaultcourse5_140.jpg","Assault Course","gallery_general_pic.php")</script>
-									</div>
-								   </div>
-								   <br/>
-									<!---------------------row 9------------------------------------------>
-								   <div class="row">
-								   <div class="col-sm-3 col-md-3">
-								 <script>display("gallery_studycamps.php","Study Camps","assaultcourse6.jpg","assaultcourse6_140.jpg","Assault Course","gallery_general_pic.php")</script>
-									</div>
-								  <div class="col-sm-3 col-md-3">
-								   <script>display("gallery_studycamps.php","Study Camps","assaultcourse7.jpg","assaultcourse7_140.jpg","Assault Course","gallery_general_pic.php")</script>
-									</div>
-								   <div class="col-sm-3 col-md-3">
-								  <script>display("gallery_studycamps.php","Study Camps","studycamps003.jpg","studycamps003_140.jpg","Study Camp","gallery_general_pic.php")</script>
-									</div>
-								   <div class="col-sm-3 col-md-3">
-								<script> display("gallery_studycamps.php","Study Camps","studycamps004.jpg","studycamps004_140.jpg","Students at PCs","gallery_general_pic.php")</script>
-									</div>
-								   </div>
-								   <br/>
-								  <!---------------------row 10--------------->
-								   <div class="row">
-								 <div class="col-sm-3 col-md-3">
-								  <script>display("gallery_studycamps.php","Study Camps","studycamp2015_10.jpg","studycamp2015_10_140.jpg","Studycamp","gallery_general_pic.php")</script>
-								 </div>
-								   <div class="col-sm-3 col-md-3">
-								  <script>display("gallery_studycamps.php","Study Camps","studycamps005.jpg","studycamps005_140.jpg","Students at PCs","gallery_general_pic.php")</script>
-									</div>
-								   <div class="col-sm-3 col-md-3">
-								<script> display("gallery_studycamps.php","Study Camps","studycamps006.jpg","studycamps006_140.jpg","Students at PCs","gallery_general_pic.php")</script>
-									</div>
-								<div class="col-sm-3 col-md-3">
-								<script> display("gallery_studycamps.php","Study Camps","studycamp20151.jpg","studycamp20151_140.jpg","Students at studycamp","gallery_general_pic.php")</script>
-								 </div>
-									</div>
-								  <div class="row">
-								 <div class="col-sm-3 col-md-3">
-								  <script>display("gallery_studycamps.php","Study Camps","studycamp20152.jpg","studycamp20152_140.jpg","Studycamp","gallery_general_pic.php")</script>
-								 </div>
-								 <div class="col-sm-3 col-md-3">
-								  <script>display("gallery_studycamps.php","Study Camps",
-								  "studycamp20153.jpg","studycamp20153_140.jpg","Study camp","gallery_general_pic.php")</script>
-								 </div>
-								  <div class="col-sm-3 col-md-3">
-								  <script>display("gallery_studycamps.php","Study Camps","studycamp2012.jpg","studycamp2012_140.jpg","Study camp 2012","gallery_general_pic.php")</script>
-								 </div>
-								  <div class="col-sm-3 col-md-3">
-								  <script>display("gallery_studycamps.php","Study Camps","hobbitonbus2011.png","hobbitonbus2011_140.png","Hobbiton bus 2011","gallery_general_pic.php")</script>
-								 </div>
-							</div>
-							<?php						
-							 print clickPhotos();
-							 print foot();
-							?>
-							</div>
-					</div>
+       <div id="sidebar-wrapper">
+     	   <?php print menu("Photos");?>
+       </div>
+    </div>
+        <!-- /#sidebar-wrapper -->
+      <div id="page-content-wrapper">
+         <div class="container-fluid">
+			<?php print top_bit("Photo Gallery - ".$pgTtl);?>
+			<div class="row">
+				<div class="col-sm-12">                       
+				<?php
+				$colctr		= 0;
+				$x 			= json_decode($gpics,true);
+				$sz			= count($x["gallery"]); 
+				print '<div class="row">';
+				for ($i=0;$i<$sz;$i++)
+				{
+					$colctr++;
+					if ($colctr>4)
+					{
+						print '</div>';
+						print '<div class="row">';
+						$colctr = 1;
+					}
+				  print '<div class="col-sm-3 col-md-3">';
+                  displayPic($pgUrl,$pgTtl,$i); 	
+				  print '</div>';
+				}				
+     			print '</div>';
+				print clickPhotos();
+				print foot();
+				?>
+                </div>
+		  	</div>
             </div>
         </div>
         <!-- /#page-content-wrapper -->
     </div>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js";></script>
     <!-- Bootstrap Core JavaScript -->
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
  <script src="js/code.js"></script>

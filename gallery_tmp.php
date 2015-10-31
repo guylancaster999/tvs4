@@ -39,10 +39,29 @@ $gpics='{"gallery":[
 	{"picLarge":"tvsclass2015_2.jpg", "picSmall":"tvsclass2015_2_140.jpg","picTtl":"Class"},
 	{"picLarge":"forthare2011.jpg","picSmall":"forthare2011_140.jpg","picttl":"Tyume learners at Fort Hare 2011"}
 	]}';	
+	
 session_start();
 $_SESSION["gpics"]	=$gpics;	
 $pgTtl				="General Photos";
 $pgUrl				="gallery_general.php";
+
+function displayPic($retUrl,$pgTtl,$id)
+{
+	$x 			= json_decode($_SESSION["gpics"],true);
+ 	$y 			= $x["gallery"][$id]; 
+ 	$picSmall	= $y["picSmall"];
+	$picTtl		= $y["picTtl"];
+	$ret 		='<a href="gallery_pic.php';
+ 	$ret		.='?pgttl='.$pgTtl;
+    $ret		.='&fromurl='.$retUrl;
+    $ret		.='&id='.$id.'" ' ;
+    $ret		.=' title="'.$picTtl.' - Click for full-sized Picture">';
+	$ret		.='<img src="img/'.$picSmall.'" ';
+    $ret		.=' alt="'.$picTtl.'" ';
+    $ret		.=' class="img-responsive img-rounded block " />';
+    $ret		.='</a>';
+	print($ret);
+}
 ?>
 <body>
     <div id="wrapper">
