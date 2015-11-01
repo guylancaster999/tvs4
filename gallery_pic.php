@@ -51,10 +51,17 @@ if ($id<$ctr-1)
 						  print '<a href="'.$fromurl.'" title="'.$picTtl.' &ndash; Click to return">';
 						  print '<img src="img/'.$picLarge.'" alt="'.$picTtl.'- click to return" class="img-responsive img-rounded img_center">';
 						  print '</a>';
+<<<<<<< HEAD
 						  print clickRet();
 						  print '</div>
 						</div>';
 						print foot();?>
+=======
+						  print '</div>';
+						  print clickRet();
+						  print foot();?>
+						</div>
+>>>>>>> 6099f1d5d1437e2cdbf14d36c303b974522e1811
 				   </div>                  
 				</div>
         </div>

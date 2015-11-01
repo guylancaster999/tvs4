@@ -16,12 +16,26 @@
                 <div class="row">
                       <div class="col-sm-9 block">
                            <ul>
+<<<<<<< HEAD
                               <li><a href="gallery_englishlanguage.php">English Language Teaching</a></li>
                               <li><a href="gallery_englishTraining.php">English Language Training</a></li>
                               <li><a href="gallery_fundraising.php">Fundraising</a></li>
                               <li><a href="gallery_general.php">General Photos</a></li>
                               <li><a href="gallery_it.php">IT Training</a></li>
                               <li><a href="gallery_studycamps.php">Study Camp / Hobbiton</a></li>
+=======
+                              <li><a href="gallery_general.php">General Photos</a>
+                              </li>
+                              <li><a href="gallery_it.php">IT Training</a>
+                              </li>
+                              <li><a href="gallery_studycamps.php">Hobbiton / Study Camps</a>
+                              </li>
+                              <li><a href="gallery_englishlanguage.php">English Language Teaching</a>
+                              </li>
+                              <li><a href="gallery_englishTraining.php">English Language Training</a>
+                              </li>
+                              <li><a href="gallery_fundraising.php">Fundraising</a></li>
+>>>>>>> 6099f1d5d1437e2cdbf14d36c303b974522e1811
                           </ul>
                           <?php print foot();?>
                        	</div>

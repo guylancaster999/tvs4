@@ -29,6 +29,7 @@ $gpics='{"gallery":[
 	{"picLarge":"photo24.jpg","picSmall":"photo24_140.jpg","picTtl":"School"},
 	{"picLarge":"photo25.jpg","picSmall":"photo27_140.jpg","picTtl":"Village"},
 	{"picLarge":"photo26.jpg","picSmall":"photo26_140.jpg","picTtl":"School"},
+<<<<<<< HEAD
 	 {"picLarge":"photo28.jpg","picSmall":"photo28_140.jpg","picTtl":"School"},
 	{"picLarge":"photo29.jpg","picSmall":"photo29_140.jpg","picTtl":"Village"},
 	{"picLarge":"tyyumevalley.jpg","picSmall":"tyyumevalley_140.jpg","picTtl":"Looking towards Hogs back from the Tyume Valley"},
@@ -39,6 +40,17 @@ $gpics='{"gallery":[
 	{"picLarge":"primary.jpg", "picSmall":"primary_140.jpg","picTtl":"Primary 2013"},
 	{"picLarge":"gwali.jpg", "picSmall":"gwali_140.jpg","picTtl":"Learners at Gwali school 2010"},
 	{"picLarge":"mcfarlan.jpg", "picSmall":"mcfarlan_140.jpg","picTtl":"Learners at mcfarlan school 2010"}
+=======
+	{"picLarge":"photo27.jpg","picSmall":"photo27_140.jpg","picTtl":"School"},
+	{"picLarge":"photo28.jpg","picSmall":"photo28_140.jpg","picTtl":"School"},
+	{"picLarge":"photo29.jpg","picSmall":"photo29_140.jpg","picTtl":"Village"},
+	{"picLarge":"tyyumevalley.jpg","picSmall":"tyyumevalley_140.jpg","picTtl":"Looking towards Hogs back from the Tyume Valley"},
+	{"picLarge":"libraryElukaynanesweniHS.jpg","picSmall":"libraryElukaynanesweniHS_140.jpg", "picTtl":"Library at Elukaynanesweni HS"},
+	{"picLarge":"schoolmeal.jpg","picSmall":"schoolmeal_140.jpg","picTtl":"school meal"},
+	{"picLarge":"tvsfb.jpg","picSmall":"tvsfb_140.jpg","picTtl":"Class"},
+	{"picLarge":"tvsclass2015_2.jpg", "picSmall":"tvsclass2015_2_140.jpg","picTtl":"Class"},
+	{"picLarge":"forthare2011.jpg","picSmall":"forthare2011_140.jpg","picttl":"Tyume learners at Fort Hare 2011"}
+>>>>>>> 6099f1d5d1437e2cdbf14d36c303b974522e1811
 	]}';	
 session_start();
 $_SESSION["gpics"]	=$gpics;	

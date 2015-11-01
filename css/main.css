@@ -89,8 +89,13 @@ td,th
 }
 .picright
 {
+<<<<<<< HEAD
 	padding-left:4px;
 	padding-right:4px;
+=======
+	padding-left:6px;
+	padding-right:6px;
+>>>>>>> 6099f1d5d1437e2cdbf14d36c303b974522e1811
 	float:right;
 }
 .h1

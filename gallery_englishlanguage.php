@@ -19,12 +19,24 @@ $gpics='{"gallery":[
     {"picLarge":"Englishlessons4.jpg","picSmall":"Englishlessons4_140.jpg","picTtl":"English lessons"},
     {"picLarge":"Englishlearners.jpg","picSmall":"Englishlearners_140.jpg","picTtl":"English learners"},
     {"picLarge":"Englishlearners1.jpg","picSmall":"Englishlearners1_140.jpg","picTtl":"English learners"},
+<<<<<<< HEAD
     {"picLarge":"englishteaching2015.jpg","picSmall":"englishteaching2015_140.jpg","picTtl":"Learners 2015"},
   	{"picLarge":"library.jpg","picSmall":"library_140.jpg","picTtl":"library"},
 	{"picLarge":"Library2.jpg","picSmall":"Library2_140.jpg","picTtl":"Library"},
 	{"picLarge":"Englishclassresourcecentre.jpg","picSmall":"Englishclassresourcecentre_140.jpg","picTtl":"English class resource centre"},
 	{"picLarge":"Englishteaching2015_2.jpg","picSmall":"Englishteaching2015_2_140.jpg","picTtl":"English Teaching"},
 	{"picLarge":"libraryElukaynanesweniHS.jpg","picSmall":"libraryElukaynanesweniHS_140.jpg", "picTtl":"Library at Elukaynanesweni HS"},
+=======
+    {"picLarge":"englishteaching2015.jpg","picSmall":"englishteaching2015_140.jpg","picTtl":"Teacher Training 2015"},
+    {"picLarge":"photo17.jpg","picSmall":"photo17_140.jpg","picTtl":"Yamala School"},
+	{"picLarge":"photo18.jpg","picSmall":"photo18_140.jpg","picTtl":"Yamala School"},
+	{"picLarge":"photo19.jpg","picSmall":"photo19_140.jpg","picTtl":"Yamala School"},
+	{"picLarge":"huts.jpg","picSmall":"huts_140.jpg","picTtl":"Village Huts"},
+	{"picLarge":"library.jpg","picSmall":"library_140.jpg","picTtl":"library"},
+	{"picLarge":"Library2.jpg","picSmall":"Library2_140.jpg","picTtl":"Library"},
+	{"picLarge":"Englishclassresourcecentre.jpg","picSmall":"Englishclassresourcecentre_140.jpg","picTtl":"English class resource centre"},
+	{"picLarge":"Englishteaching2015_2.jpg","picSmall":"Englishteaching2015_2_140.jpg","picTtl":"English Teaching"},
+>>>>>>> 6099f1d5d1437e2cdbf14d36c303b974522e1811
 	{"picLarge":"englishteaching2011.jpg","picSmall":"englishteaching2011_140.jpg","picTtl":"English teaching 2011"} 
  	]}';	
 session_start();
