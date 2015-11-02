@@ -18,7 +18,7 @@ if ($id>0)
 	$picLargeLeft	= $yLeft["picLarge"];
 	$picTtlLeft		= $yLeft["picTtl"];
 	$left			='<a href="gallery_pic.php?id='.($id-1).'&pgttl='.$pgttl.'&fromurl='.$fromurl.'" title="Previous Picture">
-						<span class="glyphicon glyphicon-arrow-left"></span>
+						<span class="glyphicon glyphicon-circle-arrow-left"></span>
 					<a>';
 }
 if ($id<$ctr-1)
@@ -27,7 +27,7 @@ if ($id<$ctr-1)
 	$picLargeRight	= $yRight["picLarge"];
 	$picTtlRight	= $yRight["picTtl"];
 	$right			='<a href="gallery_pic.php?id='.($id+1).'&pgttl='.$pgttl.'&fromurl='.$fromurl.'" title="Next Picture">
-						<span class="glyphicon glyphicon-arrow-right"></span>
+						<span class="glyphicon glyphicon-circle-arrow-right picright"></span>
 					 <a>';
 }
  ?>
@@ -51,17 +51,13 @@ if ($id<$ctr-1)
 						  print '<a href="'.$fromurl.'" title="'.$picTtl.' &ndash; Click to return">';
 						  print '<img src="img/'.$picLarge.'" alt="'.$picTtl.'- click to return" class="img-responsive img-rounded img_center">';
 						  print '</a>';
-<<<<<<< HEAD
 						  print clickRet();
 						  print '</div>
 						</div>';
-						print foot();?>
-=======
-						  print '</div>';
-						  print clickRet();
-						  print foot();?>
+						print foot();
+					    print '</div>';
+						?>
 						</div>
->>>>>>> 6099f1d5d1437e2cdbf14d36c303b974522e1811
 				   </div>                  
 				</div>
         </div>

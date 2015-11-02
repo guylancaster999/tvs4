@@ -139,11 +139,7 @@ if ($button=="Volunteering")
 	 $ret ='<div class="row">';
   	 $ret.='<div class="col-sm-1 col-md-1">'.$left.'</div>'; 
  	 $ret.='<div class="col-sm-10 col-md-10">&nbsp;</div>';
-<<<<<<< HEAD
-  	 $ret.='<div class="col-sm-1 col-md-1 imgright" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'.$right."</div>"; 
-=======
-  	 $ret.='<div class="col-sm-1 col-md-1" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'.$right."</div>"; 
->>>>>>> 6099f1d5d1437e2cdbf14d36c303b974522e1811
+   	 $ret.='<div class="col-sm-1 col-md-1" >'.$right."</div>"; 
      $ret.='</div>';
 	 return $ret;
  }
@@ -159,8 +155,7 @@ if ($button=="Volunteering")
  function foot()
  {
 	 $ret=' <div class="top">
-      <br/>
-       <a class="btn" href="#top"> Top 
+        <a class="btn" href="#top"> Top 
 	   <span class="glyphicon  glyphicon-circle-arrow-up">
 	   </span>
 	   </a>
@@ -199,8 +194,4 @@ if ($button=="Volunteering")
     $ret		.='</a>';
 	print($ret);
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 6099f1d5d1437e2cdbf14d36c303b974522e1811
 ?>
