@@ -35,7 +35,7 @@
               <?php print foot();?>
              </div>
 			  <div class="col-sm-3">
-					 <a href="#" title="Zola Zembe and Joyce Leeson"><img src="Zola%20and%20Joyce_230.png" alt="Zola Zembe and Joyce Leeson">
+					 <a href="#" title="Zola Zembe and Joyce Leeson"><img src="img/Zola%20and%20Joyce_230.png" alt="Zola Zembe and Joyce Leeson"  class="img-responsive img-rounded block">
 					  </a>
                         <img src="img/Picture-32-230x170.jpg" alt="bus"  class="img-responsive img-rounded block"/>
 						  <img src="img/Picture-22.jpg" alt="School" class="img-responsive img-rounded block"/>

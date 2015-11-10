@@ -40,7 +40,7 @@
                               <?php print foot();?>
                        	</div>
 					  <div class="col-sm-3">
-   					  <A href="#" title="Assault Course"><img src="camps5_230.jpg" alt="Assault Course"/></a>
+   					  <A href="#" title="Assault Course"><img src="img/camps5_230.jpg" alt="Assault Course"/></a>
 					 <img src="img/studycamps001.jpg" alt="Children"  class="img-responsive img-rounded block"/>
 					<img src="img/hobbiton_230.jpg" alt="Hobbiton" class="img-responsive img-rounded block"/>
 					<img src="img/supschools3.jpg" ALT="Children in Class" class="img-responsive img-rounded block" />
