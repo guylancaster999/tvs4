@@ -44,7 +44,7 @@
 						<img src="img/About-Us-Picture-3-230x170.jpg" alt="Class " class="img-responsive img-rounded block"/>
 						<img src="img/studycamp2012_230.jpg" title="Study Camp 2012" class="img-responsive img-rounded block"/>           
 						<img src="img/portsmouth2012_230.jpg" title="Portsmouth marathon 2012" class="img-responsive img-rounded block"/>
-						<img src="img/englishteaching2015_230.jpg" ALT="Students wall-painting","" class="img-responsive img-rounded block" />
+						<img src="img/englishteaching2015_230.jpg" ALT="Students wall-painting" class="img-responsive img-rounded block" />
  						<img src="img/EnglishTraining2015_3_230.jpg" alt="Class" class="img-responsive img-rounded block" />
 					</div>
 				</div>                  

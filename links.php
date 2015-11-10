@@ -40,12 +40,11 @@
 								 </tr>
 								 <tr>
 									<td >&nbsp;</td>
-
 								  <td>&nbsp;</td>
 								  <td >&nbsp;</td>
 							 </tr>
 							 <tr>
-								<td valign="top"><strong><a  target="_blank" href="https://www.facebook.com/pages/Tyume-Valley-Schools-South-Africa/243499537207">Tyume Valley Schools'  Facebook</a></strong></td>
+								<td ><strong><a  target="_blank" href="https://www.facebook.com/pages/Tyume-Valley-Schools-South-Africa/243499537207">Tyume Valley Schools'  Facebook</a></strong></td>
 								  <td>&nbsp;</td>
 								  <td><a target="_blank"  href="https://www.facebook.com/pages/Tyume-Valley-Schools-South-Africa/243499537207"><img src="img/fb_240.jpg" width="200"   class="img-responsive img-rounded img_pad"  alt="Facebook" /></a></td>
 								 </tr>
@@ -59,7 +58,7 @@
 								<br/>
 								An  Education Centre,  running projects all over the Eastern Cape province.</td>
 								  <td>&nbsp;</td>
-								<td width="240"><a target="_blank"  href="http://hilltop-centre.org"><img src="img/hilltop_240.jpg" alt="Hilltop"  class="img-responsive img-rounded img_pad" /></a></td>
+								<td><a target="_blank"  href="http://hilltop-centre.org"><img src="img/hilltop_240.jpg" alt="Hilltop"  class="img-responsive img-rounded img_pad" /></a></td>
 								</tr>
 								<tr>
 									<td >&nbsp;</td>
@@ -85,7 +84,7 @@
 								It currently provides an employment bureau, training, marketing of local crafts and a second-hand clothes shop.  
 								During 2014, TVS' IT trainer Vuvu has been delivering weekly adult IT classes in Hogsback.</td>
 								  <td>&nbsp;</td>
-								<td width="240"><a href="http://www.jikani.com"><img src="img/jikani.jpg" alt="Jikani"  class="img-responsive img-rounded img_pad" /></a></td>
+								<td><a href="http://www.jikani.com"><img src="img/jikani.jpg" alt="Jikani"  class="img-responsive img-rounded img_pad" /></a></td>
 								</tr>
 								<tr>
 									<td >&nbsp;</td>
@@ -124,7 +123,7 @@
 								<br/>
 								Building Successful School Partnerships is a short guide to the key questions you need to consider before embarking on a school link.</td>
 								  <td>&nbsp;</td>
-								<td><A href="http://www.oxfam.org.uk/education"><img src="img/oxfam.png"/></a></td>
+								<td><A href="http://www.oxfam.org.uk/education"><img alt="oxfam" src="img/oxfam.png"/></a></td>
 
 								</tr>
 								<tr>

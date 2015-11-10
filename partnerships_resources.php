@@ -35,18 +35,15 @@
 								<tr>
 								 <td>Another useful site is <a  target="_blank" href="http://www.oxfam.org.uk/education/teacher-support/school-partnerships">Oxfam - schools partnerships</a>
 								</td>
-								<td><A href="http://www.oxfam.org.uk/education"><img src="img/oxfam.png"/></a></td>
+								<td><A href="http://www.oxfam.org.uk/education"><img src="img/oxfam.png" alt="oxfam"/></a>
+								</td>
 								</tr>
 								</table>
 								Click <a href="partnerships_settle.php"> here </a>for  details about our Settle-Kwezana partnership.
 								<?php print foot();?>
-                           <br/>
-                            </div>
-                       	</div>
-
-					</div>
+                       </div>
+                </div>
             </div>
-        </div>
         <!-- /#page-content-wrapper -->
     </div>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

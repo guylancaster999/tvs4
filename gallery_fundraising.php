@@ -36,25 +36,25 @@ $_SESSION["gpics"]	=$gpics;
 			<div class="row">
 				<div class="col-sm-12">                       
 				<?php
-				$colctr		= 0;
-				$x 			= json_decode($gpics,true);
-				$sz			= count($x["gallery"]); 
-				print '<div class="row">';
-				for ($i=0;$i<$sz;$i++)
-				{
-					$colctr++;
-					if ($colctr>4)
-					{
-						print '</div>';
-						print '<div class="row">';
-						$colctr = 1;
-					}
-				  print '<div class="col-sm-3 col-md-3">';
-                  displayPic($pgUrl,$pgTtl,$i); 	
-				  print '</div>';
-				}				
-     			print '</div>';
-				print clickPhotos();
+					$colctr		= 0;
+	$x 			= json_decode($gpics,true);
+	$sz			= count($x["gallery"]); 
+	print '<div class="row">';
+	for ($i=0;$i<$sz;$i++)
+	{
+		$colctr++;
+		if ($colctr>4)
+		{
+			print '</div>';
+			print '<div class="row">';
+			$colctr=1;
+		}
+		print '<div class="col-sm-3 col-md-3">';
+        displayPic($pgUrl,$pgTtl,$i); 	
+		print '</div>';
+	}
+	print '</div>';
+	print clickPhotos();
 				print foot();
 				?>
                 </div>
@@ -68,6 +68,4 @@ $_SESSION["gpics"]	=$gpics;
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
  <script src="js/code.js"></script>
 </body>
-</html>
-
- 
+</html> 

@@ -1,19 +1,18 @@
  <?php
- function hdr($t)
- {
-	 $ret='<head>
-    <meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+function hdr($t)
+{
+	 $ret=
+	 '<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="description" content="Tyume Valley Schools - Educational support in Eastern Cape, South Africa - '.$t.' "/>
-    <meta name="author" content="Guy Lancaster">
+    <meta name="author" content="Guy Lancaster"/>
     <meta name="keywords" content="South, Africa, Tyume, Tyhume,Schools, Valley, Eastern, Cape, TVS, RSA,'.$t.'"/>
     <title>Tyume Valley Schools - '.$t.'</title>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link href="css/main.css" rel="stylesheet"/>
     <script src="js/main.js"></script>
  <script src="https://apis.google.com/js/platform.js" async defer></script>
-	<div id="fb-root"></div>
 	<script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
@@ -28,7 +27,7 @@ return $ret;
  }
  function top_bit($t)
  {
-	 $ret='<a name="top"></a>';
+	 $ret='<a id="top"></a>';
 	 $ret.='<div class="row">
                       <div class="col-sm-11">
                          <div class="h1"><a href="index.php">Tyume Valley Schools</a></div>
@@ -167,9 +166,9 @@ if ($button=="Volunteering")
 { 
 	$ret ='<a href="'.$tgtUrl;
  	$ret.='?grp='.$srcd;
-    $ret.='&fromurl='.$srcf;
-    $ret.='&pic=img/'.$pbig;
-    $ret.='&descr='.$d.'" ';
+    $ret.='&amp;fromurl='.$srcf;
+    $ret.='&amp;pic=img/'.$pbig;
+    $ret.='&amp;descr='.$d.'" ';
     $ret.=' title="'.$d.' - Click for full-sized Picture">';
 	$ret.='<img src="img/'.$psmall.'" ';
     $ret.=' alt="'.$d.'" ';
@@ -185,8 +184,8 @@ if ($button=="Volunteering")
 	$picTtl		= $y["picTtl"];
 	$ret 		='<a href="gallery_pic.php';
  	$ret		.='?pgttl='.$pgTtl;
-    $ret		.='&fromurl='.$retUrl;
-    $ret		.='&id='.$id.'" ' ;
+    $ret		.='&amp;fromurl='.$retUrl;
+    $ret		.='&amp;id='.$id.'" ' ;
     $ret		.=' title="'.$picTtl.' - Click for full-sized Picture">';
 	$ret		.='<img src="img/'.$picSmall.'" ';
     $ret		.=' alt="'.$picTtl.'" ';

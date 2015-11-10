@@ -13,8 +13,7 @@
                <?php print top_bit("Origins&nbsp;&amp;&nbsp;Vision");?>
                  <div class="row">
                       <div class="col-sm-9 block">
-                      <img src="img/sibekomandela.jpg" alt="Archie Sibeko with the late President Nelson Mandela"
-					  class="img-responsive img-rounded img_center"  >
+						<img src="img/sibekomandela.jpg" alt="Archie Sibeko with the late President Nelson Mandela" class="img-responsive img-rounded img_center" />
                       <br/>
                TVS was inspired by Archie Sebeko <strong>(</strong>also known as Zola  Zembe). 
             Archie was born in Tyume Valley  and now lives in Tynemouth.
@@ -36,7 +35,8 @@
               <?php print foot();?>
              </div>
 			  <div class="col-sm-3">
-					  <?php display("aboutus.php","Origins &amp; Vision","Zola and Joyce.png","Zola and Joyce_230.png","Zola Zembe and Joyce Leeson","gallery_general_pic.php"); ?>
+					 <a href="#" title="Zola Zembe and Joyce Leeson"><img src="Zola%20and%20Joyce_230.png" alt="Zola Zembe and Joyce Leeson">
+					  </a>
                         <img src="img/Picture-32-230x170.jpg" alt="bus"  class="img-responsive img-rounded block"/>
 						  <img src="img/Picture-22.jpg" alt="School" class="img-responsive img-rounded block"/>
 						<img src="img/Picture-21.jpg" ALT="Hopefield school"  class="img-responsive img-rounded  block" />

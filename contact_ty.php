@@ -6,35 +6,32 @@
     <div id="wrapper">
        <div id="sidebar-wrapper">
      	   <?php print menu();?>
-    </div>
-            </div>
+      </div>
+     </div>
         <!-- /#sidebar-wrapper -->
-     
-        <div id="page-content-wrapper">
+          <div id="page-content-wrapper">
             <div class="container-fluid">
                 <div class="row">
                       <?php print top_bit("Contact us");?>
 			   <div class="row">
                       <div class="col-sm-9 block">
                         <img src="img/BannerFundraising.png" alt="UK Fundraising - fun run" class="img-responsive img-rounded img_center" >
-    
-                        <h3> Thank-you for your enquiry &ndash; we will get back to you as soon as possible.</h3>
+                          <h3> Thank-you for your enquiry &ndash; we will get back to you as soon as possible.</h3>
                         <br/>
                         <br/>
                            <div class="top">   <br/>
-                               <a class="btn" href="#top"> Top <span class="glyphicon  glyphicon-circle-arrow-up"></span></a>
+                               <a class="btn" href="#top"> Top <span class="glyphicon glyphicon-circle-arrow-up"></span></a>
                            <br/>
                             </div>
                        	</div>
 					  <div class="col-sm-3 block">
-                         <img src="img/About-Us-Picture-4-230x170.jpg" alt="Teacher, volunteer and pupils"   class="img-responsive img-rounded"/>
- <br/>
-  <img src="img/About-Us-Picture-3-230x170.jpg" alt="Class " class="img-responsive img-rounded"/>
- <br/>
-<img src="img/About-Us-Picture-1-230x170.jpg" ALT="Students wall-painting","" class="img-responsive img-rounded" />
-<br/>
-<img src="img/About-Us-Picture-2-230x170.jpg" alt="Class" class="img-responsive img-rounded" />
-						 
+                         <img src="img/About-Us-Picture-4-230x170.jpg" alt="Teacher, volunteer and pupils" class="img-responsive img-rounded"/>
+						 <br/>
+						  <img src="img/About-Us-Picture-3-230x170.jpg" alt="Class " class="img-responsive img-rounded"/>
+						 <br/>
+						<img src="img/About-Us-Picture-1-230x170.jpg" ALT="Students wall-painting" class="img-responsive img-rounded" />
+						<br/>
+						<img src="img/About-Us-Picture-2-230x170.jpg" alt="Class" class="img-responsive img-rounded" />
 						</div>
 					</div>                  
             </div>

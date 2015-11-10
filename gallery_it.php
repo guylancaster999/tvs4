@@ -9,20 +9,22 @@ $gpics='{"gallery":[
 	{"picLarge":"it3.jpg","picSmall":"it3_140.jpg","picTtl":"IT Certificates"},
 	{"picLarge":"it4.jpg","picSmall":"it4_140.jpg","picTtl":"IT Certificates"},
 	{"picLarge":"it5.jpg","picSmall":"it5_140.jpg","picTtl":"New laptops"},
-    {"picLarge":"it6.jpg","picSmall":"it6_140.jpg","picTtl":"IT Class"},
+	{"picLarge":"it6.jpg","picSmall":"it6_140.jpg","picTtl":"IT Class"},
 	{"picLarge":"it7.jpg","picSmall":"it7_140.jpg","picTtl":"Yamala IT lab"},
 	{"picLarge":"it8.jpg","picSmall":"it8_140.jpg","picTtl":"Yamala IT lab"},
 	{"picLarge":"it9.jpg","picSmall":"it9_140.jpg","picTtl":"Students at PCs"},
 	{"picLarge":"it10.jpg","picSmall":"it10_140.jpg","picTtl":"students at PCs"},
 	{"picLarge":"it11.jpg","picSmall":"it11_140.jpg","picTtl":"students at PCs"},
+	{"picLarge":"studycamps004.jpg","picSmall":"studycamps004_140.jpg","picTtl":"Students at PCs"}, 
+	{"picLarge":"it2014.jpg","picSmall":"it2014_140.jpg","picTtl":"PC use at 2014 Study camp"},
 	{"picLarge":"it1.jpg","picSmall":"it1_140.jpg","picTtl":"Adults at PCs"},
-	{"picLarge":"upgradingcomputerlab2011.png","picSmall":"upgradingcomputerlab2011_140.png","picTtl":"Upgrading computer lab 2011"},
-	{"picLarge":"mabandla2011.jpg","picSmall":"mabandla2011_140.jpg","picTtl":"Stephany with pupils at Mabandla Primary School 2011"}	
-	]}';	
+	{"picLarge":"upgradingcomputerlab2011.png","picSmall":"upgradingcomputerlab2011_140.png", "picTtl":"Upgrading computer lab 2011"},
+	{"picLarge":"mabandla2011.jpg","picSmall":"mabandla2011_140.jpg","picTtl":"Stephany with pupils at Mabandla Primary School 2011"}
+	]}';
 session_start();
-$_SESSION["gpics"]	=$gpics;	
-$pgTtl				="IT Teaching";
-$pgUrl				="gallery_it.php";
+$_SESSION["gpics"]	= $gpics;	
+$pgTtl				= "IT Teaching";
+$pgUrl				= "gallery_it.php";
 ?>
 <body>
     <div id="wrapper">
@@ -37,10 +39,10 @@ $pgUrl				="gallery_it.php";
 			<div class="row">
 				<div class="col-sm-12">                       
 				<?php
-				$colctr		= 0;
-				$x 			= json_decode($gpics,true);
-				$sz			= count($x["gallery"]); 
-				print '<div class="row">';
+				$colctr= 0;
+				$x = json_decode($gpics,true);
+				$sz= count($x["gallery"]); 
+ 				print '<div class="row">';
 				for ($i=0;$i<$sz;$i++)
 				{
 					$colctr++;
@@ -48,13 +50,13 @@ $pgUrl				="gallery_it.php";
 					{
 						print '</div>';
 						print '<div class="row">';
-						$colctr = 1;
+						$colctr=1;
 					}
-				  print '<div class="col-sm-3 col-md-3">';
-                  displayPic($pgUrl,$pgTtl,$i); 	
-				  print '</div>';
-				}				
-     			print '</div>';
+					print '<div class="col-sm-3 col-md-3">';
+					displayPic($pgUrl,$pgTtl,$i); 	
+					print '</div>';
+				}
+				print '</div>';
 				print clickPhotos();
 				print foot();
 				?>
@@ -67,6 +69,6 @@ $pgUrl				="gallery_it.php";
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js";></script>
     <!-- Bootstrap Core JavaScript -->
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
- <script src="js/code.js"></script>
+	<script src="js/code.js"></script>
 </body>
 </html>

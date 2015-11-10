@@ -19,12 +19,8 @@
 					<br/>
 					Where a local phone number is shown, drop the initial zero and use the international code for South Africa: 0027
 					<ul>
-<<<<<<< HEAD
 					<li><img src="img/auckland2015_140.jpg" alt="Auckland Primary" class="picright" />
 					<b>Auckland Primary</b>
-=======
-					<li><b>Auckland Primary</b>
->>>>>>> 6099f1d5d1437e2cdbf14d36c303b974522e1811
 					<br/>
 					Principal and link teacher, Mr S M Chitha. <br/>
 					Phone : 0837494676<br/>
@@ -44,10 +40,7 @@
 					Phone  : 0837261511
 					<br/>
 					Email: <A href="mailto:sdiango@gmail.com">sdiango@gmail.com</a>.
-<<<<<<< HEAD
 					<br/>
-=======
->>>>>>> 6099f1d5d1437e2cdbf14d36c303b974522e1811
 					Address: Binfield Park Primary, P O Box 841, Alice 5700, Eastern Cape, Republic of South Africa.
 					<br/>
 					Contact by Email.
@@ -56,13 +49,9 @@
 					The school encourages skills leadership and has class representatives. They engage in a variety of sports.
 					They have poor facilities; recently the kitchen area was destroyed in a storm.
 					</li>
-<<<<<<< HEAD
 					<li><img src="img/photo3_140.jpg" alt="Dyamala Primary" class="picright" />
 					<b>Dyamala Primary</b>
 					<br/>
-=======
-					<li><b>Dyamala Primary</b> <br/>
->>>>>>> 6099f1d5d1437e2cdbf14d36c303b974522e1811
 					Principal and Link teacher, Mr C Makasi.
 					<br/>
 					Email : <A href="mailto:clivemakhasi@gmail.com">clivemakhasi@gmail.com</a>.
@@ -78,11 +67,7 @@
 					<li><b>Eluthu L/H Primary</b><br/>
 					Principal and Link teacher, Ms Boniswa Mashibini.
 					<br/>
-<<<<<<< HEAD
 					Phone : 0833678940
-=======
-					Phone  : 0833678940
->>>>>>> 6099f1d5d1437e2cdbf14d36c303b974522e1811
 					<br/>
 					Email : <a href="mailto:boniswa.mashibini@gmail.com">boniswa.mashibini@gmail.com</a>.
 					<br/>
@@ -93,17 +78,13 @@
 					Reception to Grade 7.
 					Maths and science are the schools’ priorities and they also wish to develop learners’ IT skills.
 					</li>
-<<<<<<< HEAD
 					<li>
 					<img src="img/Picture-21.jpg" class="picright" alt="Hopefield"/>
 					<b>Hopefield L/H Primary</b><br/>
-=======
-					<li><b>Hopefield L/H Primary</b><br/>
->>>>>>> 6099f1d5d1437e2cdbf14d36c303b974522e1811
 					 Principle and Link teacher, T D Qoma.
 					<br/>
 					Phone :  0722020219<br/>
-					Email: <A herf="mailto:tobi@employite.co.za">tobi@employite.co.za</a> .
+					Email: <A href="mailto:tobi@employite.co.za">tobi@employite.co.za</a> .
 					<br/>
 					Address: P O Box 2168, King Williams Town 5700, Eastern Cape, Republic of South Africa.
 					<br/>
@@ -114,22 +95,14 @@
 					The main incomes are pensions and child grants.
 					The school has started to develop a computer lab but hail storms damaged the roof a year ago. Facilities are poor.
 					</li>
-<<<<<<< HEAD
 					<li><img src="img/GqumahashePrimarySchool_140.jpg" alt="Gqumahasha Combined School" class="picright"/>					
 					<b>Gqumahasha Combined School</b> <br/>
-=======
-					<li><b>Gqumahasha Combined School</b> <br/>
->>>>>>> 6099f1d5d1437e2cdbf14d36c303b974522e1811
-					Principal and Link teacher, Ms Lulu Pinda.
+ 					Principal and Link teacher, Ms Lulu Pinda.
 					<br/>
 					Phone  : 0837699382<br/>
 					Email : <a href="mailto:lulu.pinda@gmail.com">lulu.pinda@gmail.com</a>.
 					<br/>
-<<<<<<< HEAD
-					Address : P O Box 1028, Alice 5700, Eastern Cape, Republic of South Africa.
-=======
 					Address  : P O Box 1028, Alice 5700, Eastern Cape, Republic of South Africa.
->>>>>>> 6099f1d5d1437e2cdbf14d36c303b974522e1811
 					<br/>
 					Contact by Email.
 					<br/>
@@ -138,24 +111,15 @@
 					The school is involved in extra-curricular activities aimed at preserving traditional culture.
 					It has access to an amphitheatre constructed nearby.
 					</li>
-<<<<<<< HEAD
 					<li>
 					<img src="img/mabandla2011_140.jpg" class="picright" alt="Mabandla Primary" />
 					<b>Mabandla Primary</b> 
-=======
-					<li><b>Mabandla Primary</b> 
->>>>>>> 6099f1d5d1437e2cdbf14d36c303b974522e1811
 					<br/>
 					Principal, Vuyelwa Viola Guzana.
 					Link teacher, Saki Quinette.
 					<br/>
-<<<<<<< HEAD
-					Phone : 0833396155.
-					<br/>
-=======
 					Phone : 0833396155. <br/>
->>>>>>> 6099f1d5d1437e2cdbf14d36c303b974522e1811
-					Address : P O Box 201, Alice 5700, Eastern Cape, Republic of South Africa.
+					Address : P O Box 201, Alice 5700, Eastern Cape, Republic of 	South Africa.
 					<br/>
 					Contact by post.
 					<br/>
@@ -247,13 +211,9 @@
 					The school undertakes extra- curricular activities, including participation in music competitions.
 					The school wishes to develop students’ IT skills.
 					</li>
-<<<<<<< HEAD
 					<li>
 					<img src="img/photo1_140.jpg" alt="Amabhele SS School" class="picright" />
 					<b>Amabhele SS School</b> <br/>
-=======
-					<li><b>Amabhele SS School</b> <br/>
->>>>>>> 6099f1d5d1437e2cdbf14d36c303b974522e1811
 					Principal, Mr T E Mlumbi (acting);
 					Link teacher, Zama A Grootboom – grade 12 teacher ages17- 23).
 					<br/>
@@ -268,12 +228,8 @@
 					The school was established in 1962 and has falling rolls but good academic results.
 					The school describes how it wishes to expose learners to “New pastures of knowledge...”
 					</li>
-<<<<<<< HEAD
 					<li><img src="img/georgemqalo_140.jpg" alt="George Mqalo Secondary" class="picright"/>
 					<b>George Mqalo Secondary School</b> <br/>
-=======
-					<li><b>George Mqalo Secondary School</b> <br/>
->>>>>>> 6099f1d5d1437e2cdbf14d36c303b974522e1811
 					Principal, T T Mblele, Link teacher, Mrs B F Mabubebuse (Grade 12 teacher ages 16-22).
 					<br/>
 					Phone : 0765643744<br/>
@@ -290,12 +246,8 @@
 					Pupils would also learn more about global issues.
 					The school is poorly resourced.
 					</li>
-<<<<<<< HEAD
 					<li>
 					<b>Enkenkwezini SSS</b> <br/>
-=======
-					<li><b>Enkenkwezini SSS</b> <br/>
->>>>>>> 6099f1d5d1437e2cdbf14d36c303b974522e1811
 					Principal and Link teacher, Mrs N N Jacobs.
 					<br/>
 					Phone :  0824228718 <br/>

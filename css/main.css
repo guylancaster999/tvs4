@@ -35,12 +35,12 @@ h2
 	margin-top:4px;
 	margin-bottom:0;
 	margin-right:-14px;
-	margin-left:-14px;
+	margin-left:-r14px;
 	padding-left:8px;
 	padding-top:2px;
 	padding-bottom:4px;
 	text-align:center;
-	text-weight:500;
+	font-weight:500;
 }
 h3
 {
@@ -49,7 +49,7 @@ h3
 li
 {
 	padding-bottom:6px;
-  padding-top:4px;
+	padding-top:4px;
 }
 td,th
 {
@@ -89,13 +89,19 @@ td,th
 }
 .picright
 {
-<<<<<<< HEAD
 	padding-left:4px;
 	padding-right:4px;
-=======
 	padding-left:6px;
 	padding-right:6px;
->>>>>>> 6099f1d5d1437e2cdbf14d36c303b974522e1811
+	float:right;
+}
+.ctteepic
+{
+	width:300px;
+	padding-left:4px;
+	padding-right:4px;
+	padding-left:6px;
+	padding-right:6px;
 	float:right;
 }
 .h1
@@ -108,7 +114,7 @@ td,th
 .h1 a
 {
 	font-size:28pt;
-	text-weight:600;
+	font-weight:600;
 	text-decoration:none;
     color:#063;
 }
@@ -125,9 +131,7 @@ td,th
  * Code licensed under Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
 /* Toggle Styles */
-
 #wrapper {
     padding-left: 0;
     -webkit-transition: all 0.5s ease;
@@ -171,7 +175,6 @@ td,th
 }
 
 /* Sidebar Styles */
-
 .sidebar-nav {
     position: absolute;
     top: 0;
@@ -180,18 +183,15 @@ td,th
     padding: 0;
     list-style: none;
 }
-
 .sidebar-nav li {
     text-indent: 20px;
     line-height: 40px;
 }
-
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
     color:  #333;
 }
-
 .sidebar-nav li a:hover {
     text-decoration: none;
     color: #333;
@@ -202,22 +202,18 @@ td,th
 .sidebar-nav li a:focus {
     text-decoration: none;
 }
-
 .sidebar-nav > .sidebar-brand {
     height: 65px;
     font-size: 18px;
     line-height: 60px;
 }
-
 .sidebar-nav > .sidebar-brand a {
     color: #999999;
 }
-
 .sidebar-nav > .sidebar-brand a:hover {
     color: #fff;
     background: none;
 }
-
 @media(min-width:768px) {
     #wrapper {
         padding-left: 150px  ;

@@ -24,15 +24,16 @@ $gpics='{"gallery":[
 	{"picLarge":"studycamps016.jpg","picSmall":"studycamps016_140.jpg","picTtl":"Hobbiton   February 2015 &copy;Vicky Riley #14"}, 
 	{"picLarge":"studycamps017.jpg","picSmall":"studycamps017_140.jpg","picTtl":"Hobbiton   February 2015 &copy;Vicky Riley #15"}, 
 	{"picLarge":"studycamps018.jpg","picSmall":"studycamps018_140.jpg","picTtl":"Hobbiton   February 2015 &copy;Vicky Riley #16"}, 
-	{"picLarge":"Englishlearnersdaytrip.jpg","picSmall":"Englishlearnersdaytrip_140.jpg","picTtl":"English learners day trip"}, 
-	{"picLarge":"Englishlearnersdaytrip2.jpg","picSmall":"Englishlearnersdaytrip2_140.jpg","picTtl":"English learners day trip"}, 
-	{"picLarge":"Englishlearnersdaytrip4.jpg","picSmall":"Englishlearnersdaytrip4_140.jpg","picTtl":"English learners day trip"}, 
-	{"picLarge":"Englishlearnersdaytrip3.jpg","picSmall":"Englishlearnersdaytrip3_140.jpg","picTtl":"English learners day trip"}, 
+	{"picLarge":"Englishlearnersdaytrip.jpg","picSmall":"Englishlearnersdaytrip_140.jpg", "picTtl":"English learners day trip"}, 
+	{"picLarge":"Englishlearnersdaytrip2.jpg","picSmall":"Englishlearnersdaytrip2_140.jpg", "picTtl":"English learners day trip"}, 
+	{"picLarge":"Englishlearnersdaytrip4.jpg","picSmall":"Englishlearnersdaytrip4_140.jpg", "picTtl":"English learners day trip"}, 
+	{"picLarge":"Englishlearnersdaytrip3.jpg","picSmall":"Englishlearnersdaytrip3_140.jpg", "picTtl":"English learners day trip"}, 
 	{"picLarge":"Oct13Studycamp.jpg","picSmall":"Oct13Studycamp_140.jpg","picTtl":"October 13th trip"}, 
 	{"picLarge":"Oct13Studycamp4.jpg","picSmall":"Oct13Studycamp4_140.jpg","picTtl":"October 13th trip"}, 
 	{"picLarge":"camps5.jpg","picSmall":"camps5_140.jpg","picTtl":"Study Camp"}, 
 	{"picLarge":"camps.jpg","picSmall":"camps_140.jpg","picTtl":"Study Camp"}, 
-	{"picLarge":"Oct13Studycampfollowup.jpg","picSmall":"Oct13Studycampfollowup_140.jpg","picTtl":"Study Camp follow up"}, 	{"picLarge":"hobbiton1}, .jpg","picSmall":"hobbiton1_140.jpg","picTtl":"Hobbiton"}, 
+	{"picLarge":"Oct13Studycampfollowup.jpg","picSmall":"Oct13Studycampfollowup_140.jpg","picTtl":"Study Camp follow up"},
+ 	{"picLarge":"hobbiton1}, .jpg","picSmall":"hobbiton1_140.jpg","picTtl":"Hobbiton"},
 	{"picLarge":"assaultcourse.jpg","picSmall":"assaultcourse_140.jpg","picTtl":"Assault Course"}, 
 	{"picLarge":"assaultcourse1.jpg","picSmall":"assaultcourse1_140.jpg","picTtl":"Assault Course"}, 
 	{"picLarge":"assaultcourse2.jpg","picSmall":"assaultcourse3_140.jpg","picTtl":"Assault Course"}, 
@@ -42,12 +43,12 @@ $gpics='{"gallery":[
 	{"picLarge":"assaultcourse6.jpg","picSmall":"assaultcourse6_140.jpg","picTtl":"Assault Course"}, 
 	{"picLarge":"assaultcourse7.jpg","picSmall":"assaultcourse7_140.jpg","picTtl":"Assault Course"}, 
 	{"picLarge":"studycamps003.jpg","picSmall":"studycamps003_140.jpg","picTtl":"Study Camp"}, 
-	{"picLarge":"studycamps004.jpg","picSmall":"studycamps004_140.jpg","picTtl":"Students at PCs"}, 
-     {"picLarge":"studycamp2015_10.jpg","picSmall":"studycamp2015_10_140.jpg","picTtl":"Studycamp"}, 
+	{"picLarge":"studycamp2015_10.jpg","picSmall":"studycamp2015_10_140.jpg","picTtl":"Study camp"}, 
 	{"picLarge":"studycamps005.jpg","picSmall":"studycamps005_140.jpg","picTtl":"Students at PCs"}, 
 	{"picLarge":"studycamps006.jpg","picSmall":"studycamps006_140.jpg","picTtl":"Students at PCs"}, 
 	{"picLarge":"studycamp20151.jpg","picSmall":"studycamp20151_140.jpg","picTtl":"Students at studycamp"}, 
-    {"picLarge":"studycamp20152.jpg","picSmall":"studycamp20152_140.jpg","picTtl":"Studycamp"}, 	{"picLarge":"studycamp20153.jpg","picSmall":"studycamp20153_140.jpg","picTtl":"Study Camp"}, 
+	{"picLarge":"studycamp20152.jpg","picSmall":"studycamp20152_140.jpg","picTtl":"Studycamp"}, 
+	{"picLarge":"studycamp20153.jpg","picSmall":"studycamp20153_140.jpg","picTtl":"Study Camp"}, 
 	{"picLarge":"studycamp2012.jpg","picSmall":"studycamp2012_140.jpg","picTtl":"Study camp 2012"}, 
 	{"picLarge":"hobbitonbus2011.png","picSmall":"hobbitonbus2011_140.png","picTtl":"Hobbiton bus 2011"}								  
   	]}';	
@@ -67,26 +68,26 @@ $_SESSION["gpics"]	=$gpics;
 			<div class="row">
 				<div class="col-sm-12">                       
 				<?php
-				$colctr		= 0;
-				$x 			= json_decode($gpics,true);
-				$sz			= count($x["gallery"]); 
-				print '<div class="row">';
-				for ($i=0;$i<$sz;$i++)
-				{
-					$colctr++;
-					if ($colctr>4)
-					{
-						print '</div>';
-						print '<div class="row">';
-						$colctr = 1;
-					}
-				  print '<div class="col-sm-3 col-md-3">';
-                  displayPic($pgUrl,$pgTtl,$i); 	
-				  print '</div>';
-				}				
-     			print '</div>';
-				print clickPhotos();
-				print foot();
+		$colctr		= 0;
+	$x 			= json_decode($gpics,true);
+	$sz			= count($x["gallery"]); 
+	print '<div class="row">';
+	for ($i=0;$i<$sz;$i++)
+	{
+		$colctr++;
+		if ($colctr>4)
+		{
+			print '</div>';
+			print '<div class="row">';
+			$colctr=1;
+		}
+		print '<div class="col-sm-3 col-md-3">';
+        displayPic($pgUrl,$pgTtl,$i); 	
+		print '</div>';
+	}
+	print '</div>';
+	print clickPhotos();
+			print foot();
 				?>
                 </div>
 		  	</div>
