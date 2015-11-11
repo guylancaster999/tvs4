@@ -2,10 +2,10 @@
 <!doctype html>
 <html lang="en">
 <?php  
-print hdr("Gallery - English Language Teaching");
+print hdr("Gallery%20-%20English Language Teaching");
 $gpics='{"gallery":[
 	{"picLarge":"englishclass2015_2.jpg","picSmall":"englishclass2015_2_140.jpg",
-	"picTtl":"English Class 2015- learning to use a dictionary"},
+	"picTtl":"English%20Class2015%20-%20learning%20to%20use%20a%20dictionary"},
 	{"picLarge":"englishclass2015_1.jpg","picSmall":"englishclass2015_1_140.jpg","picTtl":"English Class 2015"},
  	{"picLarge":"EnglishTesting1.jpg","picSmall":"EnglishTesting1_140.jpg","picTtl":"English Testing"},
  	{"picLarge":"Englishtesting2.jpg","picSmall":"Englishtesting2_140.jpg","picTtl":"English testing"},
@@ -45,26 +45,26 @@ $pgUrl				= "gallery_englishlanguage.php";
 			<div class="row">
 				<div class="col-sm-12">                       
 				<?php
-	$colctr		= 0;
-	$x 			= json_decode($gpics,true);
-	$sz			= count($x["gallery"]); 
-	print '<div class="row">';
-	for ($i=0;$i<$sz;$i++)
-	{
-		$colctr++;
-		if ($colctr>4)
-		{
-			print '</div>';
-			print '<div class="row">';
-			$colctr=1;
-		}
-		print '<div class="col-sm-3 col-md-3">';
-        displayPic($pgUrl,$pgTtl,$i); 	
-		print '</div>';
-	}
-	print '</div>';
-	print clickPhotos();
-			print foot();
+				$colctr		= 0;
+				$x 			= json_decode($gpics,true);
+				$sz			= count($x["gallery"]); 
+				print '<div class="row">';
+				for ($i=0;$i<$sz;$i++)
+				{
+					$colctr++;
+					if ($colctr>4)
+					{
+						print '</div>';
+						print '<div class="row">';
+						$colctr=1;
+					}
+					print '<div class="col-sm-3 col-md-3">';
+					displayPic($pgUrl,$pgTtl,$i); 	
+					print '</div>';
+				}
+				print '</div>';
+				print clickPhotos();
+				print foot();
 				?>
                 </div>
 		  	</div>
@@ -72,7 +72,7 @@ $pgUrl				= "gallery_englishlanguage.php";
         </div>
         <!-- /#page-content-wrapper -->
     </div>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js";></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
  <script src="js/code.js"></script>

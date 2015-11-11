@@ -17,18 +17,18 @@ if ($id>0)
 	$yLeft 			= $x["gallery"][$id-1];  
 	$picLargeLeft	= $yLeft["picLarge"];
 	$picTtlLeft		= $yLeft["picTtl"];
-	$left			='<a href="gallery_pic.php?id='.($id-1).'&pgttl='.$pgttl.'&fromurl='.$fromurl.'" title="Previous Picture">
+	$left			='<a href="gallery_pic.php?id='.($id-1).'&amp;pgttl='.$pgttl.'&amp;fromurl='.$fromurl.'" title="Previous Picture">
 						<span class="glyphicon glyphicon-circle-arrow-left"></span>
-					<a>';
+					</a>';
 }
 if ($id<$ctr-1)
 {
 	$yRight			= $x["gallery"][$id+1];  
 	$picLargeRight	= $yRight["picLarge"];
 	$picTtlRight	= $yRight["picTtl"];
-	$right			='<a href="gallery_pic.php?id='.($id+1).'&pgttl='.$pgttl.'&fromurl='.$fromurl.'" title="Next Picture">
+	$right			='<a href="gallery_pic.php?id='.($id+1).'&amp;pgttl='.$pgttl.'&amp;fromurl='.$fromurl.'" title="Next Picture">
 						<span class="glyphicon glyphicon-circle-arrow-right picright"></span>
-					 <a>';
+					 </a>';
 }
  ?>
 <!doctype html>
@@ -57,13 +57,10 @@ if ($id<$ctr-1)
 						print foot();
 					    print '</div>';
 						?>
-						</div>
-				   </div>                  
-				</div>
-        </div>
-        <!-- /#page-content-wrapper -->
+					 </div>                  
+		      <!-- /#page-content-wrapper -->
     </div>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js";></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
  <script src="js/code.js"></script>

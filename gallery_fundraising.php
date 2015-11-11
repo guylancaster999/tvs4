@@ -63,7 +63,7 @@ $_SESSION["gpics"]	=$gpics;
         </div>
         <!-- /#page-content-wrapper -->
     </div>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js";></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
  <script src="js/code.js"></script>

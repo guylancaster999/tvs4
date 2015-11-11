@@ -1,4 +1,12 @@
  <?php
+ function addSp($x)
+ {
+	return str_replace ("%20"," ",$x); 
+ }
+ function removeSp($x)
+ {
+	return str_replace (" ","%20",$x);
+ }
 function hdr($t)
 {
 	 $ret=
@@ -35,13 +43,13 @@ return $ret;
                 </div><!--col-->
                 <div class="col-sm-1" title="Toggle menu">
                      <a href="#menu-toggle" class="btn btn-default" id="menu-toggle" title="Toggle menu">
-                              <span class="glyphicon glyphicon-align-justify"></span>
-                          </a>
-                </div><!--col-->
-            </div><!--row-->
+                          <span class="glyphicon glyphicon-align-justify"></span>
+                     </a>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-sm-12 col-12 col-md-12 col-lg-12">
-          			<h2>'.$t.'</h2>
+          			<h2>'.addSp($t).'</h2>
                  </div>
             </div>';
 	 return $ret;
@@ -176,19 +184,19 @@ if ($button=="Volunteering")
     $ret.='</a>';
     print($ret);
  } 
- function displayPic($retUrl,$pgTtl,$id)
+  function displayPic($retUrl,$pgTtl,$id)
 {
 	$x 			= json_decode($_SESSION["gpics"],true);
  	$y 			= $x["gallery"][$id]; 
  	$picSmall	= $y["picSmall"];
 	$picTtl		= $y["picTtl"];
 	$ret 		='<a href="gallery_pic.php';
- 	$ret		.='?pgttl='.$pgTtl;
+ 	$ret		.='?pgttl='.removeSp($pgTtl);
     $ret		.='&amp;fromurl='.$retUrl;
     $ret		.='&amp;id='.$id.'" ' ;
-    $ret		.=' title="'.$picTtl.' - Click for full-sized Picture">';
+    $ret		.=' title="'.addSp($picTtl.' - Click for full-sized Picture').'">';
 	$ret		.='<img src="img/'.$picSmall.'" ';
-    $ret		.=' alt="'.$picTtl.'" ';
+    $ret		.=' alt="'.addSp($picTtl).'" ';
     $ret		.=' class="img-responsive img-rounded block " />';
     $ret		.='</a>';
 	print($ret);
