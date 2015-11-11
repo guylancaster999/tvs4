@@ -9,7 +9,6 @@
             </div>
         </div>
         <!-- /#sidebar-wrapper -->
-
   <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container-fluid">
@@ -20,12 +19,11 @@
                          <?php print foot();?>
                        	</div>
 					  <div class="col-sm-4 block">
-                <div class='xlatestnews'>
-                  Click <a href="https://www.google.co.uk/maps/place/32%C2%B040'18.8%22S+26%C2%B053'47.3%22E/@-32.5128576,26.9370445,10z/data=!4m2!3m1!1s0x0:0x0?hl=en">here</a> for  Google Map.
+                <div class='xlatestnews'>Click <a href="https://www.google.co.uk/maps/place/32%C2%B040'18.8%22S+26%C2%B053'47.3%22E/@-32.5128576,26.9370445,10z/data=!4m2!3m1!1s0x0:0x0?hl=en">here</a> for  Google Map.
                 </div>
 				      &nbsp;
-              <a href="https://www.google.co.uk/maps/place/32%C2%B040'18.8%22S+26%C2%B053'47.3%22E/@-32.5128576,26.9370445,10z/data=!4m2!3m1!1s0x0:0x0?hl=en"">
-                <img src="img/map1.png" alt="Tyume Valley."  class="img-responsive img-rounded img_center" />
+              <a href="https://www.google.co.uk/maps/place/32%C2%B040'18.8%22S+26%C2%B053'47.3%22E/@-32.5128576,26.9370445,10z/data=!4m2!3m1!1s0x0:0x0?hl=en">
+                <img src="img/map1.png" alt="Tyume Valley"  class="img-responsive img-rounded img_center" />
               </a>
               <br/><br/>
              </div>

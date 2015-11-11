@@ -1,9 +1,11 @@
 <?php require "function/functions.php";?>
 <!doctype html>
 <html lang="en">
-<?php 
+<?php  
 print hdr("Gallery - English Language Teaching");
 $gpics='{"gallery":[
+	{"picLarge":"englishclass2015_2.jpg","picSmall":"englishclass2015_2_140.jpg",
+	"picTtl":"English Class 2015- learning to use a dictionary"},
 	{"picLarge":"englishclass2015_1.jpg","picSmall":"englishclass2015_1_140.jpg","picTtl":"English Class 2015"},
  	{"picLarge":"EnglishTesting1.jpg","picSmall":"EnglishTesting1_140.jpg","picTtl":"English Testing"},
  	{"picLarge":"Englishtesting2.jpg","picSmall":"Englishtesting2_140.jpg","picTtl":"English testing"},

@@ -10,7 +10,7 @@ function hdr($t)
     <meta name="keywords" content="South, Africa, Tyume, Tyhume,Schools, Valley, Eastern, Cape, TVS, RSA,'.$t.'"/>
     <title>Tyume Valley Schools - '.$t.'</title>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
-    <link href="css/main.css" rel="stylesheet"/>
+	<link href="css/main.css" rel="stylesheet"/>
     <script src="js/main.js"></script>
  <script src="https://apis.google.com/js/platform.js" async defer></script>
 	<script>(function(d, s, id) {
@@ -29,21 +29,21 @@ return $ret;
  {
 	 $ret='<a id="top"></a>';
 	 $ret.='<div class="row">
-                      <div class="col-sm-11">
-                         <div class="h1"><a href="index.php">Tyume Valley Schools</a></div>
-                         <div class="reg">Registered Charity Number 1103909</div>
-                      </div><!--col-->
-                      <div class="col-sm-1" title="Toggle menu">
-                          <a href="#menu-toggle" class="btn btn-default" id="menu-toggle" title="Toggle menu">
+                <div class="col-sm-11 col-11 col-md-11 col-lg-11">
+                    <div class="h1"><a href="index.php">Tyume Valley Schools</a></div>
+                    <div class="reg">Registered Charity Number 1103909</div>
+                </div><!--col-->
+                <div class="col-sm-1" title="Toggle menu">
+                     <a href="#menu-toggle" class="btn btn-default" id="menu-toggle" title="Toggle menu">
                               <span class="glyphicon glyphicon-align-justify"></span>
                           </a>
-                      </div><!--col-->
-                  </div><!--row-->
-                <div class="row">
-                      <div class="col-sm-12">
-                  			<h2>'.$t.'</h2>
-                      </div>
-                </div>';
+                </div><!--col-->
+            </div><!--row-->
+            <div class="row">
+                <div class="col-sm-12 col-12 col-md-12 col-lg-12">
+          			<h2>'.$t.'</h2>
+                 </div>
+            </div>';
 	 return $ret;
  }
  function menu($button="Homepage")

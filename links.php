@@ -6,15 +6,17 @@
     <div id="wrapper">
        <div id="sidebar-wrapper">
      	   <?php print menu();?>
+		</div>
     </div>
-            </div>
-        <!-- /#sidebar-wrapper -->
-  <!-- Page Content -->
-        <div id="page-content-wrapper">
+     <div id="page-content-wrapper">
             <div class="container-fluid">
 			<?php print top_bit("Links");?> 
-                <div class="row">
-						<div class="col-sm-9 col-md-9 col-9 col-lg-9 ">
+                 <div class="row">
+					<div class="col-sm-12 col-md-12 col-12 col-lg-12 block">
+				
+				
+				<div class="row">
+					<div class="col-sm-9 col-md-9 col-9 col-lg-9 ">
 						  <A target="_blank" href="https://schoolsonline.britishcouncil.org/programmes-and-funding/linking-programmes-worldwide/"><b>British Council, Schools Online/Connecting Classrooms</b></a>
 						  <br/>
 						  We support educators in the UK and worldwide to work together to enrich the quality of education in schools and equip young people to live and work successfully in a global society.
@@ -26,18 +28,17 @@
 	                <div class="row">
                       <div class="col-sm-9 col-md-9 col-9 col-lg-9">
 							<a target="_blank"  href="http://globalclassrooms.org.uk/"><b>Consortium of Development Education Centres (Codec)</b></a>
-								 <br/>
-								 Development Education Centres (DECs) are locally based dynamic and innovative centres of global learning. 
-								 These independent, not-for-profit organisations support and deliver global learning in schools and communities.
-								 <br/>
-								 <br/>
+							 <br/>
+							 Development Education Centres (DECs) are locally based dynamic and innovative centres of global learning. 
+							 These independent, not-for-profit organisations support and deliver global learning in schools and communities.
+							 <br/>
+							 <br/>
 						</div>
                      <div class="col-sm-3 col-md-3 col-3 col-lg-3 ">
 						<img src="img/cdec.png" width="240" alt="Consortium of Development Education Centres (Codec)"   class="img-responsive img-rounded img_pad" />
 						</div>
-					</div>
-	
-					<div class="row">
+				</div>
+				<div class="row">
                       <div class="col-sm-9 col-md-9 col-9 col-lg-9">
 						<strong><a  target="_blank" href="https://www.facebook.com/pages/Tyume-Valley-Schools-South-Africa/243499537207">Tyume Valley Schools'  Facebook</a></strong>
 					</div>
@@ -121,6 +122,8 @@
                            <div class="top">   <br/>
                                <a class="btn" href="#top"> Top <span class="glyphicon  glyphicon-circle-arrow-up"></span></a>
                            <br/>
+                            </div>
+                       	</div>
                             </div>
                        	</div>
 				</div>                  
