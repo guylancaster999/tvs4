@@ -46,20 +46,18 @@
                        	</div>
 					  <div class="col-sm-3 block">
                           <div class='xlatestnews'>Latest News</div>
-
 						  <br/>
 							<span class="glyphicon glyphicon-play"></span> &nbsp;
-							Volunteer Teachers wanted for the Study Camp in Summer 2016! 
-							Click <a href="volunteer2016.php" title="Volunteer as a Teacher in South Africa in 2016">here</a>.
+							Volunteer Teachers wanted for the <a href="volunteer2016.php" title="Volunteer as a Teacher in South Africa in 2016">Study Camp in Summer 2016!</a>.
 						  <br/>
 						  <br/>
-							<span class="glyphicon glyphicon-play"></span> &nbsp;Are you a teacher or school governor?  Is your school interested in developing international links?  TVS can help you set up a partnership with ​a Tyume Valley school.
-						Click <a href="partnerships.php" title="School Links">here</a>.
+							<span class="glyphicon glyphicon-play"></span> &nbsp;Are you a teacher or school governor?  Is your school interested in developing international links?  
+							TVS can help you set up a <a href="partnerships.php" title="School Links">partnership with ​a Tyume Valley school</a>.
 						<br/><br/>
-						<span class="glyphicon glyphicon-play"></span>&nbsp;Annual Report 2014-5 now available. Click <a title="TVS Annual Report 2014-5" href="doc/TVSDAANNUALREPORT2014-5final1.docx">here</a>.
+						<span class="glyphicon glyphicon-play"></span>&nbsp;Annual Report 2014-5 <a title="TVS Annual Report 2014-5" href="doc/TVSDAANNUALREPORT2014-5final1.docx">now available</a>.
 						<br/>
 						<br/>
-						<span class="glyphicon glyphicon-play"></span> &nbsp;Latest study camp a success! Click  <a href="activities_studycamps.php#2015" title="Study camp 2015">here</a>.
+						<span class="glyphicon glyphicon-play"></span> &nbsp;<a href="activities_studycamps.php#2015" title="Study camp 2015">Latest study camp a success!</a> 
 						<br/>
 						<br/>
 					</div>

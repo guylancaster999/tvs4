@@ -9,15 +9,16 @@
  }
 function hdr($t)
 {
-	 $ret=
-	 '<head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="description" content="Tyume Valley Schools - Educational support in Eastern Cape, South Africa - '.$t.' "/>
+	 $ret='<head>
+    <meta name="description" content="Tyume Valley Schools - Educational support in Eastern Cape, South Africa - '.$t.'"/>
     <meta name="author" content="Guy Lancaster"/>
     <meta name="keywords" content="South, Africa, Tyume, Tyhume,Schools, Valley, Eastern, Cape, TVS, RSA,'.$t.'"/>
     <title>Tyume Valley Schools - '.$t.'</title>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<link href="css/main.css" rel="stylesheet"/>
     <script src="js/main.js"></script>
  <script src="https://apis.google.com/js/platform.js" async defer></script>
