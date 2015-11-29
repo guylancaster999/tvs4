@@ -30,14 +30,15 @@
 							<li><a href="news.php" title="TVS Newsletters" >Newsletters</a></li>
 
 							  <li><a href="partnerships.php" title="TVS - School Links and Partnerships">School Links</a>
-							<ul>
-							<li><a href="partnerships_aims.php" title="TVS - School Links  - Aims">Aims</a></li>
-								  <li><a href="partnerships_setup.php" title="TVS - School Links  - Setting up Links">Setting up</a></li>
-								  <li><a href="partnerships_seeking.php" title="TVS - School Links  - Seeking Schools to link with">Seeking schools</a></li>
-								  <li><a href="partnerships_exchanges.php" title="TVS - School Links - School Exchanges">Exchanges</a></li>
-								  <li><a href="partnerships_topics.php" title="TVS - School Links - Topics">Topics</a></li>
-								  <li><a href="partnerships_resources.php" title="TVS - School Links - Links and Resources">Resources</a></li>
-								  <li><a href="partnerships_settle.php" title="TVS - School Links - Partnerships - Settle-Kwezana">Settle-Kwezana</a></li>
+								<ul>
+									<li><a href="partnershipsPrinciples.php">Underpinning principles of school partnerships</a></li>
+									<li><a href="partnershipsSettingUp.php">Setting up a school partnership</a> </li>
+									<li><a href="partnershipsHints.php">Further hints for starting out</a></li>
+									<li><a href="partnershipsExchanges.php">Teacher exchanges	</a></li>
+									<li><a href="partnershipsActivities.php">Suggested partnership activities</a></li>
+									<li><a href="partnershipsLinks.php">Sources of help and support</a> </li>
+									<li><a href="partnershipsSettle.php">Settle – Kwezana schools partnership</a> 				 </li>
+									<li><a href="partnershipsTyume.php">Tyume Valley schools seeking partnership with a UK school</a></li>
 								  </ul>
 							</li>
 							<li><a href="volunteering.php" title="TVS - Volunteering">Volunteering</a>

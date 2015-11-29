@@ -16,6 +16,12 @@ body
 	font-weight:bold;
 	font-size:12pt;
 }
+.txtCenter
+{
+	
+	text-align:center;
+}
+
 .img_center
  {
     display: block;
@@ -308,4 +314,8 @@ td,th
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.brclear
+{
+	clear:both;
 }

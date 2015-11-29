@@ -57,7 +57,8 @@ return $ret;
  }
  function menu($button="Homepage")
  {$ret='<div class="sidebar-nav">
-           &nbsp;&nbsp;<img src="img/tvs.jpg" width="120" alt="Tyume Valley Schools">&nbsp;
+           <br/>
+		   &nbsp;&nbsp;<img src="img/tvs.jpg" width="120" alt="Tyume Valley Schools">&nbsp;
            <br/>
      	   <div class="newbutton" id="homepage"><a href="index.php" title="TVS Home page">Home Page</a></div>
 	       <div class="newbutton" id="aboutus"><a href="aboutus.php" title="Tyume Valley Schools :Origins&nbsp;&amp;&nbsp;Vision">Origins&nbsp;&amp;&nbsp;Vision</a></div>
@@ -79,13 +80,13 @@ $ret.='<div class="newbutton" id="news"><a href="news.php" title="TVS Newsletter
 if ($button=="Partnerships")
 {
 	$ret.='<div id="partnership_button">
-      <div class="redbutton" ><a href="partnerships_aims.php" title="TVS - schools links - Aims">Aims</a></div>
-	  <div class="redbutton" ><a href="partnerships_setup.php" title="TVS - schools links - Setting up Links">Setting up</a></div>
-	  <div class="redbutton" ><a href="partnerships_seeking.php" title="TVS - schools links - Seeking Schools to link with">Seeking schools</a></div>
-	  <div class="redbutton" ><a href="partnerships_exchanges.php" title="TVS - schools links - School Exchanges">Exchanges</a></div>
-	  <div class="redbutton" ><a href="partnerships_topics.php" title="TVS - schools links - Topics">Topics</a></div>
-	  <div class="redbutton" ><a href="partnerships_resources.php" title="TVS - schools links -  Links and Resources">Resources</a></div>
-	  <div class="redbutton" ><a href="partnerships_settle.php" title="TVS - schools links -  Settle-Kwezana">Settle-Kwezana</a></div>
+ 	  <div class="redbutton" ><a href="partnershipsPrinciples.php" title="TVS - schools links - Principles">Principles</a></div>
+	  <div class="redbutton" ><a href="partnershipsHints.php" title="TVS - schools links - Further hints for starting out">Hints</a></div>
+	  <div class="redbutton" ><a href="partnershipsExchanges.php" title="TVS - schools links - Exchanges">Exchanges</a></div>
+	  <div class="redbutton" ><a href="partnershipsActivities.php" title="TVS - schools links - Suggested partnership activities">Activities</a></div>
+	  <div class="redbutton"><a href="partnershipsLinks.php" title="Schools links - Sources of help and support">Help</a></div>
+	  <div class="redbutton"><a href="partnershipsSettle.php" title="Schools links -  Settle/Kwezana">Settle–Kwezana</a></div>
+	  <div class="redbutton" ><a href="partnershipsTyume.php" title="Tyume Valley schools seeking partnership with a UK school">Tyume Schools</a></div>
 </div>';
 }
  $ret.='<div class="newbutton" id="volunteering"><a href="volunteering.php" title="Tyume Valley Schools - Volunteering in South Africa">Volunteering</a></div>';

@@ -19,45 +19,57 @@
 <changefreq>monthly</changefreq>
 <priority>1</priority>
 </url>
+ 		 <li><a href="partnershipsActivities.php">Suggested partnership activities</a></li>
+					 <li><a href="partnershipsLinks.php">Sources of help and support</a> </li>
+					 <li><a href="partnershipsSettle.php">Settle – Kwezana schools partnership</a> 				 </li>
+					 <li><a href="partnershipsTyume.php">Tyume Valley schools seeking partnership with a UK school</a></li>
+
+
  <url>
-<loc>http://www.tvschools.org.uk/partnerships_aims.php</loc>
+<loc>http://www.tvschools.org.uk/partnerships_Principles.php</loc>
+<lastmod>2015-11-27</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+ <url>
+<loc>http://www.tvschools.org.uk/partnershipsSettingUp.php</loc>
+<lastmod>2015-11-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+ <url>
+<loc>http://www.tvschools.org.uk/partnershipsHints.php</loc>
+<lastmod>2015-11-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+ <url>
+<loc>http://www.tvschools.org.uk/partnershipsExchanges.php</loc>
 <lastmod>2015-03-15</lastmod>
 <changefreq>monthly</changefreq>
 <priority>1</priority>
 </url>
  <url>
-<loc>http://www.tvschools.org.uk/partnerships_setup.php</loc>
-<lastmod>2015-03-15</lastmod>
+<loc>http://www.tvschools.org.uk/partnershipsActivities.php</loc>
+<lastmod>2015-11-15</lastmod>
 <changefreq>monthly</changefreq>
 <priority>1</priority>
 </url>
  <url>
-<loc>http://www.tvschools.org.uk/partnerships_seeking.php</loc>
-<lastmod>2015-03-15</lastmod>
+<loc>http://www.tvschools.org.uk/partnershipsLinks.php</loc>
+<lastmod>2015-11-15</lastmod>
 <changefreq>monthly</changefreq>
 <priority>1</priority>
 </url>
  <url>
-<loc>http://www.tvschools.org.uk/partnerships_exchanges.php</loc>
-<lastmod>2015-03-15</lastmod>
+<loc>http://www.tvschools.org.uk/partnershipsSettle.php</loc>
+<lastmod>2015-11-15</lastmod>
 <changefreq>monthly</changefreq>
 <priority>1</priority>
-</url>
+</url> 
  <url>
-<loc>http://www.tvschools.org.uk/partnerships_topics.php</loc>
-<lastmod>2015-03-15</lastmod>
-<changefreq>monthly</changefreq>
-<priority>1</priority>
-</url>
- <url>
-<loc>http://www.tvschools.org.uk/partnerships_resources.php</loc>
-<lastmod>2015-03-15</lastmod>
-<changefreq>monthly</changefreq>
-<priority>1</priority>
-</url>
- <url>
-<loc>http://www.tvschools.org.uk/partnerships_settle.php</loc>
-<lastmod>2015-03-15</lastmod>
+<loc>http://www.tvschools.org.uk/partnershipsTyume.php</loc>
+<lastmod>2015-11-15</lastmod>
 <changefreq>monthly</changefreq>
 <priority>1</priority>
 </url> 
