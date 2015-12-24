@@ -15,7 +15,7 @@
                       <?php print top_bit("Contact us");?>
 			   <div class="row">
                       <div class="col-sm-9 block">
-                        <img src="img/BannerFundraising.png" alt="UK Fundraising - fun run" class="img-responsive img-rounded img_center" >
+                         <img src="img/contactBanner.jpg" alt="Hobbiton" class="img-responsive img-rounded img_center" >
                           <h3> Thank-you for your enquiry &ndash; we will get back to you as soon as possible.</h3>
                         <br/>
                         <br/>

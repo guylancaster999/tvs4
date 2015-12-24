@@ -33,11 +33,10 @@
 								<ul>
 									<li><a href="partnershipsPrinciples.php">Underpinning principles of school partnerships</a></li>
 									<li><a href="partnershipsSettingUp.php">Setting up a school partnership</a> </li>
-									<li><a href="partnershipsHints.php">Further hints for starting out</a></li>
 									<li><a href="partnershipsExchanges.php">Teacher exchanges	</a></li>
 									<li><a href="partnershipsActivities.php">Suggested partnership activities</a></li>
 									<li><a href="partnershipsLinks.php">Sources of help and support</a> </li>
-									<li><a href="partnershipsSettle.php">Settle – Kwezana schools partnership</a> 				 </li>
+									<li><a href="partnershipsSettle.php">Settle – Kwezana schools partnership</a></li>
 									<li><a href="partnershipsTyume.php">Tyume Valley schools seeking partnership with a UK school</a></li>
 								  </ul>
 							</li>
@@ -56,12 +55,12 @@
 							 <li><a href="contact.php"  title="TVS - Contact us">Contact&nbsp;us</a></li>
 							 <li><a href="gallery.php" title="TVS - Photos">Photo&nbsp;Gallery</a>
 							 <ul>
-							 <li><a href="gallery_general.php" title="General Photo">General</a></li>
-							  <li><a href="gallery_it.php" title="Photos IT Training">IT</a></li>
-							  <li><a href="gallery_studycamps.php" title="Photos:Study Camps Photos">Study&nbsp;Camp</a></li>
-							  <li><a href="gallery_englishlanguage.php" title="Photos:English Language teaching">English Teaching</a></li>
-							<li><a href="gallery_englishTraining.php" title="Photos:English Language training">English Training</a></li>
-							  <li><a href="gallery_fundraising.php">Fundraising</a>  </li>
+								<li><a href="gallery_englishlanguage.php" title="Photos:English Language teaching">English Teaching</a></li>
+								<li><a href="gallery_englishTraining.php" title="Photos:English Language training">English Training</a></li>
+								<li><a href="gallery_fundraising.php">Fundraising</a>  </li>
+								<li><a href="gallery_general.php" title="General Photo">General</a></li>
+								<li><a href="gallery_it.php" title="Photos IT Training">IT</a></li>
+								<li><a href="gallery_studycamps.php" title="Photos:Study Camps Photos">Study&nbsp;Camp</a></li>
 							 </ul>
 							 </li>
 							 <li><a href="sitemap.php" title="Sitemap">Sitemap</a></li>

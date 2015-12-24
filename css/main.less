@@ -1,0 +1,338 @@
+@hdrColor			: #063;
+@menuButtonColor	: #06F;
+@menuSubButtonColor	: #093;
+@mainBarColor		: #3C3;
+@buttonEdgeColor	: #333;
+@buttonTxtColor 	: #FFF;
+@blockColor			: #FFC;
+@menuWidth			: 150px;
+@menuButtonWidth    : 120px;
+
+.RoundBorders (@radius) 
+{
+	border					: 1px solid;
+	border-color			: @buttonEdgeColor;
+	border-radius			: @radius;
+	-moz-border-radius		: @radius;
+	-webkit-border-radius	: @radius;
+}
+body
+{
+	font-family 	: Arial, Helvetica, sans-serif;
+	font-size 		: 11pt;
+}
+.h1
+{
+	padding-top		:-20px;
+	margin-top      :-20px;
+	text-align		:center;
+	vertical-align	:top;
+	padding			:0;
+	margin			:0;
+    color			:@hdrColor;
+}
+.h1 a
+{
+	text-align		:center;
+	font-size		:32pt;
+	font-weight		:bolder;
+	font-weight		:600;
+	text-decoration	:none;
+    color			:@hdrColor;
+}
+h1, h1 a
+{
+	padding-top		:-20px;
+	margin-top      :-20px;
+    color			: @hdrColor;
+}
+h2
+{
+	.RoundBorders(4px);
+	background-color    :@mainBarColor;
+	color				:@buttonTxtColor;
+	font-size			:14pt;
+	font-weight			:700;
+	height				:28px;
+	margin-top			:4px;
+	margin-bottom		:0;
+	margin-right		:-10px;
+	margin-left			:-20px;
+	padding-left		:8px;
+	padding-top			:2px;
+	padding-bottom		:6px;
+	text-align			:center;
+	font-weight			:500;
+}
+h3
+{
+	margin-top:6px;
+}
+li
+{
+	padding-bottom:6px;
+	padding-top:4px;
+}
+td,th
+{
+	vertical-align:top;
+}
+.xlatestnews
+{
+	text-align:center;
+	font-weight:bolder;
+	font-size	:14pt;
+}
+.clickphoto
+{
+	padding-top	:14px;
+	text-align	:center;
+	font-weight	:bold;
+	font-size	:12pt;
+}
+.txtCenter
+{
+	text-align:center;
+}
+.img_center
+ {
+    display		  : block;
+    margin-left	: auto;
+    margin-right: auto;
+}
+.top
+{
+	text-align		:center;
+	position		:absolute;
+	left			:50%;
+	padding-top		:10px;
+	padding-bottom  :10px;
+}
+.rhspic
+{
+	width	:230px;
+}
+.tnpic
+{
+	height	:140px;
+}
+.block, .img_pad
+{
+	.RoundBorders(4px);
+	background-color		:@blockColor;
+	font-size				:11pt;
+	margin-top				:6px;
+	margin-bottom			:6px;
+	margin-left				:0;
+	margin-right			:0;
+	padding-left			:4px;
+	padding-right			:4px;
+	padding-top				:4px;
+	padding-bottom			:4px;
+}
+.picright
+{
+	padding-left:4px;
+	padding-right:4px;
+	padding-left:6px;
+	padding-right:6px;
+	float:right;
+}
+.ctteepic
+{
+	width:300px;
+	padding-left:4px;
+	padding-right:4px;
+	padding-left :6px;
+	padding-right:6px;
+	float:right;
+}
+.reg
+{
+	color			:#333;
+	font-size		:11pt;
+	padding-top		:6px;
+	padding-bottom	:10px;
+	text-align		:center;
+}
+#wrapper 
+{
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#wrapper.toggled
+{
+    padding-left: 150px  ;
+}
+#sidebar-wrapper
+{
+    z-index				: 1000;
+    position			: fixed;
+    left				:@menuWidth;
+    width				: 0;
+    height				: 100%;
+    margin-left			: -@menuWidth;
+    overflow-y			: auto;
+    background			: #fff;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition	: all 0.5s ease;
+    -o-transition		: all 0.5s ease;
+    transition			: all 0.5s ease;
+}
+#wrapper.toggled #sidebar-wrapper {
+    width: @menuWidth;
+}
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -@menuWidth;
+}
+/* Sidebar Styles */
+.sidebar-nav 
+{
+    position: absolute;
+    top: 0;
+    width: @menuWidth;
+    margin-top: 4px;
+    padding-top:4px;
+    list-style: none;
+}
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color:  #333;
+}
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #333;
+    background: rgba(255,255,255,0.2);
+}
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus 
+{
+    text-decoration: none;
+}
+.sidebar-nav > .sidebar-brand 
+{
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+.sidebar-nav > .sidebar-brand a 
+{
+    color: #999999;
+}
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+@media(min-width:768px) {
+    #wrapper
+	{
+        padding-left:@menuWidth;
+    }
+    #wrapper.toggled
+	{
+        padding-left: 0;
+    }
+    #sidebar-wrapper
+	{
+        width: @menuWidth;
+    }
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+    #wrapper.toggled #page-content-wrapper
+	{
+		padding:0;
+        position: relative;
+        margin : 0;
+    }
+}
+#container-fluid
+{
+	padding:0;
+	margin:0;
+}
+.newbutton
+{
+	background-color	:@menuButtonColor;
+    .RoundBorders(4px);
+	width				:@menuButtonWidth;
+	line-height			:22px;
+	margin-right		:0;
+    margin-left			:6px;
+    margin-top			:5px;
+	margin-bottom		:5px;
+	padding-right		:2px;
+	padding-left		:4px;
+	padding-top			:2px;
+	padding-bottom		:0;
+	text-decoration		:none;
+}
+.newbutton a
+{
+	color				:@buttonTxtColor;
+	font-size			:11pt;
+	font-weight			:500;
+	text-decoration		:none;
+}
+.newbutton a:hover
+{
+	text-decoration:underline;
+}
+.redbutton
+{
+	background-color:@menuSubButtonColor;
+	.RoundBorders(4px);
+ 	line-height		:22px;
+	margin-right	:0;
+    margin-left		:6px;
+    margin-top		:5px;
+	margin-bottom	:5px;
+	padding-left	:2px;
+	padding-right	:4px;
+	padding-top		:2px;
+	padding-right	:6px;
+	padding-bottom	:0;
+	text-decoration	:none;
+	width			:@menuButtonWidth;
+}
+.redbutton a
+{
+	color			:@buttonTxtColor;
+	font-size		:11pt;
+	font-weight		:500;
+	text-decoration:none;
+}
+.redbutton a:hover
+{
+    display			: block;
+    margin-left		: auto;
+    margin-right	: auto;
+}
+.brclear
+{
+	clear:both;
+}
+hr
+{
+	height:1px;
+	background-color:#333;
+	color:#black;
+} 

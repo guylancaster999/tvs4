@@ -8,13 +8,12 @@
      	   <?php print menu();?>
 		</div>
      </div>
-        <!-- /#sidebar-wrapper -->
-        <div id="page-content-wrapper">
+     <div id="page-content-wrapper">
             <div class="container-fluid">
                 <?php print top_bit("Contact us");?>
                 <div class="row">
                       <div class="col-sm-9 block">
-                        <img src="img/BannerFundraising.png" alt="UK Fundraising - fun run" class="img-responsive img-rounded img_center" >
+                        <img src="img/contactBanner.jpg" alt="Hobbiton" class="img-responsive img-rounded img_center" >
                         <br/>
                          <table>
 								<tr>
@@ -45,13 +44,15 @@
 									<input type="text" class="form-control" id="sname"  name="sname" placeholder="Enter your name" required value="<?php print $_GET["sname"]; ?>" />
 									</div>
 								</div>
-								 <div class="form-group">
+
+								<div class="form-group">
 								  <label class="control-label col-sm-2" for="email">Email:</label>
 								  <div class="col-sm-9">
 									<input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required value="<?php print $_GET["email"]; ?>"/>
 									</div>
 								</div>
-								 <div class="form-group">
+							
+							<div class="form-group">
 								  <label class="control-label col-sm-2" for="phone">Phone:</label>
 								  <div class="col-sm-9">
 									<input type="text" class="form-control" id="phone"  name="phone" placeholder="Enter your phone" required value="<?php print $_GET["phone"]; ?>"/>
@@ -63,18 +64,21 @@
 								  <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter  Subject" required value="<?php print $_GET["subject"]; ?>"/>
 								   </div>
 								</div>
+
 								<div class="form-group">
 								  <label class="control-label col-sm-2" for="message">Message:</label>
 								  <div class="col-sm-9">
-									<textarea  class="form-control" id="message"  name="message" rows="6" placeholder="Enter  message" required > <?php print $_GET["message"]; ?> </textarea>
-									</div>
+									<textarea required class="form-control" id="message" name="message" rows="6" placeholder="Enter message"><?php print $_GET["message"];?></textarea>
 								</div>
-							  <div class="form-group">
+							</div>
+
+							<div class="form-group">
 								<div class="col-sm-offset-2 col-sm-10">
 								  <button type="submit" class="btn btn-default">Submit</button>
 								</div>
 							  </div>
 							</form>
+
 							<br/>
 							<div class="smallprint">* Your details will not be passed to any thrid parties.</div>
                            <div class="top">   <br/>

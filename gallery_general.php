@@ -6,7 +6,8 @@ print hdr("Gallery - General");
 $gpics=
 	'{"gallery":[ 
     {"picLarge":"huts.jpg","picSmall":"huts_140.jpg","picTtl":"Village Huts"},
-    {"picLarge":"photo15.jpg","picSmall":"photo15_140.jpg","picTtl":"Village Life"},     {"picLarge":"photo14.jpg","picSmall":"photo14_140.jpg","picTtl":"Village Life"},
+    {"picLarge":"photo15.jpg","picSmall":"photo15_140.jpg","picTtl":"Village Life"}, 
+    {"picLarge":"photo14.jpg","picSmall":"photo14_140.jpg","picTtl":"Village Life"},
     {"picLarge":"photo10.jpg","picSmall":"photo10_140.jpg","picTtl":"Tyume valley"},
 	{"picLarge":"tyyumevalley.jpg","picSmall":"tyyumevalley_140.jpg","picTtl":"Looking towards Hogs back from the Tyume Valley"},
 	{"picLarge":"photo3.jpg","picSmall":"photo3_140.jpg","picTtl":"Dyamala School"},
@@ -23,9 +24,9 @@ $gpics=
     {"picLarge":"photo12.jpg","picSmall":"photo12_140.jpg","picTtl":"Mbovane Primary School"},
     {"picLarge":"photo13.jpg","picSmall":"photo13_140.jpg","picTtl":"Village Life"},
 	{"picLarge":"photo16.jpg","picSmall":"photo16_140.jpg","picTtl":"Vuvu and New Car"},
-    {"picLarge":"photo17.jpg","picSmall":"photo17_140.jpg","picTtl":"Yamala School"},
-    {"picLarge":"photo18.jpg","picSmall":"photo18_140.jpg","picTtl":"Yamala School"},
-    {"picLarge":"photo19.jpg","picSmall":"photo19_140.jpg","picTtl":"Yamala School"},
+    {"picLarge":"photo17.jpg","picSmall":"photo17_140.jpg","picTtl":"Dyamala School"},
+    {"picLarge":"photo18.jpg","picSmall":"photo18_140.jpg","picTtl":"Dyamala School"},
+    {"picLarge":"photo19.jpg","picSmall":"photo19_140.jpg","picTtl":"Dyamala School"},
     {"picLarge":"photo21.jpg","picSmall":"photo21_140.jpg","picTtl":"School"},
 	{"picLarge":"photo22.jpg","picSmall":"photo22_140.jpg","picTtl":"School"},
 	{"picLarge":"photo23.jpg","picSmall":"photo23_140.jpg","picTtl":"School"},
@@ -40,13 +41,14 @@ $gpics=
 	{"picLarge":"forthare2011.jpg","picSmall":"forthare2011_140.jpg","picTtl":"Tyume learners at Fort Hare 2011"},
 	{"picLarge":"primary.jpg", "picSmall":"primary_140.jpg","picTtl":"Primary 2013"},
 	{"picLarge":"gwali.jpg", "picSmall":"gwali_140.jpg","picTtl":"Learners at Gwali school 2010"},
-	{"picLarge":"mcfarlan.jpg", "picSmall":"mcfarlan_140.jpg","picTtl":"Learners at mcfarlan school 2010"},
+	{"picLarge":"mcfarlan.jpg", "picSmall":"mcfarlan_140.jpg","picTtl":"Learners at Mcfarlan school 2010"},
 	{"picLarge":"photo27.jpg","picSmall":"photo27_140.jpg","picTtl":"School"},
 	{"picLarge":"photo28.jpg","picSmall":"photo28_140.jpg","picTtl":"School"},
-	{"picLarge":"photo29.jpg","picSmall":"photo29_140.jpg","picTtl":"Village"},
 	{"picLarge":"schoolmeal.jpg","picSmall":"schoolmeal_140.jpg","picTtl":"school meal"},
 	{"picLarge":"tvsfb.jpg","picSmall":"tvsfb_140.jpg","picTtl":"Class"},
-	{"picLarge":"tvsclass2015_2.jpg", "picSmall":"tvsclass2015_2_140.jpg","picTtl":"Class"} 
+	{"picLarge":"tvsclass2015_2.jpg", "picSmall":"tvsclass2015_2_140.jpg","picTtl":"Class"}, 
+	{"picLarge":"ncerazantsi.jpg" ,"picSmall":"ncerazantsi_140.jpg ","picTtl":"Ncera Zantsi Primary"},
+    {"picLarge":"ncerazantsi2.jpg" ,"picSmall":"ncerazantsi2_140.jpg ","picTtl":"Ncera Zantsi Primary"} 
 	]}';
 session_start();
 $_SESSION["gpics"]	=$gpics;	

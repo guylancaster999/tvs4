@@ -11,15 +11,10 @@ $gpics='{"gallery":[
     {"picLarge":"tvsfundraising2015.jpg","picSmall":"tvsfundraising2015x_140.jpg","picTtl":"London Marathon for Tyume Valley Schools celebration"},
     {"picLarge":"fundraising4.jpg","picSmall":"fundraising4_140.jpg","picTtl":"Professors Caroline Glendinning and Gillian Parker"},
     {"picLarge":"fundraising3.jpg","picSmall":"fundraising3_140.jpg","picTtl":"Geraldine Palmer receives a cheque on behalf of TVS at St.Augustines"},
-    {"picLarge":"fundraising2015_1.jpg","picSmall":"fundraising2015_1_140.jpg","picTtl":"Fundraising 2015"},
-    {"picLarge":"fundraising2015_3.jpg","picSmall":"tvsfundraising2015_140.jpg","picTtl":"Croquet in 2015"},
-    {"picLarge":"fundraising2015_4.jpg","picSmall":"fundraising2015_4_140.jpg","picTtl":"Cake 2015"},
-    {"picLarge":"fundraising2015_2.jpg","picSmall":"fundraising2015_2_140.jpg","picTtl":"Fundraising 2015"},
-    {"picLarge":"fundraising6.jpg","picSmall":"fundraising6_140.jpg","picTtl":"Fundraising 2015"},
-    {"picLarge":"BannerFundraising.png","picSmall":"BannerFundraising_140.png","picTtl":"Fundraising 2014"},
-    {"picLarge":"marathon2015.png","picSmall":"marathon2015_140.png","picTtl":"Karen at Marathon 2015"},
-    {"picLarge":"portsmouth2012.jpg","picSmall":"portsmouth2012_140.jpg","picTtl":"Great South Run : Portsmouth 2012"}
-  	]}';	
+    {"picLarge":"fundraising2015_1.jpg","picSmall":"fundraising2015_1_140.jpg","picTtl":"Fundraising 2015"},    {"picLarge":"fundraising2015_3.jpg","picSmall":"tvsfundraising2015_140.jpg","picTtl":"Croquet in 2015"},    {"picLarge":"fundraising2015_4.jpg","picSmall":"fundraising2015_4_140.jpg","picTtl":"Cake 2015"},    {"picLarge":"fundraising2015_2.jpg","picSmall":"fundraising2015_2_140.jpg","picTtl":"Fundraising 2015"},    {"picLarge":"fundraising6.jpg","picSmall":"fundraising6_140.jpg","picTtl":"Fundraising 2015"},    {"picLarge":"BannerFundraising.png","picSmall":"BannerFundraising_140.png","picTtl":"Fundraising 2014"},
+	{"picLarge":"pinmar.png","picSmall":"pinmar_140.png","picTtl":"Pinmar Golf Tournament, Palma de Mallorca 2011"},	{"picLarge":"portsmouth2012.jpg","picSmall":"portsmouth2012_140.jpg","picTtl":"Great South Run : Portsmouth 2012"},
+    {"picLarge":"marathon2015.png","picSmall":"marathon2015_140.png","picTtl":"Karen at Marathon 2015"}
+   	]}';	
 session_start();
 $_SESSION["gpics"]	=$gpics;	
 ?>

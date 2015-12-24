@@ -11,7 +11,6 @@ $picLarge	= $y["picLarge"];
 $picTtl		= $y["picTtl"];
 $ctr		= count($x["gallery"]);
 $left		= $right="";
-
 if ($id>0)
 {
 	$yLeft 			= $x["gallery"][$id-1];  
@@ -33,7 +32,7 @@ if ($id<$ctr-1)
  ?>
 <!doctype html>
 <html lang="en">
-<?php print hdr("Gallery - ".$pgTtl);?>
+<?php print hdr("Gallery - ".$picTtl);?>
  <body>
     <div id="wrapper">
        <div id="sidebar-wrapper">

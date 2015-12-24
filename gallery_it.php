@@ -4,14 +4,15 @@
 <?php 
 print hdr("Gallery - IT");
 $gpics='{"gallery":[
+	{"picLarge":"itLearners.jpg","picSmall":"itLearners_140.jpg","picTtl":"24 school leavers coming to the end of two weeks IT studycamp"},
 	{"picLarge":"tvsit.jpg","picSmall":"tvsit_140.jpg","picTtl":"Students at PCs 2015"},
 	{"picLarge":"it2.jpg","picSmall":"it2_140.jpg","picTtl":"Adult IT Classes"},
 	{"picLarge":"it3.jpg","picSmall":"it3_140.jpg","picTtl":"IT Certificates"},
 	{"picLarge":"it4.jpg","picSmall":"it4_140.jpg","picTtl":"IT Certificates"},
 	{"picLarge":"it5.jpg","picSmall":"it5_140.jpg","picTtl":"New laptops"},
 	{"picLarge":"it6.jpg","picSmall":"it6_140.jpg","picTtl":"IT Class"},
-	{"picLarge":"it7.jpg","picSmall":"it7_140.jpg","picTtl":"Yamala IT lab"},
-	{"picLarge":"it8.jpg","picSmall":"it8_140.jpg","picTtl":"Yamala IT lab"},
+	{"picLarge":"it7.jpg","picSmall":"it7_140.jpg","picTtl":"Dyamala IT lab"},
+	{"picLarge":"it8.jpg","picSmall":"it8_140.jpg","picTtl":"Dyamala IT lab"},
 	{"picLarge":"it9.jpg","picSmall":"it9_140.jpg","picTtl":"Students at PCs"},
 	{"picLarge":"it10.jpg","picSmall":"it10_140.jpg","picTtl":"students at PCs"},
 	{"picLarge":"it11.jpg","picSmall":"it11_140.jpg","picTtl":"students at PCs"},
@@ -19,7 +20,7 @@ $gpics='{"gallery":[
 	{"picLarge":"it2014.jpg","picSmall":"it2014_140.jpg","picTtl":"PC use at 2014 Study camp"},
 	{"picLarge":"it1.jpg","picSmall":"it1_140.jpg","picTtl":"Adults at PCs"},
 	{"picLarge":"upgradingcomputerlab2011.png","picSmall":"upgradingcomputerlab2011_140.png", "picTtl":"Upgrading computer lab 2011"},
-	{"picLarge":"mabandla2011.jpg","picSmall":"mabandla2011_140.jpg","picTtl":"Stephany with pupils at Mabandla Primary School 2011"}
+	{"picLarge":"mabandla2011.jpg","picSmall":"mabandla2011_140.jpg","picTtl":"Stephany with pupils at Mabandla Primary School 2011"},	{"picLarge":"NcerezantsiPrimarySchoolIT.jpg","picSmall":"NcerezantsiPrimarySchoolIT_140.jpg","picTtl":"Ncera Zantsi Primary School IT"}
 	]}';
 session_start();
 $_SESSION["gpics"]	= $gpics;	
@@ -53,7 +54,7 @@ $pgUrl				= "gallery_it.php";
 						$colctr=1;
 					}
 					print '<div class="col-sm-3 col-md-3">';
-					displayPic($pgUrl,$pgTtl,$i); 	
+						displayPic($pgUrl,$pgTtl,$i); 	
 					print '</div>';
 				}
 				print '</div>';
@@ -64,10 +65,8 @@ $pgUrl				= "gallery_it.php";
 		  	</div>
             </div>
         </div>
-        <!-- /#page-content-wrapper -->
     </div>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js";></script>
-    <!-- Bootstrap Core JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js";></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	<script src="js/code.js"></script>
 </body>

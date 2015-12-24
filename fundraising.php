@@ -2,6 +2,7 @@
 <!doctype html>
 <html lang="en">
 <?php print hdr("Fundraising");?>
+
 <body>
     <div id="wrapper">
        <div id="sidebar-wrapper">
@@ -10,7 +11,6 @@
             </div>
         <!-- /#sidebar-wrapper -->
        <div id="page-content-wrapper">
-<?php print top_bit("Fundraising");?>
 		<?php print top_bit("Fundraising");?>
                 <div class="row">
                       <div class="col-sm-9 block">
@@ -57,36 +57,26 @@
 							<li>the SEM  Foundation </li>
 							<li><a href="http://www.makemydaybetter.co.uk/">Make My Day Better</a>, the charitable arm of <a href="http://www.dialaflight.com/">Dial-a-Flight</a></li>
 							<li><a href="http://www.thebiggive.org.uk/">The Big Give</a>, a charitable initiative of the <a href="http://thereedfoundation.org/">Reed Foundation</a>, each year enables small donors to compete for funds, which  are then matched by the Reed Foundation and, in our case Make My Day  Better.</li>
-							<li><a href="http://www.pinmar.com/en/index.php/pinmar-golf/our-charities">Pinmar</a></li>
+							<li><a href="http://www.pinmar.com/en/index.php/pinmar-golf/our-charities">Pinmar Golf Tournament</a></li>
 							 </ul>
 							Click <A href="gallery_fundraising.php">here</a> for Fundraising photos.
                             <?php print foot();?>
                        	</div>
-					  <div class="col-sm-3 block">
+					  <div class="col-sm-3">
               		   <?php display("fundraising.php","Fundraising","fundraising5.jpg","fundraising5_230.jpg","Karen Barker and Nic Suggit on great south run 2014","gallery_general_pic.php");
-	   display("fundraising.php","Fundraising","tvsfundraising2015.jpg","tvsfundraising2015_230.jpg","London Marathon for Tyume Valley Schools celebration","gallery_general_pic.php");
-	    display("fundraising.php","Fundraising","fundraising3.jpg","fundraising3_230.jpg","Fund raising", "gallery_general_pic.php");
-       display("fundraising.php","Fundraising","fundraising4.jpg","fundraising4_230.jpg","Professors Caroline Glendinning  and Gillian Parker",   "gallery_general_pic.php");
-	   ?>
-		<img src="img/Picture-43-230x170.jpg" alt="fundraiser" class="img-responsive img-rounded  block"/>
-       	<img src="img/fundraising006_230.jpg" ALT="Archie Sibeko and Joyce Leeson receive a cheque from Newcastle city council" class="img-responsive img-rounded  block" />
-			</div>
-					</div>
-                          <?php print foot();?>
-                       	</div>
-					  <div class="col-sm-3 block">
-              		   <?php
-					   display("fundraising.php","Fundraising","fundraising5.jpg","fundraising5_230.jpg","Karen Barker and Nic Suggit on great south run 2014","gallery_general_pic.php");
 					   display("fundraising.php","Fundraising","tvsfundraising2015.jpg","tvsfundraising2015_230.jpg","London Marathon for Tyume Valley Schools celebration","gallery_general_pic.php");
 						display("fundraising.php","Fundraising","fundraising3.jpg","fundraising3_230.jpg","Fund raising", "gallery_general_pic.php");
-					   display("fundraising.php","Fundraising","fundraising4.jpg","fundraising4_230.jpg","Professors Caroline Glendinning  and Gillian Parker",   "gallery_general_pic.php");
+					   display("fundraising.php","Fundraising","fundraising4.jpg","fundraising4_230.jpg","Professors Caroline Glendinning  and Gillian Parker","gallery_general_pic.php");
 					   ?>
-						<img src="img/Picture-43-230x170.jpg" alt="fundraiser" class="img-responsive img-rounded  block"/>
-						<img src="img/fundraising006_230.jpg" ALT="Archie Sibeko and Joyce Leeson receive a cheque from Newcastle city council" class="img-responsive img-rounded  block" />
+						<a href="#" title="fundraising Run"><img src="img/Picture-43-230x170.jpg" alt="fundraiser" class="img-responsive img-rounded  block"/></a>
+						<a href="#" title="Archie Sibeko and Joyce Leeson receive a cheque from Newcastle city council"><img src="img/fundraising006_230.jpg" ALT="Archie Sibeko and Joyce Leeson receive a cheque from Newcastle city council" class="img-responsive img-rounded  block" /></a>
+						<a href="#" title="Pinmar Golf Tournament 2011"><img src="img/pinmar_230.png" ALT="Pinmar Golf Tournament 2011" class="img-responsive img-rounded  block" /></a>
 					</div>
 				</div>
-            </div>
-        </div>
+           	</div>
+		</div>
+       </div>
+     </div>
     </div>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>

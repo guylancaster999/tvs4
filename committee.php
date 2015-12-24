@@ -8,95 +8,140 @@
      	   <?php print menu();?>
     </div>
             </div>
-        <!-- /#sidebar-wrapper -->
-  <!-- Page Content -->
-        <div id="page-content-wrapper">
+         <div id="page-content-wrapper">
             <div class="container-fluid">
 			<?php print top_bit("Committee");?>
                  <div class="row">
                       <div class="col-sm-12 block">
                           <img src="img/tvscommittee2015_245.png"  alt=" Tyuume Valley School committee"  class="img-responsive img-rounded img_center">
 							   <br>TVS is a registered charity. Details of our governance and copies of our Annual Report and accounts can be found on <a href="http://apps.charitycommission.gov.uk/Showcharity/RegisterOfCharities/CharityWithoutPartB.aspx?RegisteredCharityNumber=1103909&amp;SubsidiaryNumber=0" title="Chatiry Commission">the Charity Commission website</a>. 
-							There are six trustees, all of whom are experienced professionals who have spent a lifetime working in the education sector or children's services. All of our trustees are actively involved with the project and visit South Africa, at their own expense, on a regular basis. The TVS committee consists of five trustees plus others elected or co-opted on an annual basis:
-							<br/><br/>
-							<table>
-							<tr>
-							<td ><strong>Officers</strong>
-							<table>
-							<tr>
-							<td ><a href="#archiesibeko">Archie Sibeko</a> (Honorary President)</td></tr>
-							<tr>
-							<td ><a href="#susanrichards">Susan Richards</a> (Joint  Chair)</td></tr>
-							<tr>
-							<td ><a href="#carolineglendinning">Caroline Glendinning</a> (Joint  Chair)</td>
-							</tr>
-							<tr>
-							<td ><a href="#margaretkiloh">Margaret  Kiloh</a> (Treasurer)</td>
-							</tr>
+							There are six trustees, all of whom are experienced professionals who have spent a lifetime working in the education sector or children's services. All of our trustees are actively involved with the project and visit South Africa, at their own expense, on a regular basis.
+							<br/>
+							<br/>							
+							The TVS committee consists of five trustees plus others elected or co-opted on an annual basis:
+							<blockquote>
+								<table>
+									<tr>
+										<td ><strong>Officers</strong>
+										<table>
+											<tr>
+												<td >
+													<a href="#archiesibeko">Archie Sibeko</a> (Honorary President)&nbsp;
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<a href="#susanrichards">Susan Richards</a> (Joint  Chair)&nbsp;
+												</td>
+											</tr>
+											<tr>
+												<td >
+													<a href="#carolineglendinning">Caroline Glendinning</a> (Joint  Chair)&nbsp;
+												</td>
+											</tr>
+											<tr>
+												<td >
+													<a href="#margaretkiloh">Margaret  Kiloh</a> (Treasurer)&nbsp;
+												</td>
+											</tr>
+										</table>
+									</td>
+									<td >
+										&nbsp;&nbsp;&nbsp;&nbsp;
+									</td>
+									<td >
+										<strong>Members</strong>
+										<table>
+											<tr>
+												<td >
+													<a href="#lizbutton">Liz Button</a>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<a href="#stephaniegallier">Stephanie Gallier&nbsp;</a>
+												</td>
+											</tr>
+											<tr>
+												<td >
+													<a href="#jimlewis">Jim Lewis</a>
+												</td>
+											</tr>
+											<tr>
+												<td >
+													<a href="#geraldinepalmer">Geraldine Palmer&nbsp;</a>
+												</td>
+											</tr>
+										</table>
+									</td>
+									<td >
+										&nbsp;&nbsp;&nbsp;&nbsp;
+									</td>
+									<td >
+										<b>Trustees</b>
+										<table>
+											<tr>
+												<td >
+													<a href="#stephaniegallier">Stephanie Gallier</a>
+												</td>
+											</tr>
+											<tr>
+												<td >
+													<a href="#carolineglendinning">Caroline Glendinning</a>
+												</td>
+											</tr>
+											<tr>
+												<td >
+													<a href="#elizabethhanks">Elizabeth Hanks</a>
+												</td>
+											</tr>
+											<tr>
+												<td >
+													<a href="#margaretkiloh">Margaret Kiloh</a>
+												</td>
+											</tr>
+											<tr>
+												<td >
+													<a href="#jimlewis">Jim Lewis</a>
+												</td>
+											</tr>
+											<tr>
+												<td >
+													<a href="#geraldinepalmer">Geraldine Palmer</a>
+												</td>
+											</tr>
+											<tr>
+												<td >
+													<a href="#susanrichards">Susan Richards</a> 
+												</td>
+											</tr>
+											<tr>
+												<td >
+													Margaret Woodward
+												</td>
+											</tr>
+									</table>
+								</td>
+								<td>&nbsp;&nbsp;&nbsp;</td>
+								<td >
+									<strong>Webmaster</strong>
+									<table>
+										<tr>
+											<td>
+												<a href="#guylancaster">Guy Lancaster</a>
+											</td>
+										</tr>
+									</table>
+								</td>
+							  </tr>
 							</table>
-							</td>
-							<td >&nbsp;&nbsp;&nbsp;</td>
-							<td >
-							<strong>Members</strong>
-							<table>
-							<tr>
-							<td ><a href="#lizbutton">Liz Button</a></td>
-							</tr>
-							<tr>
-							<td ><a href="#stephaniegallier">Stephanie Gallier</a></td>
-							</tr>
-							<tr>
-							<td ><a href="#jimlewis">Jim Lewis</a></td>
-							</tr>
-							<tr>
-							<td ><a href="#geraldinepalmer">Geraldine Palmer</a></td>
-							</tr>
-							</table>
-							</td>
-							<td >&nbsp;&nbsp;&nbsp;</td>
-							<td ><b>Trustees</b>
-							<table>
-							<tr>
-							<td ><a href="#stephaniegallier">Stephanie Gallier</a></td></tr>
-							<tr>
-							<td ><a href="#carolineglendinning">Caroline Glendinning</a></td>
-							</tr>
-							<tr>
-							<td ><a href="#elizabethhanks">Elizabeth Hanks</a></td>
-							</tr>
-							<tr>
-							<td ><a href="#margaretkiloh">Margaret Kiloh</a></td>
-							</tr>
-							<tr>
-							<td ><a href="#jimlewis">Jim Lewis</a></td>
-							</tr>
-							<tr>
-							<td ><a href="#geraldinepalmer">Geraldine Palmer</a></td>
-							</tr>
-							<tr>
-							<td ><a href="#susanrichards">Susan Richards</a> </td>
-							</tr>
-							<tr>
-							<td >Margaret Woodward</td>
-							</tr>
-							</table>
-							</td>
-							<td >&nbsp;&nbsp;&nbsp;</td>
-							<td ><strong>Webmaster</strong>
-							<table>
-							<tr>
-							<td><a href="#guylancaster">Guy Lancaster</a></td>
-							</tr>
-							</table>
-							</td>
-							</tr>
-							</table>
-							<hr/>
+						</blockquote>	
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-sm-9 col-9 col-md-9">
- 							<a id="archiesibeko"></a><strong>Archie Sibeko</strong>, also known as Zola Zembe, was born in the Tyume Valley and now lives in Tynemouth. He distinguished himself in the struggle against apartheid and was awarded the Order of Luthuli in Silver by President Thabo Mbeki. He has co-authored three books including his autobiography, <em>Freedom in our Lifetime</em>. 
+ 							<br/>
+							<a id="archiesibeko"></a><strong>Archie Sibeko</strong>, also known as Zola Zembe, was born in the Tyume Valley and now lives in Tynemouth. He distinguished himself in the struggle against apartheid and was awarded the Order of Luthuli in Silver by President Thabo Mbeki. He has co-authored three books including his autobiography, <em>Freedom in our Lifetime</em>. 
 							<br />
 							<br />TVS Honorary President, Archie Sibeko, remembers Nelson Mandela 
 							<ul>

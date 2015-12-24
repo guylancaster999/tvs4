@@ -8,9 +8,7 @@
      	   <?php print menu("Activities");?>
     </div>
         </div>
-        <!-- /#sidebar-wrapper -->
-		<!-- Page Content -->
-        <div id="page-content-wrapper">
+         <div id="page-content-wrapper">
             <div class="container-fluid">
                <?php print top_bit("Activities - English Language");?>
 			     <div class="row">
@@ -24,10 +22,12 @@
 							<br/>
 							<br/>
 							During 2014, teachers from 9 schools, and over 50 children were involved. 
+							<hr/>
 							<h4>Regular testing </h4>
 							Students taking part are tested each year, using a standard assessment package. 
 							In 2012, the Grade 3 learners achieved and increase of 51% above the base-line assessment. In 2013 the same group of learners, now in Grade 4, together achieved an average of 82% on the Cambridge &quot;Fun for Starters&quot; end-course assessment. 
 							In 2014 a mixed group of Grade 4 and 5 learners achieved 19% above the base-line assessment. 
+							<hr/>
 							<h4>Teacher feedback </h4>
 							Teachers involved in the English language programme enjoy the course and learn from it: 
 							<ul>

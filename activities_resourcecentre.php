@@ -15,6 +15,8 @@
                 <?php print top_bit("Activities - Resource Centre");?>
                    <div class="row">
                       <div class="col-sm-9 block">
+					    <img src="img/contact.jpg" alt="Yamala School" class="img-responsive img-rounded img_center" >
+                     <br/>
 						In 2005, TVS was offered accommodation at Yamala Primary School. 
 						We set up a Resource Centre so that all the schools in the Tyume Valley would have equal access to computers, books and other resources. 
 						Containers funded by TVS brought donated books and equipment from the UK. The Resource Centre now provides a library, computer lab and AV/meeting room. 

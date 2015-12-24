@@ -1,0 +1,19 @@
+
+body
+{font-family:Arial;}
+th 
+{align:left;}
+td
+{
+	padding-right:10px;
+}
+.er
+{
+	color:red;
+	font-weight:bold;
+}
+.status
+{
+	color:blue;
+	font-weight:bold;
+}

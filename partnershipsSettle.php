@@ -24,10 +24,13 @@
 						</ul>
 						Newsletters:
 						<ul>
-						<li><a href="doc/Kwezana_newsletter_03.pdf">Newsletter 3 - July 2014</a></li>
-						<li><a href="doc/Kwezana_newsletter_04.pdf">Newsletter 4 - December 2014</a></li>
-						<li><a href="doc/Kwezana_newsletter_05.pdf">Newsletter 5 - March 2015</a></li>
-						<li><a href="doc/Kwezana_newsletter_06.pdf">Newsletter 6 - July 2015</a></li>
+						<li><a href="img/kwezana_newsletter1.pdf">Newsletter 1 </a></li>
+						<li><a href="img/kwezana_newsletter_02.pdf">Newsletter 2</a></li>
+						<li><a href="img/kwezana_newsletter_03.pdf">Newsletter 3</a></li>
+						<li><a href="img/kwezana_newsletter_04.pdf">Newsletter 4</a></li>
+						<li><a href="img/kwezana_newsletter_05.pdf">Newsletter 5</a></li>
+						<li><a href="img/kwezana_newsletter_06.pdf">Newsletter 6</a></li>
+						<li><a href="img/kwezana_newsletter_07.pdf">Newsletter 7 </a></li>
 						</ul>
 						<br/>
                        <?php print foot();?>

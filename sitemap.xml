@@ -1,116 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>http://www.tvschools.org.uk/index.php</loc>
-<lastmod>2015-03-15</lastmod>
-<changefreq>monthly</changefreq>
-<priority>1</priority>
-</url>
  <url>
 <loc>http://www.tvschools.org.uk/aboutus.php</loc>
 <lastmod>2015-03-15</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.6</priority>
+<priority>0.8</priority>
 </url>
-
- <url>
-<loc>http://www.tvschools.org.uk/partnerships.php</loc>
-<lastmod>2015-03-15</lastmod>
-<changefreq>monthly</changefreq>
-<priority>1</priority>
-</url>
- 		 <li><a href="partnershipsActivities.php">Suggested partnership activities</a></li>
-					 <li><a href="partnershipsLinks.php">Sources of help and support</a> </li>
-					 <li><a href="partnershipsSettle.php">Settle – Kwezana schools partnership</a> 				 </li>
-					 <li><a href="partnershipsTyume.php">Tyume Valley schools seeking partnership with a UK school</a></li>
-
-
- <url>
-<loc>http://www.tvschools.org.uk/partnerships_Principles.php</loc>
-<lastmod>2015-11-27</lastmod>
-<changefreq>monthly</changefreq>
-<priority>1</priority>
-</url>
- <url>
-<loc>http://www.tvschools.org.uk/partnershipsSettingUp.php</loc>
-<lastmod>2015-11-15</lastmod>
-<changefreq>monthly</changefreq>
-<priority>1</priority>
-</url>
- <url>
-<loc>http://www.tvschools.org.uk/partnershipsHints.php</loc>
-<lastmod>2015-11-15</lastmod>
-<changefreq>monthly</changefreq>
-<priority>1</priority>
-</url>
- <url>
-<loc>http://www.tvschools.org.uk/partnershipsExchanges.php</loc>
-<lastmod>2015-03-15</lastmod>
-<changefreq>monthly</changefreq>
-<priority>1</priority>
-</url>
- <url>
-<loc>http://www.tvschools.org.uk/partnershipsActivities.php</loc>
-<lastmod>2015-11-15</lastmod>
-<changefreq>monthly</changefreq>
-<priority>1</priority>
-</url>
- <url>
-<loc>http://www.tvschools.org.uk/partnershipsLinks.php</loc>
-<lastmod>2015-11-15</lastmod>
-<changefreq>monthly</changefreq>
-<priority>1</priority>
-</url>
- <url>
-<loc>http://www.tvschools.org.uk/partnershipsSettle.php</loc>
-<lastmod>2015-11-15</lastmod>
-<changefreq>monthly</changefreq>
-<priority>1</priority>
-</url> 
- <url>
-<loc>http://www.tvschools.org.uk/partnershipsTyume.php</loc>
-<lastmod>2015-11-15</lastmod>
-<changefreq>monthly</changefreq>
-<priority>1</priority>
-</url> 
- <url>
-<loc>http://www.tvschools.org.uk/map.php</loc>
-<lastmod>2015-03-15</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
- <url>
+<url>
 <loc>http://www.tvschools.org.uk/activities.php</loc>
 <lastmod>2015-03-15</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.6</priority>
 </url>
+<url>
+<loc>http://www.tvschools.org.uk/activities_englishlanguage.php</loc>
+<lastmod>2015-03-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
  <url>
 <loc>http://www.tvschools.org.uk/activities_resourcecentre.php</loc>
 <lastmod>2015-03-15</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.6</priority>
+<priority>0.5</priority>
 </url>
  <url>
 <loc>http://www.tvschools.org.uk/activities_studycamps.php</loc>
 <lastmod>2015-03-15</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.6</priority>
+<priority>0.5</priority>
 </url>
  <url>
 <loc>http://www.tvschools.org.uk/activities_it.php</loc>
+<lastmod>2015-03-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+ <url>
+<loc>http://www.tvschools.org.uk/committee.php</loc>
 <lastmod>2015-03-15</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.6</priority>
 </url>
 
  <url>
-<loc>http://www.tvschools.org.uk/activities_englishlanguage.php</loc>
+<loc>http://www.tvschools.org.uk/contact.php</loc>
 <lastmod>2015-03-15</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.6</priority>
 </url>
-  
+ <url>
+<loc>http://www.tvschools.org.uk/fundraising.php</loc>
+<lastmod>2015-03-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+
 <url>
 <loc>http://www.tvschools.org.uk/gallery.php</loc>
 <lastmod>2015-03-15</lastmod>
@@ -154,64 +99,10 @@
 <priority>0.2</priority>
 </url>
 <url>
-<loc>http://www.tvschools.org.uk/aboutus.php</loc>
+<loc>http://www.tvschools.org.uk/index.php</loc>
 <lastmod>2015-03-15</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>http://www.tvschools.org.uk/activities.php</loc>
-<lastmod>2015-03-15</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>http://www.tvschools.org.uk/studycamps.php</loc>
-<lastmod>2015-03-15</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-<url>
-<loc>http://www.tvschools.org.uk/it.php</loc>
-<lastmod>2015-03-15</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
- <url>
-<loc>http://www.tvschools.org.uk/resourcecentre.php</loc>
-<lastmod>2015-03-15</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
- <url>
-<loc>http://www.tvschools.org.uk/englishlanguage.php</loc>
-<lastmod>2015-03-15</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-<url>
-<loc>http://www.tvschools.org.uk/news.php</loc>
-<lastmod>2015-03-15</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
- <url>
-<loc>http://www.tvschools.org.uk/volunteering.php</loc>
-<lastmod>2015-03-15</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
- <url>
-<loc>http://www.tvschools.org.uk/committee.php</loc>
-<lastmod>2015-03-15</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
- <url>
-<loc>http://www.tvschools.org.uk/fundraising.php</loc>
-<lastmod>2015-03-15</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
+<priority>1</priority>
 </url>
  <url>
 <loc>http://www.tvschools.org.uk/links.php</loc>
@@ -220,7 +111,79 @@
 <priority>0.6</priority>
 </url>
  <url>
-<loc>http://www.tvschools.org.uk/contact.php</loc>
+<loc>http://www.tvschools.org.uk/map.php</loc>
+<lastmod>2015-03-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>http://www.tvschools.org.uk/news.php</loc>
+<lastmod>2015-03-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>http://www.tvschools.org.uk/partnerships.php</loc>
+<lastmod>2015-03-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+ <url>
+<loc>http://www.tvschools.org.uk/partnershipsSettingUp.php</loc>
+<lastmod>2015-11-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.4</priority>
+</url>
+ <url>
+<loc>http://www.tvschools.org.uk/partnershipsHints.php</loc>
+<lastmod>2015-11-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.4</priority>
+</url>
+ <url>
+<loc>http://www.tvschools.org.uk/partnershipsExchanges.php</loc>
+<lastmod>2015-03-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.4</priority>
+</url>
+ <url>
+<loc>http://www.tvschools.org.uk/partnershipsPrinciples.php</loc>
+<lastmod>2015-11-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.4</priority>
+</url>
+ <url>
+<loc>http://www.tvschools.org.uk/partnershipsActivities.php</loc>
+<lastmod>2015-11-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.4</priority>
+</url>
+ <url>
+<loc>http://www.tvschools.org.uk/partnershipsLinks.php</loc>
+<lastmod>2015-11-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.4</priority>
+</url>
+ <url>
+<loc>http://www.tvschools.org.uk/partnershipsSettle.php</loc>
+<lastmod>2015-11-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.4</priority>
+</url> 
+ <url>
+<loc>http://www.tvschools.org.uk/partnershipsTyume.php</loc>
+<lastmod>2015-11-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.4</priority>
+</url> 
+ <url>
+<loc>http://www.tvschools.org.uk/sitemap.php</loc>
+<lastmod>2015-11-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.1</priority>
+</url> 
+ <url>
+<loc>http://www.tvschools.org.uk/volunteering.php</loc>
 <lastmod>2015-03-15</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.6</priority>

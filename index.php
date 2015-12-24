@@ -12,7 +12,7 @@
             <div class="container-fluid">
                <?php  print top_bit('Homepage');?>
                 <div class="row">
-                      <div class="col-sm-9 block">
+                      <div class="col-sm-9 col-lg-9 col-9 block">
                        <a href="#" title="Children at Studycamp in Tyume Valley, Eastern Cape, South Africa">
 					   <img src="img/homepagebanner.jpg" class="img-responsive img-rounded" alt="Children at Studycamp in Tyume Valley, Eastern Cape, South Africa">
 					   </a>
@@ -28,8 +28,6 @@
 							<ul>
 							<li>We work with Tyume's rural schools and provide support in the form of resources and training, supplementary subject tuition and extra-curricular activities. Teacher training is an essential element of everything that we do. 
                             Our volunteers aim to help and support local teachers to learn new methods and develop best practice. 
-                            We have also assisted a number of schools in setting up partnerships with UK schools and enabled teacher exchanges between those partner schools. 
-                            To read about the link between Kwezana Primary School and Settle Primary School (North Yorkshire), click <a href="http://www.settle-pri.n-yorks.sch.uk">here</a>. 
 							We have equipped a <A href="activities_resourcecentre.php">Resource centre</a> with books, computers and other resources. 
 							<br/><br/>
 							</li>
@@ -40,20 +38,25 @@
 							<br/>
 							</li>
 							<li>We run regular <a href="activities_studycamps.php" title="Srtudy Camps in Eastern Cape Schools"> Study camps</a> at nearby <a href="http://www.hobbiton.co.za/">Hobbiton Outdoor Activity Centre</a>, Hogsback. 
-                            Some 100 children from the Tyume Valley attend these camps every year.</li>
+                            Some 100 children from the Tyume Valley attend these camps every year.
+							<br/><br/>
+							</li>
+							<li>We assist schools in setting up partnerships with UK schools and enabled teacher exchanges between Tyume schools and those partner schools. 
+							To read more about our Schools' Partnership programme, click <a href="partnerships.php" title="Partnerships and Schools Links">here</a>. 
+							</li> 
 							</ul>  
-                         <?php print foot();?>
                        	</div>
-					  <div class="col-sm-3 block">
+	
+						<div class="col-sm-3 col-3 col-lg-3 block">
                           <div class='xlatestnews'>Latest News</div>
 						  <br/>
+							<span class="glyphicon glyphicon-play"></span> &nbsp;Are you a teacher or school governor?  Is your school interested in developing international links?  
+							TVS can help you set up a <a href="partnerships.php" title="School Partnerships">Partnership with ​a Tyume Valley school</a>.
+						<br/><br/>
 							<span class="glyphicon glyphicon-play"></span> &nbsp;
 							Volunteer Teachers wanted for the <a href="volunteer2016.php" title="Volunteer as a Teacher in South Africa in 2016">Study Camp in Summer 2016!</a>.
 						  <br/>
 						  <br/>
-							<span class="glyphicon glyphicon-play"></span> &nbsp;Are you a teacher or school governor?  Is your school interested in developing international links?  
-							TVS can help you set up a <a href="partnerships.php" title="School Links">partnership with ​a Tyume Valley school</a>.
-						<br/><br/>
 						<span class="glyphicon glyphicon-play"></span>&nbsp;Annual Report 2014-5 <a title="TVS Annual Report 2014-5" href="doc/TVSDAANNUALREPORT2014-5final1.docx">now available</a>.
 						<br/>
 						<br/>
@@ -61,8 +64,14 @@
 						<br/>
 						<br/>
 					</div>
-					</div>                  
-            </div>
+				</div>                  
+    
+                <div class="row">
+                      <div class="col-sm-12 col-lg-12 col-12">
+                         <?php print foot();?>
+					</div>
+				</div>
+			</div>
         </div>
      </div>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
