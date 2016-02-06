@@ -8,17 +8,43 @@
        <div id="sidebar-wrapper">
      	   <?php print menu("Fundraising");?>
     </div>
-            </div>
+      </div>
         <!-- /#sidebar-wrapper -->
        <div id="page-content-wrapper">
 		<?php print top_bit("Fundraising");?>
                 <div class="row">
                       <div class="col-sm-9 block">
-                         <a href="#" title="UK Fundraising - fun run">
-                           <img src="img/BannerFundraising.jpg" alt="UK Fundraising - fun run" class="img-responsive img-rounded img_center" />
-                          </a>
-							 <br/>
-								<h3>How can you help? </h3>
+   			<a name="walk"></a>
+				<blockquote   class="block">
+ 							   <a href="#" title="20 people 20 pounds 20 miles">
+							   <img align="right" src="img/202020.jpg" alt="202020"/>
+					           </a>
+							   <h3>Can you walk for TVS?</h3>
+								We need to raise &pound;2000 to support this year's study camps.
+								We're aiming to get 20 people to walk 20 miles &ndash; with donations in multiples of &pound;20!
+								A group of us will be doing a circular walk around Bishops Castle/Clun (Shropshire) on the 4th and 5th June
+                &ndash; but you could do any 20 mile walk of your choice, at any time this summer.
+								<br>
+								<br/>
+								Click <a title="20 for 20 fundraising" href="2020walk.php">here</a> for further details.
+								All sponsors can donate <a href="http://tiny.cc/20for20">here</a>.
+								<br>
+								<br/>
+								For further information, contact Sue Richards at <a href="mailto:sueclarichards@gmail.com">sueclarichards@gmail.com</a>.
+								or phone <A href="tel:07884 185930">07884 185930</a>.
+                  <br clear="all"/>
+ 							</blockquote>
+							<a name="book"></a>
+							  <blockquote   class="block">
+							     <a href="#" title="Growing up in a Xhosa Village"><img align="right" src="img/growingup.jpg" alt="Growing up in a Xhosa Village"></a>
+							   <h3>Growing up in a Xhosa Village</h3>
+							  TVS' president Archie Sibeko has written a new book about his early years in Tyume Valley.
+							 He has kindly agreed to sell the book in aid of TVS.
+               <br/>
+               Click <A href="books.php" title="Order Growing up in a Xhosa Village">here</a> to order the book.
+							 	  <br clear="all"/>
+                 	</blockquote>
+							<h3>How can you help? </h3>
 							<p> TVS relies heavily on: </p>
 							<ul>
 							<li> <strong>Subscriptions/standing orders from regular supporters </strong></li>

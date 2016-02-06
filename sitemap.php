@@ -48,6 +48,8 @@
 							 <li><a href="committee.php" title="TVS - Committee">Committee</a></li>
 							 <li><a href="fundraising.php" title="TVS - Fundraising">Fundraising</a>
 							 <ul>
+                  <li><a href="books.php">Books</li>
+                    <li><a href="2020walk.php">20 for 20 walk</li>
 							 <li><a href="wills.php"   title="TVS - WillS">Wills</a></li>
 							</ul>
 							</li>
@@ -68,7 +70,7 @@
  					       <?php print foot();?>
                        	</div>
 						<dIV class="col-sm-3">
-					   <img src="img/studycamp2012_230.jpg" ALT="Study Camp 2012" class="img-responsive img-rounded block"/>           
+					   <img src="img/studycamp2012_230.jpg" ALT="Study Camp 2012" class="img-responsive img-rounded block"/>
 					   <img src="img/portsmouth2012_230.jpg" ALT="Portsmouth marathon 2012" class="img-responsive img-rounded block"/>
 						<img src="img/About-Us-Picture-3-230x170.jpg" alt="Class " class="img-responsive img-rounded block"/>
 						<img src="img/englishteaching2015_230.jpg" ALT="Students wall-painting" class="img-responsive img-rounded block" />
@@ -82,7 +84,7 @@
     </div>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> 
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <script src="js/code.js"></script>
 </body>
 </html>

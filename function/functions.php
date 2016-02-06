@@ -1,7 +1,7 @@
  <?php
  function addSp($x)
  {
-	return str_replace ("%20"," ",$x); 
+	return str_replace ("%20"," ",$x);
  }
  function removeSp($x)
  {
@@ -99,7 +99,17 @@ if ($button=="Volunteering")
 }
  $ret.='<div class="newbutton" id="committee"><a href="committee.php" title="Tyume Valley Schools  Committee">Committee</a></div>
  <div class="newbutton" id="fundraising"><a href="fundraising.php" title="Tyume Valley  Fundraising">Fundraising</a></div>';
-  $ret.='<div class="newbutton" id="links"  ><a href="links.php" title="Tyume Valley Schools -  Wills">Links</a></div>
+
+ if($button=='Fundraising')
+ {
+	  $ret.='<div id="fundraising_button">
+    <div class="redbutton"><a href="books.php">Books</a></div>
+    <div class="redbutton"><a href="2020walk.php">20 for 20 Walk</a></div>
+    <div class="redbutton"><a href="wills.php">Wills</a></div>
+    </div>';
+}
+
+$ret.='<div class="newbutton" id="links"  ><a href="links.php" title="Tyume Valley Schools -  Wills">Links</a></div>
  <div class="newbutton" id="photos"  ><a href="gallery.php" title="TVS Photos">Photo&nbsp;Gallery</a></div>';
 
  if($button=='Photos')
@@ -147,18 +157,18 @@ if ($button=="Volunteering")
  function arrows($left="",$right="")
  {
 	 $ret ='<div class="row">';
-  	 $ret.='<div class="col-sm-1 col-md-1">'.$left.'</div>'; 
+  	 $ret.='<div class="col-sm-1 col-md-1">'.$left.'</div>';
  	 $ret.='<div class="col-sm-10 col-md-10">&nbsp;</div>';
-   	 $ret.='<div class="col-sm-1 col-md-1" >'.$right."</div>"; 
+   	 $ret.='<div class="col-sm-1 col-md-1" >'.$right."</div>";
      $ret.='</div>';
 	 return $ret;
  }
  function clickRet()
  {
 	 $ret ='<div class="row">';
-  	 $ret.='<div class="col-sm-1 col-md-1">&nbsp;</div>'; 
+  	 $ret.='<div class="col-sm-1 col-md-1">&nbsp;</div>';
  	 $ret.='<div class="col-sm-10 col-md-10 clickphoto">Click on Photo to return</div>';
-  	 $ret.='<div class="col-sm-1 col-md-1" >&nbsp;</div>'; 
+  	 $ret.='<div class="col-sm-1 col-md-1" >&nbsp;</div>';
      $ret.='</div>';
 	 return $ret;
  }
@@ -173,7 +183,7 @@ if ($button=="Volunteering")
  return $ret;
  }
  function display($srcf,$srcd,$pbig,$psmall,$d,$tgtUrl)
-{ 
+{
 	$ret ='<a href="'.$tgtUrl;
  	$ret.='?grp='.$srcd;
     $ret.='&amp;fromurl='.$srcf;
@@ -185,11 +195,11 @@ if ($button=="Volunteering")
     $ret.=' class="img-responsive img-rounded block " />';
     $ret.='</a>';
     print($ret);
- } 
+ }
   function displayPic($retUrl,$pgTtl,$id)
 {
 	$x 			= json_decode($_SESSION["gpics"],true);
- 	$y 			= $x["gallery"][$id]; 
+ 	$y 			= $x["gallery"][$id];
  	$picSmall	= $y["picSmall"];
 	$picTtl		= $y["picTtl"];
 	$ret 		='<a href="gallery_pic.php';

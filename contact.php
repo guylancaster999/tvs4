@@ -44,15 +44,13 @@
 									<input type="text" class="form-control" id="sname"  name="sname" placeholder="Enter your name" required value="<?php print $_GET["sname"]; ?>" />
 									</div>
 								</div>
-
 								<div class="form-group">
 								  <label class="control-label col-sm-2" for="email">Email:</label>
 								  <div class="col-sm-9">
 									<input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required value="<?php print $_GET["email"]; ?>"/>
 									</div>
 								</div>
-							
-							<div class="form-group">
+						<div class="form-group">
 								  <label class="control-label col-sm-2" for="phone">Phone:</label>
 								  <div class="col-sm-9">
 									<input type="text" class="form-control" id="phone"  name="phone" placeholder="Enter your phone" required value="<?php print $_GET["phone"]; ?>"/>
@@ -64,30 +62,27 @@
 								  <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter  Subject" required value="<?php print $_GET["subject"]; ?>"/>
 								   </div>
 								</div>
-
 								<div class="form-group">
 								  <label class="control-label col-sm-2" for="message">Message:</label>
 								  <div class="col-sm-9">
 									<textarea required class="form-control" id="message" name="message" rows="6" placeholder="Enter message"><?php print $_GET["message"];?></textarea>
 								</div>
 							</div>
-
 							<div class="form-group">
 								<div class="col-sm-offset-2 col-sm-10">
 								  <button type="submit" class="btn btn-default">Submit</button>
 								</div>
 							  </div>
 							</form>
-
 							<br/>
 							<div class="smallprint">* Your details will not be passed to any thrid parties.</div>
-                           <div class="top">   <br/>
-                               <a class="btn" href="#top"> Top <span class="glyphicon  glyphicon-circle-arrow-up"></span></a>
-                           <br/>
-                            </div>
-                       	</div>
-					  <div class="col-sm-3">
-                         <img src="img/About-Us-Picture-4-230x170.jpg" alt="Teacher, volunteer and pupils" class="img-responsive img-rounded block"/>
+                 <div class="top">   <br/>
+                   <a class="btn" href="#top"> Top <span class="glyphicon  glyphicon-circle-arrow-up"></span></a>
+                 <br/>
+                </div>
+           	</div>
+				  <div class="col-sm-3">
+           <img src="img/About-Us-Picture-4-230x170.jpg" alt="Teacher, volunteer and pupils" class="img-responsive img-rounded block"/>
 						<img src="img/About-Us-Picture-3-230x170.jpg" alt="Class " class="img-responsive img-rounded block"/>
 						<img src="img/About-Us-Picture-1-230x170.jpg" ALT="Students wall-painting" class="img-responsive img-rounded block" />
 						<img src="img/About-Us-Picture-2-230x170.jpg" alt="Class" class="img-responsive img-rounded block" />
