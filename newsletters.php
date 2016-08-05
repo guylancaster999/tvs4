@@ -25,4 +25,4 @@ TVS'  volunteer Co-ordinator in Tyume, Vicky Riley, sends regular reports about 
 <li><a href="doc/VickynewsletterMarch-April.pdf">March/April 2014</a></li>
 </ul>
 </div>
-<?php print pageclass::foot();?>
+<?php print pageclass::foot();?>		

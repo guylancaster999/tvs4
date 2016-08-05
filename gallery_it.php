@@ -20,7 +20,9 @@ $gpics='{"gallery":[
 	{"picLarge":"it2014.jpg","picSmall":"it2014_140.jpg","picTtl":"PC use at 2014 Study camp"},
 	{"picLarge":"it1.jpg","picSmall":"it1_140.jpg","picTtl":"Adults at PCs"},
 	{"picLarge":"upgradingcomputerlab2011.png","picSmall":"upgradingcomputerlab2011_140.png", "picTtl":"Upgrading computer lab 2011"},
-	{"picLarge":"mabandla2011.jpg","picSmall":"mabandla2011_140.jpg","picTtl":"Stephany with pupils at Mabandla Primary School 2011"},	{"picLarge":"NcerezantsiPrimarySchoolIT.jpg","picSmall":"NcerezantsiPrimarySchoolIT_140.jpg","picTtl":"Ncera Zantsi Primary School IT"}
+	{"picLarge":"mabandla2011.jpg","picSmall":"mabandla2011_140.jpg","picTtl":"Stephany with pupils at Mabandla Primary School 2011"},	{"picLarge":"NcerezantsiPrimarySchoolIT.jpg","picSmall":"NcerezantsiPrimarySchoolIT_140.jpg","picTtl":"Ncera Zantsi Primary School IT"},
+	{"picLarge":"tvsIt2014-1.jpg","picSmall":"tvsIt2014-1.jpg","picTtl":"Students at PCs 2014"},
+	{"picLarge":"tvsIt-2.jpg","picSmall":"tvsIt-2.jpg","picTtl":"Students at PCs 2014"}
 	]}';
 session_start();
 $_SESSION["gpics"]	= $gpics;	

@@ -3,22 +3,11 @@ body
   font-family: Arial, Helvetica, sans-serif;
   font-size: 11pt;
 }
-.h1 {
-  padding-top: -20px;
-  margin-top: -20px;
-  text-align: center;
-  vertical-align: top;
-  padding: 0;
-  margin: 0;
-  color: #006633;
-}
-.h1 a {
-  text-align: center;
-  font-size: 32pt;
-  font-weight: bolder;
-  font-weight: 600;
-  text-decoration: none;
-  color: #006633;
+hr 
+{
+  height: 1px;
+  background-color: #333;
+  color: #black;
 }
 h1,
 h1 a {
@@ -59,6 +48,25 @@ td,
 th {
   vertical-align: top;
 }
+.h1 
+{
+  padding-top: -20px;
+  margin-top: -20px;
+  text-align: center;
+  vertical-align: top;
+  padding: 0;
+  margin: 0;
+  color: #006633;
+}
+.h1 a
+ {
+  text-align: center;
+  font-size: 32pt;
+  font-weight: bolder;
+  font-weight: 600;
+  text-decoration: none;
+  color: #006633;
+}
 .xlatestnews {
   text-align: center;
   font-weight: bolder;
@@ -70,15 +78,18 @@ th {
   font-weight: bold;
   font-size: 12pt;
 }
-.txtCenter {
-  text-align: center;
+.img_center, .imgCenter 
+{
+    display		: block;
+    margin-left	: auto;
+    margin-right: auto;
 }
-.img_center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.top {
+.txtCenter 
+{
+  text-align:center;
+} 
+.top 
+{
   left: 30%;
   position: absolute;
   padding-top: 10px;
@@ -87,8 +98,13 @@ th {
 .rhspic {
   width: 230px;
 }
-.tnpic {
+.tnpic 
+{
   height: 140px;
+}
+.blockheight
+{
+ 	height:900px;
 }
 .block,
 .img_pad {
@@ -103,10 +119,10 @@ th {
   margin-bottom: 6px;
   margin-left: 0;
   margin-right: 0;
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .picright {
   padding-left: 4px;
@@ -228,8 +244,9 @@ th {
     margin: 0;
   }
 }
-#container-fluid {
-  padding: 0;
+.container-fluid 
+{
+  padding:0;
   margin: 0;
 }
 .newbutton {
@@ -291,11 +308,83 @@ th {
   margin-left: auto;
   margin-right: auto;
 }
-.brclear {
+.brclear 
+{
   clear: both;
 }
-hr {
-  height: 1px;
-  background-color: #333;
-  color: #black;
+.greenbar
+{
+	height			:56px;
+	background-color:#00cc7b;
+	color			:white;
+	text-align		:center;
+	font-size		:28pt;
+	font-weight		:200;
+	font-family		:Verdana, sans-serif;
 }
+.greenbox
+{
+	padding			:4px;
+	color			:white;
+	font-size		:16pt;
+	font-weight		:600;
+	height			:28px;
+	width			:60px;
+	background-color:#00ffbf;
+}
+.line1
+{
+	font-weight	:800;
+}
+.line2
+{
+	font-weight	:100;
+}
+.txtcenter
+{
+	text-align:center;
+}
+.dochead
+{
+	padding-right:6px;
+    padding-left:6px;
+	color		:red;
+	font-weight	:bolder;
+	font-size	:30px;
+}
+.docheadblack
+{ 
+	color		 :black;
+	font-weight	 :bolder;
+	font-size	 :32px;
+	padding-right:6px;
+	padding-left :6px;
+}
+.docimpact
+{
+	padding-right:6px;
+	padding-left:6px;
+	color		:#990066;
+    font-size	:24px;
+	text-align: center;
+}
+.docsubhead
+{
+	padding-right:6px;
+	padding-left:6px;
+	color		:black;
+	font-weight:bolder;
+	font-size:20px;
+}
+.doctxt
+{
+	padding-right:6px;
+	padding-left:6px;
+	color		:black;
+	font-weight:bold;
+	font-size:16px;
+}
+.liststar
+{
+	list-style-image: url('http://www.tvschools.org.uk/img/star.gif');
+} 

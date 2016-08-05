@@ -27,8 +27,7 @@
 								<li><a href="activities_englishlanguage.php" title="TVS - English Language teaching">English</a></li>
 								</ul>
 							</li>
-							<li><a href="news.php" title="TVS Newsletters" >Newsletters</a></li>
-
+ 
 							  <li><a href="partnerships.php" title="TVS - School Links and Partnerships">School Links</a>
 								<ul>
 									<li><a href="partnershipsPrinciples.php">Underpinning principles of school partnerships</a></li>
@@ -41,10 +40,11 @@
 								  </ul>
 							</li>
 							<li><a href="volunteering.php" title="TVS - Volunteering">Volunteering</a>
-							<ul>
-							<li><a href="volunteer2016.php" title="Volunteer in South Africa in 2016">Volunteer as a Teacher in South Africa in 2016</a></li>
+<!---					    <ul>
+							   <li><a href="volunteer2016.php" title="Volunteer in South Africa in 2016">Volunteer as a Teacher in South Africa in 2016</a></li>
 							</ul>
-							</li>
+	--->
+	</li>
 							 <li><a href="committee.php" title="TVS - Committee">Committee</a></li>
 							 <li><a href="fundraising.php" title="TVS - Fundraising">Fundraising</a>
 							 <ul>

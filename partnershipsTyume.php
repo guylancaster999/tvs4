@@ -1,4 +1,5 @@
 <?php require "function/functions.php";
+
     
 function school($school="",$photo="",$principal="",$link="",$principallink="",$phone="",$email="",$address="",
          $contact="",$roll="",$description="")
@@ -55,32 +56,14 @@ if (strlen($phone)>0)
 				<td'.(strlen($photo)==0? ' colspan="2" ':' ').'>'.$phone.'</td>
 			</tr>';
 }
-/*
-if (strlen($email)>0)
-{
-	$ret.='	<tr>
-				<td></td>
-				<td>Email</td>
-				<td>&nbsp;:&nbsp;</td>
-				<td'.(strlen($photo)==0? ' colspan="2" ':' ').'><a href="mailto:'.$email.'" title="Email '.$school.'" >'.$email.'</a></td>
-			</tr>';
-}
-*/
+ 
 	$ret.='<tr>
 				<td>&nbsp;</td>
 				<td>Address</td>
 				<td>&nbsp;:&nbsp;</td>
 				<td '.(strlen($photo)==0 ? ' colspan="2" ':' ').'>'.$school.', '.$address.', Eastern Cape, South Africa</td>
 			</tr>';
-	/*
-	$ret.='<tr>
-				<td>&nbsp;</td>
-				<td>Contact by</td>
-				<td>&nbsp;:&nbsp;</td>
-				<td'.(strlen($photo)==0? ' colspan="2" ':' ').'>'.$contact.'</td>
-			</tr>';
-	*/
-	$ret.='<tr>
+ 	$ret.='<tr>
 				<td>&nbsp;</td>
 				<td>Roll</td>
 				<td>&nbsp;:&nbsp;</td>
@@ -109,20 +92,16 @@ if (strlen($email)>0)
                <?php print top_bit("School Links - Tyume Valley schools seeking partnerships with a UK school");?>
                  <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-12 col-12 block">
-Because internet connections in Tyume are not always reliable, please contact Jim Lewis <a href="mailto:">headlewis2001@yahoo.co.uk</a> 0114 2509174 for help in contacting a Tyume Valley School.
-<br/><br/>
+					Because internet connections in Tyume are not always reliable, 
+					please contact Jim Lewis <a title="Email Jim Lewis" href="mailto:headlewis2001@yahoo.co.uk" target="_new">headlewis2001@yahoo.co.uk</a> 0114 2509174 for help in contacting a Tyume Valley School.
+					<br/><br/>
 					<table>
 						<?php 
 						school("Amabhele SS","photo1_140.jpg","Mr T E Mlumbi (acting)","Zama A Grootboom – grade 12 teacher, ages 17 - 23","","0027-732686508","27823028758@vodamail.co.za","P O Box 259, Alice 5700","Post &amp; Email","70 pupils, aged 13-23","The school was established in 1962 and has falling rolls but good academic results. The school describes how it wishes to expose learners to &quot;New pastures of knowledge...&quot;");
-
 						school("Auckland Primary","auckland2015_140.jpg","","","Mr S M Chitha","0027-837494676","smchitha@webmail.co.za","P O Box 1114, Alice 5700","Email","136 pupils, Reception to Grade 7 (aged 5-12)","The school is keen on sports and has access to six laptops but none permanently at the school. The pupils are keen on a variety of sports.");
-						
     					school("Binfield Park Primary","","Sonwabo Dianga","Somdaka Nombuzo (Grade 4 teacher- 9-10 year olds)","","0027-837261511","sdiango@gmail.com","P O Box 841, Alice 5700","Email","101 pupils, Reception to Grade 7","The school encourages skills leadership and has class representatives. They engage in a variety of sports.	They have poor facilities; recently the kitchen area was destroyed in a storm.");
-
 						school("Dyamala Primary","photo3_140.jpg","","","Mr C Makasi","0027-739639860", "clivemakhasi@gmail.com","P O Box 726, Alice 5700","Email","45 pupils, Reception to Grade 7","The school has access to a library/resource centre and a computer suite. The new principal is keen to make changes and improvements. The school has poor toilet facilities.");
-
 						school("Eluthu L/H Primary","","",""," Ms Boniswa Mashibini","0027-833678940","boniswa.mashibini@gmail.com","P O Box 724, Alice 5700","Email","80 pupils, Reception to Grade 7","Maths and science are the schools’ priorities and they also wish to develop learners’ IT skills");
-
 						school("Enkenkwezini SS","","","","Mrs N N Jacobs","0027-824228718","enkwenkwezisss@gmail.com","P O Box 726, Alice 5700","Email","127 pupils, aged 13-18","The school has good academic results. It has help from student teachers who are studying at the nearby Fort Hare University in Alice. The school promotes sport and seeks to develop its IT work.");
 
 						school("George Mqalo Secondary","georgemqalo_140.jpg","T T Mblele","Mrs B F Mabubebuse (Grade 12 teacher ages 16-22)","","0027-765643744","ndlelathabile@gmail.com","P O Box 457, Alice 5700","Email","98 pupils, aged 13-22","The school is experiencing falling roles. It had a link with a UK school but lost this through staffing changes. A link would help to raise the morale of staff through exchange of ideas and contact with teachers in the UK. Pupils would also learn more about global issues. The school is poorly resourced. Click <A href='https://www.youtube.com/watch?v=OAwcgUBs47c'>here</a> for Youtube.");       

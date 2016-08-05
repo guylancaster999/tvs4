@@ -5,7 +5,7 @@
 <body>
     <div id="wrapper">
        <div id="sidebar-wrapper">
-     	   <?php print menu();?>
+     	   <?php print menu("Links");?>
 		</div>
     </div>
      <div id="page-content-wrapper">

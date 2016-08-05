@@ -23,19 +23,19 @@
 							Some 100 children a year benefit from these camps. The children's teachers are fully involved the study camps, alongside the TVS volunteer teachers. During the week the teachers and learners work in subject areas such as science, English, maths, art and drama. The Tyume teachers are shown new methodologies and then implement them with support from the UK volunteer teachers. For the children, the best part of the camp is the outdoor activities! They experience the thrill of the high wire, a night hike in the woods, a barbecue and other team-building activities, as well as improving their spoken and written English. Old fears are conquered, new friendships formed and, most important of all, the children discover that nothing is beyond them.
 							<br/>
 							<br/>
-							In December 2014 and 2015 we ran fortnight-long study camps for 24 school leavers from 5 secondary schools in Tyume Valley. 
-							The first week was held at the usual study camp venue, Hobbiton Outdoor Centre in Hogsback and followed by a second, non-residential week in premises loaned from Fort Hare University in Alice. 
-							These older students had not taken part in TVS’ IT programme, so the study camp aimed to introduce them to computers and the internet (MS Office; internet searching, emails and graphics) and prepare them for college and employment (compiling CVs, formatting letters and documents).
-							<br/><br/>
-							Both years the students' motivation was high; they viewed the experience as a valuable opportunity and performed accordingly. 
-							By the end of the two weeks they formed a cohesive social group who enjoyed each other's company and supported each other well.
-							<br/><br/> 							  
-							
-							If you would like to volunteer at a study camp, please click  <a href="http://www.tvschools.org.uk/volunteer2016.php">here</a>.
-							
-							
-							
-							
+							Since 2014, TVS has also run a fortnight-long study camps in November/December for school leavers from secondary schools in Tyume Valley who expect to go to college. 
+							These camps aim to prepare students for living independently away from Tyume. 
+							Students are introduced to computers and the internet (MS Office; internet searching, emails and graphics) and helped to prepare for college and employment (compiling CVs, formatting letters and documents). 
+							Health education and healthy living are also covered.
+						<br/>
+							<br/>
+							The first week is held at the usual study camp venue, Hobbiton Outdoor Centre in Hogsback; this is followed by a second, non-residential week in premises loaned from Fort Hare University in Alice.
+							<br/>
+							<br/> 							  
+							Click <a href="gallery_studycamps.php">here</a> for Study Camp Photos.					
+							<br/>
+							<br/> 							  
+								If you would like to volunteer at a study camp, please click  <a href="http://www.tvschools.org.uk/volunteer2016.php">here</a>.
 							    <?php print foot();?>
                        	</div>
 					  <div class="col-sm-3">

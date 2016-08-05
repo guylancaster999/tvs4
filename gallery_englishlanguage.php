@@ -4,8 +4,9 @@
 <?php  
 print hdr("Gallery%20-%20English Language Teaching");
 $gpics='{"gallery":[
-	{"picLarge":"englishclass2015_2.jpg","picSmall":"englishclass2015_2_140.jpg",
-	"picTtl":"English%20Class2015%20-%20learning%20to%20use%20a%20dictionary"},
+     {"picLarge":"englishlesson2016.png", "picSmall":"englishlesson2016_140.png","picTtl":"English%20Lesson%20&copy;Vicky Riley"},
+	{"picLarge":"EnglishLearner2016.png", "picSmall":"EnglishLearner2016_140.png","picTtl":"English%20Learner%20&copy;Vicky Riley"},
+	{"picLarge":"englishclass2015_2.jpg","picSmall":"englishclass2015_2_140.jpg","picTtl":"English%20Class2015%20-%20learning%20to%20use%20a%20dictionary"},
 	{"picLarge":"englishclass2015_1.jpg","picSmall":"englishclass2015_1_140.jpg","picTtl":"English Class 2015"},
  	{"picLarge":"EnglishTesting1.jpg","picSmall":"EnglishTesting1_140.jpg","picTtl":"English Testing"},
  	{"picLarge":"Englishtesting2.jpg","picSmall":"Englishtesting2_140.jpg","picTtl":"English testing"},

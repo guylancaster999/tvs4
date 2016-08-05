@@ -7,6 +7,7 @@ $pgUrl				="gallery_studycamps.php";
 <?php 
 print hdr("Gallery - ".$pgTtl);
 $gpics='{"gallery":[
+	{"picLarge":"hobbiton2016.png","picSmall":"hobbiton2016_140.png","picTtl":"Hobbiton February 2016 &copy;Vicky Riley"},     
 	{"picLarge":"studycamp2015.jpg","picSmall":"studycamp2015_140.jpg","picTtl":"Hobbiton February 2015"},     
 	{"picLarge":"studycamp2015_1.jpg","picSmall":"studycamp2015_1_140.jpg","picTtl":"Hobbiton February 2015 &copy;Vicky Riley #1"},     
 	{"picLarge":"studycamp2015_2.jpg","picSmall":"studycamp2015_2_140.jpg","picTtl":"Hobbiton February 2015 &copy;Vicky Riley #2"}, 

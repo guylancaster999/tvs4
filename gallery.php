@@ -18,24 +18,17 @@
                               <li><a href="gallery_englishTraining.php">English Language Training</a></li>
                               <li><a href="gallery_fundraising.php">Fundraising</a></li>
                               <li><a href="gallery_general.php">General Photos</a></li>
-                              <li><a href="gallery_it.php">IT Training</a></li>
-                              <li><a href="gallery_studycamps.php">Study Camp / Hobbiton</a></li>
-                              <li><a href="gallery_general.php">General Photos</a></li>
-                              <li><a href="gallery_it.php">IT Training</a> </li>
                               <li><a href="gallery_studycamps.php">Hobbiton / Study Camps</a> </li>
-                              <li><a href="gallery_englishlanguage.php">English Language Teaching</a>   </li>
-                              <li><a href="gallery_englishTraining.php">English Language Training</a>  </li>
-                              <li><a href="gallery_fundraising.php">Fundraising</a></li>
-                          </ul>
+                              <li><a href="gallery_it.php">IT Training</a> </li>
+                              </ul>
                           <?php print foot();?>
                        	</div>
 					  <div class="col-sm-3">
 					<img src="img/forthare2011_230.jpg" alt="Fort Hare 2011" class="img-responsive img-rounded block" />
-					<?php display("gallery.php","Photo Gallery","photo22.jpg","photo22_230.jpg","School","gallery_general_pic.php");
-				   display("gallery.php","Photo Gallery","photo25.jpg","photo25_230.jpg","Hobbiton","gallery_general_pic.php");
-				   ?>
- 						<img src="img/hobbiton_230.jpg" alt="Hobbiton"  alt=""  class="img-responsive img-rounded"/>
-						<img src="img/tvsfb_230.jpg" alt="Tyume Valley Class"   class="img-responsive img-rounded block"/>
+					<a href="#" title="Photo Gallery"><img src="img/photo22_230.jpg" alt="Photo Gallery"></a>
+				   <a href="#" title="Hobbiton"><img src="img/photo25_230.jpg"/></a>
+					<a href="#" title="Hobbiton"><img src="img/hobbiton_230.jpg" alt="Hobbiton"  class="img-responsive img-rounded"/></a>
+					<a href="#" title="Tyume Valley Class"><img src="img/tvsfb_230.jpg" alt="Tyume Valley Class"   class="img-responsive img-rounded block"/></a>
 						</div>
 					</div>
             </div>

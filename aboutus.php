@@ -5,7 +5,7 @@
 <body>
     <div id="wrapper">
        <div id="sidebar-wrapper">
-     	   <?php print menu();?>
+     	   <?php print menu("About Us");?>
             </div>
         </div>
         <div id="page-content-wrapper">
@@ -31,14 +31,15 @@
             She and  Margaret Woodward went out to see what practical help they could give the  school &ndash; and it all began from there.<br />
             <br/>
             &nbsp;&nbsp;&nbsp;We felt that these children &ndash; living in a poor rural area,  many orphaned by AIDS and living with grandparents &ndash; had the same rights as  children anywhere to an education that would prepare them to play a part in the  modern world &ndash; and that is still our dream.&rdquo; </blockquote>
-            Click <a href="https://en.wikipedia.org/wiki/Archibald_'Archie'_Mncedisi_Sibeko">here</a> for more information.
+            Click <a href="https://en.wikipedia.org/wiki/Archibald_'Archie'_Mncedisi_Sibeko">here</a> for more information
+			or <a href="http://www.tvschools.org.uk/books.php">here</a> for books available for order.
               <?php print foot();?>
              </div>
 			  <div class="col-sm-3">
 					 <a href="#" title="Zola Zembe and Joyce Leeson"><img src="img/Zola%20and%20Joyce_230.png" alt="Zola Zembe and Joyce Leeson"  class="img-responsive img-rounded block">
 					  </a>
                         <img src="img/Picture-32-230x170.jpg" alt="bus"  class="img-responsive img-rounded block"/>
-						  <img src="img/Picture-22.jpg" alt="School" class="img-responsive img-rounded block"/>
+						<img src="img/Picture-22.jpg" alt="School" class="img-responsive img-rounded block"/>
 						<img src="img/Picture-21.jpg" ALT="Hopefield school"  class="img-responsive img-rounded  block" />
 						<img src="img/Picture-45-230x170.jpg" ALT="Lorry"  class="img-responsive img-rounded  block" />
 						</div>
